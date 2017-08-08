@@ -3356,7 +3356,15 @@ footer .social-container a .wechat {
 .header--is-expanded {
     height: auto;
 
+  }
 
+@media (min-width: 800px) {
+
+.header--fixed {
+      position: fixed;
+      z-index: 999
+
+  }
   }
 
 .header__logo {

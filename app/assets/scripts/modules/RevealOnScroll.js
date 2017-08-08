@@ -6,6 +6,7 @@ class RevalOnScroll {
     constructor(els, offset) {
         this.itemsToReveal = els;
         this.offsetPercentage = offset;
+
         this.hideInitially();
         this.createWaypoints();
 
@@ -14,6 +15,7 @@ class RevalOnScroll {
     hideInitially () {
         this.itemsToReveal.addClass('reveal-item');
     }
+
 
     createWaypoints() {
         var that = this;
