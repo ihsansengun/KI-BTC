@@ -1,0 +1,24 @@
+/* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
+Instead edit gulp/templates/sprite */
+
+.icon {
+  background-image: url('../../assets/images/sprites/sprite-08983d57.svg');
+}
+
+.icon--kaplan-logo {
+  width: 180px;
+  height: 31px;
+  background-position: 0 0;
+}
+
+.icon--mail {
+  width: 20px;
+  height: 20px;
+  background-position: 0 100%;
+}
+
+.icon--phone {
+  width: 20px;
+  height: 20px;
+  background-position: 12.5% 100%;
+}

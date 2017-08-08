@@ -1,0 +1,58 @@
+.course-box {
+  width: 100%;
+  ul {
+    margin: 0;
+    padding: 20px 0;
+    list-style: none;
+    text-align: center;
+    box-sizing: border-box;
+
+    li {
+      position: relative;
+      display: inline-block;
+       width: 100%;
+      margin: .65% 0.50%;
+      max-height: 325px;
+      border: 1px solid rgba(119, 122, 125, 0.1);
+      cursor: pointer;
+      min-height: 100px;
+      overflow: hidden;
+
+      @mixin atMedium {
+        width: 48%;
+      }
+      @mixin atLarge {
+        width: 23.6%;
+
+      }
+
+      h4 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: block;
+        color: white;
+        width: 100%;
+        background-color: rgba(23, 50, 86, 0.9);
+        height: 50px;
+        line-height: 50px;
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 14px;
+        transition:.3s ease-out;
+        z-index: 999;
+
+      }
+
+      img {
+        width: 100%;
+        transition:.3s ease-out;
+      }
+      &:hover {
+        h4 {
+         background-color: rgba(23, 50, 86, 1);
+        }
+      }
+    }
+  }
+}

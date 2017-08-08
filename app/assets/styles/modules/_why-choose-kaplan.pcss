@@ -1,0 +1,111 @@
+
+
+.why-choose-kaplan {
+  position: relative;
+  width: 100%;
+  background: url('../../assets/images/why-kaplan-bg.jpg') bottom center no-repeat;
+  background-size: cover;
+  background-color: #f0f0f0;
+  height: auto;
+  overflow: hidden;
+
+  @mixin atMedium {
+    min-height: 350px;
+
+  }
+
+
+  @mixin atRetina {
+    background:url("../../assets/images/why-kaplan-bg@2x.jpg") top center no-repeat;
+    background-size: cover;
+  }
+
+  &__percent{
+
+    display: none;
+    lost-column: 1/1;
+
+    @mixin atMedium {
+      display: block;
+
+      lost-column: 2/4;
+    }
+
+    @mixin atLarge {
+      lost-column: 1/6;
+      lost-offset: 2/6;
+    }
+
+  }
+
+  &__percent-inner {
+      width: 100%;
+  }
+
+  &__content {
+
+    lost-column: 1/1;
+    min-height: 50px;
+
+    @mixin atLarge {
+      lost-column: 3/6;
+
+    }
+
+    @mixin atMedium {
+      lost-column: 2/4;
+    }
+
+  }
+
+  &__content-inner {
+
+    width: 100%;
+    margin-top:0;
+
+    @mixin atMedium {
+      margin-top:65px;
+    }
+  }
+
+  &__subtitle {
+    max-width: 100%;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+
+
+    @mixin atMedium {
+      text-align: left;
+      max-width: 370px;
+
+    }
+    strong {
+
+      font-weight: 900;
+    }
+
+  }
+  &__external-link {
+    display: block;
+    font-size: 14px;
+    color: #c1d82f;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 10px;
+    text-align: center;
+    @mixin atMedium {
+      text-align: left;
+
+    }
+
+    &:hover {
+      color: white;
+
+    }
+  }
+}

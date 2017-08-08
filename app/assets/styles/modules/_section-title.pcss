@@ -1,0 +1,76 @@
+.section-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $darkGray;
+  text-align: center;
+
+  @mixin atSmall {
+    font-size: 36px;
+  }
+
+  &--white {
+    color:white;
+  }
+  &--left {
+    text-align: center;
+    @mixin atMedium {
+      text-align: left;
+
+    }
+  }
+
+  &--right {
+    text-align: right;
+  }
+  &--lowercase {
+    text-transform:capitalize;
+
+  }
+  &--small {
+    font-size: 24px;
+
+  }
+
+}
+
+
+
+.section-subtitle {
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: $lightGray;
+  text-align: center;
+  margin: 0;
+
+  @mixin atSmall {
+    font-size: 24px;
+
+  }
+
+  &--white {
+    color:white;
+  }
+  &--left {
+    text-align: center;
+    @mixin atMedium {
+      text-align: left;
+
+    }
+  }
+
+  &--right {
+    text-align: right;
+  }
+  &--lowercase {
+    text-transform:none;
+
+  }
+  &--small {
+    font-size: 12px;
+
+  }
+
+}
+

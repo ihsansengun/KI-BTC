@@ -1,0 +1,56 @@
+
+.glass-effect {
+  position: relative;
+  border-bottom: 1px solid;
+  border-bottom-color: #fff;
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(166, 168, 183, 0.9);
+  height: 250px;
+
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../../assets/images/hero-img-blur-small.jpg") 50% 0 repeat fixed;
+    background-size: cover;
+    content: "";
+    filter: url("../../assets/images/hero-img-blur-small.jpg");
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+
+    @mixin atMedium {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      background: url("../../assets/images/hero-img-blur.jpg") 50% 0 repeat fixed;
+      background-size: cover;
+      content: "";
+      filter: url("../../assets/images/hero-img-blur.jpg");
+      -webkit-filter: blur(5px);
+      filter: blur(5px);
+
+
+    }
+
+  }
+
+
+  &legacy-ie-fix {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=20)";
+  }
+}
+
+
+

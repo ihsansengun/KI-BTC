@@ -1,0 +1,143 @@
+.colored-icon-list {
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+
+  &__item-inner {
+    display: inline-block;
+    min-width: 280px;
+
+    @mixin atSmall {
+      min-width: 100%;
+
+    }
+
+  }
+
+
+  &__item {
+    position: relative;
+
+    lost-column: 1/1;
+    min-height: 50px;
+    margin: 15px 0;
+    padding: 0;
+
+    &:nth-child(5n) {
+      lost-offset: 1/4;
+    }
+
+    @mixin atSmall {
+      lost-column: 1/3;
+
+
+      &:nth-child(4n) {
+        lost-offset: 1/6;
+      }
+      &:nth-child(5n) {
+        lost-offset: clear-left;
+      }
+
+    }
+
+    @mixin atMedium {
+      &:after {
+        position: absolute;
+        height: 50%;
+        right: -18px;
+        top:0;
+        content: '';
+        width: 20px;
+        border-right: 1px solid rgba(204, 204, 204, 0.21);
+
+      }
+      &:last-child:after {
+        border-right: none;
+      }
+
+    }
+    @mixin atLarge {
+      lost-column: 1/5;
+
+      &:nth-child(5n) {
+        lost-offset: clear-left;
+      }
+      &:nth-child(4n) {
+        lost-offset: clear-left;
+      }
+
+      &:after {
+        height: 100%;
+      }
+
+    }
+
+
+  }
+
+  &__circle {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 0;
+    margin-right: 15px;
+    float: left;
+
+
+    @mixin atSmall {
+      width: 100px;
+      height: 100px;
+      margin: auto;
+      float: none;
+      border-radius: 50%;
+
+
+    }
+    span {
+      display: block;
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      color: white;
+      font-size: 60px;
+
+      text-align: center;
+
+    }
+
+    &--color1 {
+      background-color: rgb(135, 151, 112);
+    }
+    &--color2 {
+      background-color: rgb(120, 135, 168);
+    }
+    &--color3 {
+      background-color: rgb(182, 146, 155);
+    }
+    &--color4 {
+      background-color: rgb(0, 128, 128);
+    }
+    &--color5 {
+      background-color: rgb(214, 114, 166);
+    }
+
+  }
+
+  &__desc {
+    text-align: left;
+    color: white;
+    padding-top: 5px;
+    float: left;
+
+    @mixin atSmall {
+      text-align: center;
+    float: none;
+
+    }
+
+  }
+}

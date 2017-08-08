@@ -1,0 +1,74 @@
+.primary-nav {
+  &--pull-right {
+
+    float: none;
+
+    @mixin atMedium {
+      float: right;
+
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    @mixin clearfix;
+  }
+
+
+  li {
+    list-style: none;
+    display: block;
+    padding-left: 10px;
+    padding-top: 0;
+    text-align: center;
+
+    @mixin atMedium {
+      padding-top: 10px;
+      padding-left: 20px;
+      float: left;
+      text-align: left;
+
+    }
+
+
+  }
+
+
+  li:last-child {
+    padding-bottom: 20px;
+
+    @mixin atMedium {
+      padding-bottom: 0;
+
+    }
+
+  }
+
+
+
+  a {
+    color: #FFF;
+    font-weight: 700;
+    text-decoration: none;
+    display: block;
+    padding: 7px 0;
+    font-size: 14px;
+
+    background-color: #414980;
+    margin-bottom: 2px;
+
+    @mixin atMedium {
+      background-color: transparent;
+      margin-bottom: 0;
+    }
+  }
+
+  span {
+   display: inline-block;
+    margin-right: 4px;
+
+  }
+
+}

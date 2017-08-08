@@ -1,0 +1,46 @@
+.circle-percent {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid #c1d82f;
+  float: none;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+
+  @mixin atMedium {
+    width: 200px;
+    height: 200px;
+    margin-top: 65px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    border: 10px solid #c1d82f;
+
+  }
+
+
+  div {
+    display: flex;
+    font-size: 40px;
+    color: #c1d82f;
+    font-weight: 900;
+    align-items: center;
+
+    @mixin atMedium {
+      font-size: 88px;
+    }
+
+    span {
+      font-size: 32px;
+      color: #c1d82f;
+      font-weight: 900;
+
+      @mixin atMedium {
+        font-size: 52px;
+      }
+    }
+  }
+
+
+}

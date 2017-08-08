@@ -1,0 +1,377 @@
+.footer {
+  width: 100%;
+  background-color: #505050;
+
+
+  &__grid {
+    lost-utility: clearfix;
+    padding: 20px 0;
+
+  }
+
+  &__grid__item {
+    lost-column: 1/1 ;
+
+    @mixin atMedium {
+      lost-column: 1/4 ;
+
+    }
+
+  }
+
+  &__grid__item-big {
+    lost-column: 1/1;
+
+    @mixin atMedium {
+      lost-column: 3/6;
+
+    }
+
+  }
+
+  &__about-kaplan, &__links, &__follow-us {
+    width: 100%;
+    margin-bottom:20px;
+    float: left;
+
+    text-align: center;
+    @mixin atMedium {
+      margin:0;
+      text-align: left;
+
+
+
+    }
+
+    li a {
+      float: left;
+
+      @mixin atMedium {
+        float: none;
+
+
+      }
+    }
+
+    h2 {
+      font-size: 24px;
+      line-height: 26px;
+      margin:0 0 15px 0;
+
+      color: white;
+
+    }
+    p {
+
+      font-size: 14px;
+      margin: 0 0 10px;
+      color: white;
+      line-height:125%;
+      max-width: 100%;
+
+      @mixin atMedium {
+        max-width: 490px;
+
+      }
+    }
+    a {
+      display: block;
+      font-size: 14px;
+      margin: 0 0 2px 0;
+      color: white;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      line-height:125%;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      span {
+        font-size: 14px;
+        &:last-child {
+          display: block;
+          padding-top: 6px;
+        }
+      }
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-align: center;
+      @mixin atMedium {
+       text-align: left;
+      }
+
+      li {
+        padding: 3px 0;
+
+        display: inline-block;
+        @mixin atMedium {
+          display: block;
+        }
+
+        .text {
+          display: none;
+          @mixin atMedium {
+            display: block;
+
+          }
+        }
+
+
+
+        a {
+          position: relative;
+          margin-right: 20px;
+
+
+
+
+
+          @mixin atMedium {
+            margin-right: 0;
+
+            &:after {
+            display: none;
+
+            }
+          }
+        }
+        &:not(:last-child) a:after{
+          content: "";
+          width: 2px;
+          height: 100%;
+          position:absolute;
+          border-right: 1px solid #606060;
+          top:0;
+          right: -10px;
+        }
+
+      }
+
+    }
+  }
+
+  &__follow-us {
+    li a {
+      margin-right: 0 !important;
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+
+
+  &__accreditations {
+    display: none;
+    position: relative;
+    min-height: 40px;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    float: left;
+    padding-bottom: 20px;
+
+
+    &:before {
+      position: absolute;
+      top:0;
+      left: 0;
+      width: 100%;
+      content: "";
+      height: 1px;
+      border-top: 1px solid #606060;
+      z-index: 99;
+    }
+
+    @mixin atMedium {
+      display: block;
+    }
+    &__title {
+      width: 100%;
+      display: block;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 400;
+      margin:10px 0 5px 0;
+      color: white;
+
+    }
+    &__logo {
+      lost-column: 1/6;
+
+      min-height: 20px;
+
+      &__title {
+        font-size: 14px;
+        color: #aaaaaa;
+        margin: 10px 0;
+        font-weight: 400;
+
+      }
+      a {
+        display: block;
+        opacity: 0.5;
+
+        &:hover {
+          opacity: 1;
+
+        }
+      }
+      a img {
+        margin: 0;
+        padding: 0;
+        transform: scale(1);
+        transform-origin: top left;
+
+      }
+
+    }
+
+  }
+
+  &__copyright {
+    background-color: #303030;
+    padding:20px 0;
+    text-align: center;
+    lost-utility: clearfix;
+
+
+    @mixin atMedium {
+      text-align: left;
+
+
+    }
+
+    &__content {
+      lost-column: 1/1;
+
+      @mixin atMedium {
+        lost-column: 5/6;
+
+      }
+
+      &__company-name {
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.91);
+        margin: 5px 0;
+      }
+      &__address {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.9);
+        line-height: 150%;
+      }
+    }
+    &__website {
+      lost-column: 1/1;
+
+      @mixin atMedium {
+        lost-column: 1/6;
+
+      }
+
+      a {
+        display: block;
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.91);
+        text-decoration: none;
+        margin-top: 10px;
+        &:hover {
+          color: white;
+        }
+
+
+        @mixin atMedium {
+          margin-top: 32px;
+
+        }
+      }
+    }
+
+  }
+
+}
+
+
+
+
+footer .social-container .social-icon {
+  display: block;
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  text-indent: 9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 1px 0px 2px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 0px 2px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 0px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+/* Arabic */
+:lang(ar) footer .social-container .social-icon, :lang(ar-SA) footer .social-container .social-icon {
+  float: right;
+  margin: 0 0 0 8px;
+}
+
+footer .social-container a:hover .social-icon {
+  background-position-x: -30px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+
+
+}
+
+footer .social-container {
+  li {
+    padding: 7px 0;
+  }
+}
+
+footer .social-container a .facebook {
+  background: url(../../assets/images/kic-socials.png) -60px 0 no-repeat;
+}
+
+footer .social-container a .twitter {
+  background: url(../../assets/images/kic-socials.png) -60px -30px no-repeat;
+}
+
+footer .social-container a .youtube {
+  background: url(../../assets/images/kic-socials.png) -60px -60px no-repeat;
+}
+
+footer .social-container a .instagram {
+  background: url(../../assets/images/kic-socials.png) -60px -90px no-repeat;
+}
+
+footer .social-container a .googleplus {
+  background: url(../../assets/images/kic-socials.png) -60px -120px no-repeat;
+}
+
+footer .social-container a .vk, footer .social-container a .vkontakte {
+  background: url(../../assets/images/kic-socials.png) -60px -150px no-repeat;
+}
+
+footer .social-container a .weibo {
+  background: url(../../assets/images/kic-socials.png) -60px -180px no-repeat;
+}
+
+footer .social-container a .youku {
+  background: url(../../assets/images/kic-socials.png) -60px -210px no-repeat;
+}
+
+footer .social-container a .kaplanblog {
+  background: url(../../assets/images/kic-socials.png) -60px -240px no-repeat;
+}
+
+footer .social-container a .wechat {
+  background: url(../../assets/images/kic-socials.png) -60px -270px no-repeat;
+  cursor: pointer;
+}

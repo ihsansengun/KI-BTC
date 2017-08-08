@@ -1,0 +1,40 @@
+@import "normalize.css";
+@import "base/_variables.pcss";
+@import "base/_mixins.pcss";
+@import "base/_wrapper.pcss";
+@import "base/_global.pcss";
+@import "modules/_sprite.css";
+@import "modules/_large-hero.pcss";
+@import "modules/_book-box.pcss";
+@import "modules/_glass-effect.pcss";
+@import "modules/_left-wrapper.pcss";
+@import "modules/_right-wrapper.pcss";
+@import "modules/_page-section.pcss";
+@import "modules/_form.pcss";
+@import "modules/_section-title.pcss";
+@import "modules/_advantages.pcss";
+@import "modules/_advantage-list-block.pcss";
+@import "modules/_courses.pcss";
+@import "modules/_example-courses.pcss";
+@import "modules/_course-package.pcss";
+@import "modules/_why-choose-kaplan.pcss";
+@import "modules/_circle-percent.pcss";
+@import "modules/_coursebox.pcss";
+@import "modules/_btn.pcss";
+@import "modules/_go-further.pcss";
+@import "modules/_icons.pcss";
+@import "modules/_colored-icon-list.pcss";
+@import "modules/_contact-an-advisor.pcss";
+@import "modules/_testimonials.pcss";
+@import "base/_footer.pcss";
+@import "base/_header.pcss";
+@import "base/_primary-nav.pcss";
+
+
+
+
+
+
+
+
+

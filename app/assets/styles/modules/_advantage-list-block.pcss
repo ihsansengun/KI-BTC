@@ -1,0 +1,77 @@
+.advantage-list-block {
+
+  width: 100%;
+  &__left-block {
+    lost-column: 1/1;
+    border-bottom: 3px solid $pink;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+
+    @mixin atSmall {
+      lost-column: 2/6;
+      border-right: 3px solid $pink;
+      padding-right: 10px;
+      border-bottom: none;
+
+
+    }
+  }
+
+  &__right-block {
+    lost-column: 1/1;
+
+    @mixin atSmall {
+      lost-column: 4/6;
+
+    }
+
+    p {
+      font-size: 14px;
+      margin-top: 0;
+      margin-bottom: 10px;
+      line-height: 150%;
+
+
+    }
+  }
+
+
+  ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    columns: 2;
+
+    @mixin atSmall {
+      columns:1
+    }
+
+
+  }
+  li {
+    line-height: 180%;
+    text-align: left;
+
+    font-size: 14px;
+
+    @mixin atSmall {
+      text-align: left;
+
+    }
+  }
+
+  li i::before {
+    font-family: FontAwesome;
+    content: "\f00c";
+    padding-right: 5px;
+    color: $pink;
+  }
+
+
+}
+
+
+
+
+
