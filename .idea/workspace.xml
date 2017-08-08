@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78244127-3162-4f99-8f8a-53b683b462de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/scripts/modules/RevealOnScroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/styles/modules/_reveal-item.pcss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/scripts/App.js" afterPath="$PROJECT_DIR$/app/assets/scripts/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/styles/styles.css" afterPath="$PROJECT_DIR$/app/assets/styles/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/temp/scripts/App.js" afterPath="$PROJECT_DIR$/app/temp/scripts/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/temp/styles/styles.css" afterPath="$PROJECT_DIR$/app/temp/styles/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -661,12 +654,12 @@
       <workItem from="1501592047564" duration="121000" />
       <workItem from="1502103029772" duration="1567000" />
       <workItem from="1502110404894" duration="16000" />
-      <workItem from="1502110461488" duration="36051000" />
+      <workItem from="1502110461488" duration="36199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159549000" />
+    <option name="totallyTimeSpent" value="159697000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
