@@ -3580,6 +3580,22 @@ footer .social-container a .wechat {
 
   }
 
+.reveal-item {
+  opacity: 0;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+  -webkit-transform: scale(.0);
+          transform: scale(.0);
+
+}
+
+.reveal-item--is-visible {
+    opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1)
+
+}
+
 
 
 
