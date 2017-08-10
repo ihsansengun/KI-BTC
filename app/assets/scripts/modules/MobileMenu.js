@@ -1,13 +1,12 @@
-import $ from 'jquery';
 
 class MobileMenu {
-
     constructor() {
         this.header = $('.header');
         this.menuIcon = $('.header__menu-icon');
         this.menuContent =$('.header__menu-content');
         this.events();
     }
+
 
     events() {
         this.menuIcon.click(this.toggleMenu.bind(this))

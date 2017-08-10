@@ -2,23 +2,39 @@
 Instead edit gulp/templates/sprite */
 
 .icon {
-  background-image: url('../../assets/images/sprites/sprite-08983d57.svg');
+  background-image: url('../../assets/images/sprites/sprite-e3d76563.svg');
+}
+.no-svg .icon {
+  background-image: url('../../assets/images/sprites/sprite-e3d76563.png');
+
 }
 
 .icon--kaplan-logo {
-  width: 180px;
-  height: 31px;
+  width: 184px;
+  height: 32px;
   background-position: 0 0;
 }
 
-.icon--mail {
-  width: 20px;
-  height: 20px;
+.icon--left-arrow {
+  width: 32px;
+  height: 32px;
   background-position: 0 100%;
 }
 
+.icon--mail {
+  width: 22px;
+  height: 22px;
+  background-position: 39.50617283950617% 76.19047619047619%;
+}
+
 .icon--phone {
-  width: 20px;
-  height: 20px;
-  background-position: 12.5% 100%;
+  width: 22px;
+  height: 22px;
+  background-position: 53.08641975308642% 76.19047619047619%;
+}
+
+.icon--right-arrow {
+  width: 32px;
+  height: 32px;
+  background-position: 21.05263157894737% 100%;
 }
