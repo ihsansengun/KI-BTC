@@ -1,58 +1,147 @@
 .course-box {
   width: 100%;
+  padding-top: 30px;
+  @mixin clearfix;
+
   ul {
     margin: 0;
-    padding: 20px 0;
+    padding: 10px 0;
     list-style: none;
     text-align: center;
-    box-sizing: border-box;
+
 
     li {
       position: relative;
       display: inline-block;
-       width: 100%;
-      margin: .65% 0.50%;
-      max-height: 325px;
-      border: 1px solid rgba(119, 122, 125, 0.1);
+      width: 100%;
+      padding:5px;
+
       cursor: pointer;
-      min-height: 100px;
-      overflow: hidden;
+      margin: 0;
+      max-width: 480px;
+
 
       @mixin atMedium {
-        width: 48%;
+        width: 33%;
+
       }
       @mixin atLarge {
-        width: 23.6%;
+        width: 33%;
 
       }
 
-      h4 {
+      .course-box__title {
         position: absolute;
         bottom: 0;
         left: 0;
-        display: block;
-        color: white;
+
         width: 100%;
-        background-color: rgba(23, 50, 86, 0.9);
-        height: 50px;
-        line-height: 50px;
-        margin: 0;
+        padding: 10px;
         text-transform: uppercase;
-        font-size: 14px;
-        transition:.3s ease-out;
+
+        transition: .3s ease-out;
         z-index: 999;
 
+
+        div {
+          font-size: 14px;
+          color: white;
+          height: auto;
+          background-color: rgba(23, 50, 86, 0.9);
+          padding: 10px;
+
+
+        }
       }
+
 
       img {
         width: 100%;
-        transition:.3s ease-out;
+        transition: .3s ease-out;
+        display: block;
+        margin: 0;
+        padding: 4px;
       }
       &:hover {
-        h4 {
-         background-color: rgba(23, 50, 86, 1);
+        .course-box__title div {
+          background-color: rgba(23, 50, 86, 0.9);
         }
       }
     }
   }
+
+  &__description {
+
+    display: none;
+    text-align: left;
+    width: 100%;
+    float: left;
+    transition: opacity 1s ease-out;
+    padding: 0 5px;
+    margin-top: 10px;
+    &__inner {
+      padding: 10px 20px;
+      margin-bottom:10px;
+      background-color: rgba(23, 50, 86, 0.9);
+
+
+      h4 {
+        text-transform: uppercase;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: white;
+      }
+
+      p {
+        color: white;
+        font-size: 16px;
+      }
+
+    }
+  }
+
+  &__content {
+    border: 1px solid rgba(119, 122, 125, 0.1);
+
+  }
+
+
+  .down-arrow {
+    position: relative;
+    transition: all .03ms ease-out;
+    &:after {
+
+
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      margin-left:-10px;
+      z-index: 99;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid rgba(23, 50, 86, 1);
+
+
+
+    }
+  }
+  .down-arrow--color {
+    &:after {
+      border-top: 15px solid rgba(23, 50, 86, 0.9);
+
+    }
+
+  }
 }
+
+.active {
+  background-color: rgba(23, 50, 86, 1);
+}
+
+
+

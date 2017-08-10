@@ -12,8 +12,15 @@
   &--is-expanded {
     height: auto;
 
+  }
+  &--fixed {
+    @mixin atMedium {
+      position: fixed;
+      z-index: 999;
+    }
 
   }
+
 
   &__logo {
     transition: all .3s ease-out;

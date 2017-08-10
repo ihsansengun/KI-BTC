@@ -18,6 +18,7 @@
 @import "modules/_example-courses.pcss";
 @import "modules/_course-package.pcss";
 @import "modules/_why-choose-kaplan.pcss";
+@import "modules/_equal-height.pcss";
 @import "modules/_circle-percent.pcss";
 @import "modules/_coursebox.pcss";
 @import "modules/_btn.pcss";
@@ -30,12 +31,4 @@
 @import "base/_header.pcss";
 @import "base/_primary-nav.pcss";
 @import "modules/_reveal-item.pcss";
-
-
-
-
-
-
-
-
-
+@import "modules/_countdown.pcss";

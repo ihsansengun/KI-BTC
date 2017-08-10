@@ -1,8 +1,12 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -11,27 +15,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- ICONS APPLE TOUCH -->
-    <link rel="apple-touch-icon" sizes="57x57" href="./assets/images/touch/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="./assets/images/touch/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="./assets/images/touch/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="./assets/images/touch/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/touch/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/touch/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/touch/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/touch/apple-icon-76x76.png">
     <link rel="apple-touch-icon" sizes="114x114"
-          href="./assets/images/touch/apple-icon-114x114.png">
+          href="assets/images/touch/apple-icon-114x114.png">
     <link rel="apple-touch-icon" sizes="120x120"
-          href="./assets/images/touch/apple-icon-120x120.png">
+          href="assets/images/touch/apple-icon-120x120.png">
     <link rel="apple-touch-icon" sizes="144x144"
-          href="./assets/images/touch/apple-icon-144x144.png">
+          href="assets/images/touch/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152"
-          href="./assets/images/touch/apple-icon-152x152.png">
+          href="assets/images/touch/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180"
-          href="./assets/images/touch/apple-icon-180x180.png">
+          href="assets/images/touch/apple-icon-180x180.png">
     <link rel="icon" type="image/png" sizes="192x192"
-          href="./assets/images/touch/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/touch/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/touch/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/touch/favicon-16x16.png">
+          href="assets/images/touch/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/touch/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/touch/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/touch/favicon-16x16.png">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="./assets/images/touch/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="assets/images/touch/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
 
@@ -45,63 +49,82 @@
     <meta property="og:site_name" content=""/>
 
     <!-- GOOGLE FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&amp;subset=latin-ext"
+          rel="stylesheet">
+
+
+    <!-- build:css /assets/styles/styles.css -->
     <link rel="stylesheet" href="temp/styles/styles.css">
+    <!-- endbuild -->
+
+    <!-- build:js /assets/scripts/Vendor.js -->
+    <script src="/temp/scripts/Vendor.js"></script>
+    <!-- endbuild -->
 
 
 </head>
 <body>
+
 <!--[if lt IE 8]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<header class="header">
-<div class="wrapper">
-    <div class="header__logo">
-        <div class="header__logo__graphic icon icon--kaplan-logo">Kaplan International English</div>
+<header class="header header--fixed">
+    <div class="wrapper">
+        <div class="header__logo">
+            <div class="header__logo__graphic icon icon--kaplan-logo">Kaplan International English</div>
+
+        </div>
+        <div class="header__menu-icon">
+            <div class="header__menu-icon__middle"></div>
+        </div>
+
+        <div class="header__menu-content">
+            <nav class="primary-nav primary-nav--pull-right">
+                <ul>
+                    <li>
+                        <a href="#"> <span class="icon icon--phone"></span> +44 (0)20 7045 5000 </a>
+                    </li>
+
+                    <li><a href="#Act-now"> <span class="icon icon--mail"></span> CONTACT US </a></li>
+                </ul>
+            </nav>
+        </div>
 
     </div>
-    <div class="header__menu-icon">
-        <div class="header__menu-icon__middle"></div>
-    </div>
-
-    <div class="header__menu-content">
-         <nav class="primary-nav primary-nav--pull-right">
-        <ul>
-            <li >
-                <a href="#"> <span class="icon icon--phone"></span> +44 (0)20 7045 5000  </a>
-            </li>
-
-            <li><a href="#"> <span class="icon icon--mail"></span>  CONTACT US  </a></li>
-        </ul>
-    </nav>
-    </div>
-
-</div>
 </header>
 
 <div class="large-hero">
     <div class="wrapper">
         <div class="large-hero__text-content">
             <p class="large-hero__p">Thinking of learning English next year?</p>
-            <h2 class="large-hero__h2">Prices are about to increase for 2017</h2>
-            <h1 class="large-hero__h1">BUT THERE’S STILL TIME TO SAVE!</h1>
-            <span class="span-book">Book by September 30 and pay 2016 prices</span>
+            <h2 class="large-hero__h2">Kaplan’s prices are going up…</h2>
+            <h1 class="large-hero__h1">ACT NOW TO SAVE!</h1>
+            <span class="span-book">Don’t pay more. Book by the 30 September 2017</span>
         </div>
 
         <div class="large-hero__form-header-wrapper">
             <div class="large-hero__form-header">
                 <div class="glass-effect">
                     <div class="large-hero__form-header-inner">
-                        <div class="large-hero__counter-title"><h4>TIME is running out to secure<br>our 2016 prices</h4></div>
-                        <div class="large-hero__counter"></div>
-                        <div class="large-hero__counter-desc"><h4>Price will increase on<br>30th September 2016</h4></div>
+                        <div class="large-hero__counter-title"><h4>OUR NEW PRICELIST IS <br> COMING SOON</h4></div>
+                        <div class="large-hero__counter">
+
+                            <div class="countdown">
+                                <div id="timer"></div>
+                            </div>
+
+                        </div>
+                        <div class="large-hero__counter-desc"><h4>BEAT THE CLOCK AND BOOK YOUR PLACE BY 30 SEPTEMBER
+                            2017</h4></div>
                     </div>
                 </div>
 
-                <div class="large-hero__act-now">
+                <div id="Act-now" class="large-hero__act-now">
+
                     <h1 class="large-hero__act-now-title">ACT NOW</h1>
-                    <h4 class="large-hero__act-now-sub-title">TO GUARANTEE 2016 PRICES!</h4>
+                    <h4 class="large-hero__act-now-sub-title">TO GUARANTEE 2017 PRICES!</h4>
                 </div>
             </div>
         </div>
@@ -117,29 +140,43 @@
                     <div>
                         <div class="wForm" id="tfa_0-WRPR" dir="ltr">
                             <!--<div class="codesection" id="code-tfa_0">-->
-                                <!--<script type="text/javascript" src="//app.formassembly.com/js/wforms3/wforms_custom_clear_switch.js"></script>-->
+                            <!--<script type="text/javascript" src="//app.formassembly.com/js/wforms3/wforms_custom_clear_switch.js"></script>-->
                             <!--</div>-->
                             <h3 class="wFormTitle" id="tfa_0-T">Contact Us</h3>
-                            <form method="post" action="//tfaforms.com/responses/processor" class="hintsSide labelsLeftAligned" id="tfa_0">
+                            <form method="post" action="//tfaforms.com/responses/processor"
+                                  class="hintsSide labelsLeftAligned" id="tfa_0">
                                 <div id="tfa_1-D" class="oneField   labelsLeftAligned  ">
-                                    <label id="tfa_1-L" for="tfa_1" class="label preField reqMark" style="width: 330px; min-width:0">First name</label>
-                                    <div class="inputWrapper"><input type="text" id="tfa_1" name="tfa_1" value="" style="width: 200px" placeholder="" maxlength="40" class="required"></div>
+                                    <label id="tfa_1-L" for="tfa_1" class="label preField reqMark"
+                                           style="width: 330px; min-width:0">First name</label>
+                                    <div class="inputWrapper"><input type="text" id="tfa_1" name="tfa_1" value=""
+                                                                     style="width: 200px" placeholder="" maxlength="40"
+                                                                     class="required"></div>
                                 </div>
                                 <div id="tfa_2-D" class="oneField   labelsLeftAligned  ">
-                                    <label id="tfa_2-L" for="tfa_2" class="label preField reqMark" style="width: 330px; min-width:0">Last name</label>
-                                    <div class="inputWrapper"><input type="text" id="tfa_2" name="tfa_2" value="" style="width: 200px" placeholder="" maxlength="80" class="validate-alphanum required"></div>
+                                    <label id="tfa_2-L" for="tfa_2" class="label preField reqMark"
+                                           style="width: 330px; min-width:0">Last name</label>
+                                    <div class="inputWrapper"><input type="text" id="tfa_2" name="tfa_2" value=""
+                                                                     style="width: 200px" placeholder="" maxlength="80"
+                                                                     class="validate-alphanum required"></div>
                                 </div>
                                 <div id="tfa_3-D" class="oneField   labelsLeftAligned  ">
-                                    <label id="tfa_3-L" for="tfa_3" class="label preField reqMark" style="width: 330px; min-width:0">Phone</label>
-                                    <div class="inputWrapper"><input type="text" id="tfa_3" name="tfa_3" value="" style="width: 200px" placeholder="" maxlength="30" class="required"></div>
+                                    <label id="tfa_3-L" for="tfa_3" class="label preField reqMark"
+                                           style="width: 330px; min-width:0">Phone</label>
+                                    <div class="inputWrapper"><input type="text" id="tfa_3" name="tfa_3" value=""
+                                                                     style="width: 200px" placeholder="" maxlength="30"
+                                                                     class="required"></div>
                                 </div>
                                 <div id="tfa_13-D" class="oneField   labelsLeftAligned hintsTooltip ">
-                                    <label id="tfa_13-L" for="tfa_13" class="label preField reqMark" style="width: 330px; min-width:0">Email address</label>
-                                    <div class="inputWrapper"><input type="text" id="tfa_13" name="tfa_13" value="" style="width: 200px" placeholder="" maxlength="100" class="validate-email required"></div>
+                                    <label id="tfa_13-L" for="tfa_13" class="label preField reqMark"
+                                           style="width: 330px; min-width:0">Email address</label>
+                                    <div class="inputWrapper"><input type="text" id="tfa_13" name="tfa_13" value=""
+                                                                     style="width: 200px" placeholder="" maxlength="100"
+                                                                     class="validate-email required"></div>
                                 </div>
                                 <div id="tfa_889" class="section inline group">
                                     <div id="tfa_6-D" class="oneField   labelsLeftAligned  ">
-                                        <label id="tfa_6-L" for="tfa_6" class="label preField reqMark" style="width: 330px; min-width:0">Where do you currently live?</label>
+                                        <label id="tfa_6-L" for="tfa_6" class="label preField reqMark"
+                                               style="width: 330px; min-width:0">Where do you currently live?</label>
                                         <div class="inputWrapper">
                                             <select id="tfa_6" name="tfa_6" class="required">
                                                 <option value="">Please select...</option>
@@ -168,10 +205,12 @@
                                                 <option value="tfa_74" id="tfa_74" class="">Bermuda</option>
                                                 <option value="tfa_75" id="tfa_75" class="">Bhutan</option>
                                                 <option value="tfa_76" id="tfa_76" class="">Bolivia</option>
-                                                <option value="tfa_77" id="tfa_77" class="">Bosnia and Herzegovina</option>
+                                                <option value="tfa_77" id="tfa_77" class="">Bosnia and Herzegovina
+                                                </option>
                                                 <option value="tfa_78" id="tfa_78" class="">Botswana</option>
                                                 <option value="tfa_79" id="tfa_79" class="">Brazil</option>
-                                                <option value="tfa_80" id="tfa_80" class="">British Virgin Islands</option>
+                                                <option value="tfa_80" id="tfa_80" class="">British Virgin Islands
+                                                </option>
                                                 <option value="tfa_81" id="tfa_81" class="">Brunei</option>
                                                 <option value="tfa_82" id="tfa_82" class="">Bulgaria</option>
                                                 <option value="tfa_83" id="tfa_83" class="">Burkina Faso</option>
@@ -181,14 +220,17 @@
                                                 <option value="tfa_87" id="tfa_87" class="">Canada</option>
                                                 <option value="tfa_88" id="tfa_88" class="">Cape Verde</option>
                                                 <option value="tfa_89" id="tfa_89" class="">Cayman Islands</option>
-                                                <option value="tfa_90" id="tfa_90" class="">Central African Republic</option>
+                                                <option value="tfa_90" id="tfa_90" class="">Central African Republic
+                                                </option>
                                                 <option value="tfa_91" id="tfa_91" class="">Chad</option>
                                                 <option value="tfa_92" id="tfa_92" class="">Chile</option>
                                                 <option value="tfa_93" id="tfa_93" class="">China</option>
                                                 <option value="tfa_94" id="tfa_94" class="">Colombia</option>
                                                 <option value="tfa_95" id="tfa_95" class="">Comoros</option>
                                                 <option value="tfa_96" id="tfa_96" class="">Congo</option>
-                                                <option value="tfa_97" id="tfa_97" class="">Congo (Democratic Republic of)</option>
+                                                <option value="tfa_97" id="tfa_97" class="">Congo (Democratic Republic
+                                                    of)
+                                                </option>
                                                 <option value="tfa_98" id="tfa_98" class="">Cook Islands</option>
                                                 <option value="tfa_99" id="tfa_99" class="">Costa Rica</option>
                                                 <option value="tfa_100" id="tfa_100" class="">Croatia</option>
@@ -199,7 +241,8 @@
                                                 <option value="tfa_105" id="tfa_105" class="">Denmark</option>
                                                 <option value="tfa_106" id="tfa_106" class="">Djibouti</option>
                                                 <option value="tfa_107" id="tfa_107" class="">Dominica</option>
-                                                <option value="tfa_108" id="tfa_108" class="">Dominican Republic</option>
+                                                <option value="tfa_108" id="tfa_108" class="">Dominican Republic
+                                                </option>
                                                 <option value="tfa_109" id="tfa_109" class="">Ecuador</option>
                                                 <option value="tfa_110" id="tfa_110" class="">Ecuatorial Guinea</option>
                                                 <option value="tfa_111" id="tfa_111" class="">Egypt</option>
@@ -331,15 +374,19 @@
                                                 <option value="tfa_237" id="tfa_237" class="">Thailand</option>
                                                 <option value="tfa_238" id="tfa_238" class="">Togo</option>
                                                 <option value="tfa_239" id="tfa_239" class="">Tonga</option>
-                                                <option value="tfa_240" id="tfa_240" class="">Trinidad and Tobago</option>
+                                                <option value="tfa_240" id="tfa_240" class="">Trinidad and Tobago
+                                                </option>
                                                 <option value="tfa_241" id="tfa_241" class="">Tunisia</option>
                                                 <option value="tfa_242" id="tfa_242" class="">Turkey</option>
                                                 <option value="tfa_243" id="tfa_243" class="">Turkmenistan</option>
-                                                <option value="tfa_244" id="tfa_244" class="">Turks and Caicos Islands</option>
-                                                <option value="tfa_245" id="tfa_245" class="">U.S. Virgin Islands</option>
+                                                <option value="tfa_244" id="tfa_244" class="">Turks and Caicos Islands
+                                                </option>
+                                                <option value="tfa_245" id="tfa_245" class="">U.S. Virgin Islands
+                                                </option>
                                                 <option value="tfa_246" id="tfa_246" class="">Uganda</option>
                                                 <option value="tfa_247" id="tfa_247" class="">Ukraine</option>
-                                                <option value="tfa_248" id="tfa_248" class="">United Arab Emirates</option>
+                                                <option value="tfa_248" id="tfa_248" class="">United Arab Emirates
+                                                </option>
                                                 <option value="tfa_249" id="tfa_249" class="">United Kingdom</option>
                                                 <option value="tfa_250" id="tfa_250" class="">United States</option>
                                                 <option value="tfa_251" id="tfa_251" class="">Uruguay</option>
@@ -355,44 +402,64 @@
                                         </div>
                                     </div>
                                     <div id="tfa_4-D" class="oneField   labelsLeftAligned  ">
-                                        <label id="tfa_4-L" for="tfa_4" class="label preField reqMark" style="width: 330px; min-width:0">What would you like to study?</label>
+                                        <label id="tfa_4-L" for="tfa_4" class="label preField reqMark"
+                                               style="width: 330px; min-width:0">What would you like to study?</label>
                                         <div class="inputWrapper">
                                             <select id="tfa_4" name="tfa_4" class="required">
                                                 <option value="">Please select...</option>
-                                                <option value="tfa_878" id="tfa_878" class="">Flexible Length English Courses</option>
-                                                <option value="tfa_24" id="tfa_24" class="">Long Term English Courses</option>
-                                                <option value="tfa_33" id="tfa_33" class="">Exam Preparation Courses</option>
-                                                <option value="tfa_21" id="tfa_21" class="">Business English Courses</option>
-                                                <option value="tfa_18" id="tfa_18" class="">Junior English Courses</option>
-                                                <option value="tfa_27" id="tfa_27" class="">Work &amp; Study Courses</option>
+                                                <option value="tfa_878" id="tfa_878" class="">Flexible Length English
+                                                    Courses
+                                                </option>
+                                                <option value="tfa_24" id="tfa_24" class="">Long Term English Courses
+                                                </option>
+                                                <option value="tfa_33" id="tfa_33" class="">Exam Preparation Courses
+                                                </option>
+                                                <option value="tfa_21" id="tfa_21" class="">Business English Courses
+                                                </option>
+                                                <option value="tfa_18" id="tfa_18" class="">Junior English Courses
+                                                </option>
+                                                <option value="tfa_27" id="tfa_27" class="">Work &amp; Study Courses
+                                                </option>
                                                 <option value="tfa_30" id="tfa_30" class="">Teaching Courses</option>
-                                                <option value="tfa_897" id="tfa_897" data-conditionals="#tfa_898,#tfa_5" class="">Career Essentials Courses</option>
-                                                <option value="tfa_947" id="tfa_947" class="">English for Specific Purposes</option>
+                                                <option value="tfa_897" id="tfa_897" data-conditionals="#tfa_898,#tfa_5"
+                                                        class="">Career Essentials Courses
+                                                </option>
+                                                <option value="tfa_947" id="tfa_947" class="">English for Specific
+                                                    Purposes
+                                                </option>
                                                 <option value="tfa_39" id="tfa_39" class="">Undecided</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div id="tfa_5-D" class="oneField   labelsLeftAligned  ">
-                                        <label id="tfa_5-L" for="tfa_5" class="label preField reqMark" style="width: 330px; min-width:0">Where would you like to study English?</label>
+                                        <label id="tfa_5-L" for="tfa_5" class="label preField reqMark"
+                                               style="width: 330px; min-width:0">Where would you like to study
+                                            English?</label>
                                         <div class="inputWrapper">
-                                            <select id="tfa_5" name="tfa_5" data-condition="NOT (`#tfa_897`)" class="required">
+                                            <select id="tfa_5" name="tfa_5" data-condition="NOT (`#tfa_897`)"
+                                                    class="required">
                                                 <option value="">Please select...</option>
                                                 <option value="tfa_902" id="tfa_902" class="">--USA</option>
                                                 <option value="tfa_903" id="tfa_903" class="">Boston Fenway</option>
                                                 <option value="tfa_904" id="tfa_904" class="">Chicago</option>
                                                 <option value="tfa_905" id="tfa_905" class="">Harvard Square</option>
                                                 <option value="tfa_906" id="tfa_906" class="">Highline CC</option>
-                                                <option value="tfa_907" id="tfa_907" class="">Golden West College</option>
-                                                <option value="tfa_908" id="tfa_908" class="">Los Angeles Westwood</option>
-                                                <option value="tfa_909" id="tfa_909" class="">Los Angeles Whittier</option>
+                                                <option value="tfa_907" id="tfa_907" class="">Golden West College
+                                                </option>
+                                                <option value="tfa_908" id="tfa_908" class="">Los Angeles Westwood
+                                                </option>
+                                                <option value="tfa_909" id="tfa_909" class="">Los Angeles Whittier
+                                                </option>
                                                 <option value="tfa_910" id="tfa_910" class="">Miami</option>
-                                                <option value="tfa_911" id="tfa_911" class="">New York Empire State</option>
+                                                <option value="tfa_911" id="tfa_911" class="">New York Empire State
+                                                </option>
                                                 <option value="tfa_912" id="tfa_912" class="">New York SoHo</option>
                                                 <option value="tfa_913" id="tfa_913" class="">Philadelphia</option>
                                                 <option value="tfa_914" id="tfa_914" class="">Portland</option>
                                                 <option value="tfa_915" id="tfa_915" class="">San Diego</option>
                                                 <option value="tfa_916" id="tfa_916" class="">San Francisco</option>
-                                                <option value="tfa_917" id="tfa_917" class="">San Francisco Berkeley</option>
+                                                <option value="tfa_917" id="tfa_917" class="">San Francisco Berkeley
+                                                </option>
                                                 <option value="tfa_918" id="tfa_918" class="">Santa Barbara</option>
                                                 <option value="tfa_919" id="tfa_919" class="">Seattle</option>
                                                 <option value="tfa_920" id="tfa_920" class="">Washington DC</option>
@@ -427,9 +494,12 @@
                                     </div>
                                 </div>
                                 <div id="tfa_898-D" class="oneField     ">
-                                    <label id="tfa_898-L" for="tfa_898" class="label preField reqMark" style="width: 330px; min-width:0">In which British city would you like to study?</label>
+                                    <label id="tfa_898-L" for="tfa_898" class="label preField reqMark"
+                                           style="width: 330px; min-width:0">In which British city would you like to
+                                        study?</label>
                                     <div class="inputWrapper">
-                                        <select id="tfa_898" name="tfa_898" data-condition="`#tfa_897`" class="required">
+                                        <select id="tfa_898" name="tfa_898" data-condition="`#tfa_897`"
+                                                class="required">
                                             <option value="">Please select...</option>
                                             <option value="tfa_899" id="tfa_899" class="">London</option>
                                             <option value="tfa_900" id="tfa_900" class="">Liverpool</option>
@@ -437,11 +507,15 @@
                                     </div>
                                 </div>
                                 <div id="tfa_876-D" class="oneField   labelsLeftAligned  ">
-                                    <label id="tfa_876-L" for="tfa_876" class="label preField " style="width: 330px; min-width:0">When would you like to start?</label>
-                                    <div class="inputWrapper"><input type="text" id="tfa_876" name="tfa_876" value="" style="width: 200px" placeholder="" class="validate-datecal"></div>
+                                    <label id="tfa_876-L" for="tfa_876" class="label preField "
+                                           style="width: 330px; min-width:0">When would you like to start?</label>
+                                    <div class="inputWrapper"><input type="text" id="tfa_876" name="tfa_876" value=""
+                                                                     style="width: 200px" placeholder=""
+                                                                     class="validate-datecal"></div>
                                 </div>
                                 <div id="tfa_890-D" class="oneField     ">
-                                    <label id="tfa_890-L" for="tfa_890" class="label preField reqMark" style="width: 330px; min-width:0">How long do you want to study for?</label>
+                                    <label id="tfa_890-L" for="tfa_890" class="label preField reqMark"
+                                           style="width: 330px; min-width:0">How long do you want to study for?</label>
                                     <div class="inputWrapper">
                                         <select id="tfa_890" name="tfa_890" class="required">
                                             <option value="">Please select...</option>
@@ -455,16 +529,27 @@
                                     </div>
                                 </div>
                                 <div id="tfa_7-D" class="oneField   labelsLeftAligned  ">
-                                    <label id="tfa_7-L" for="tfa_7" class="label preField " style="width: 330px; min-width:0">Any questions for our team?</label>
-                                    <div class="inputWrapper"><textarea style="width: 200px; height: 70px" id="tfa_7" name="tfa_7" class=""></textarea></div>
+                                    <label id="tfa_7-L" for="tfa_7" class="label preField "
+                                           style="width: 330px; min-width:0">Any questions for our team?</label>
+                                    <div class="inputWrapper"><textarea style="width: 200px; height: 70px" id="tfa_7"
+                                                                        name="tfa_7" class=""></textarea></div>
                                 </div>
                                 <div id="tfa_278-D" class="oneField   labelsLeftAligned  ">
                                     <div class="inputWrapper">
-                                        <div class="delimiter delimiterBefore" id="tfa_278-DB">I would like to receive offers and information from Kaplan and its partners.</div>
-                                        <span id="tfa_278" class="choices horizontal "><span class="oneChoice"><input type="checkbox" value="tfa_279" class="" checked id="tfa_279" name="tfa_279"><label class="label postField" id="tfa_279-L" for="tfa_279">&nbsp;</label></span></span>
+                                        <div class="delimiter delimiterBefore" id="tfa_278-DB">I would like to receive
+                                            offers and information from Kaplan and its partners.
+                                        </div>
+                                        <span id="tfa_278" class="choices horizontal "><span class="oneChoice"><input
+                                                type="checkbox" value="tfa_279" class="" checked id="tfa_279"
+                                                name="tfa_279"><label class="label postField" id="tfa_279-L"
+                                                                      for="tfa_279">&nbsp;</label></span></span>
                                     </div>
                                 </div>
-                                <input type="hidden" id="tfa_888" name="tfa_888" value="" class=""><input type="hidden" id="tfa_887" name="tfa_887" value="gcpn_btc" class="">
+                                <input type="hidden" id="tfa_888" name="tfa_888" value="" class=""><input type="hidden"
+                                                                                                          id="tfa_887"
+                                                                                                          name="tfa_887"
+                                                                                                          value="gcpn_btc"
+                                                                                                          class="">
                                 <div id="tfa_331" class="section empty group"></div>
                                 <div id="tfa_880" class="section group">
                                     <div class="htmlSection" id="tfa_881">
@@ -473,121 +558,145 @@
                                                 /* Google Campaign code */
 
 
-                                                (function(){
+                                                (function () {
                                                     /* wait for GA tracking script to load and cookie to be set */
 
-                                                    if (!window.addEventListener) { window.addEventListener = function (type, listener, useCapture) { attachEvent('on' + type, function() { listener(event) }); }}
+                                                    if (!window.addEventListener) {
+                                                        window.addEventListener = function (type, listener, useCapture) {
+                                                            attachEvent('on' + type, function () {
+                                                                listener(event)
+                                                            });
+                                                        }
+                                                    }
 
-                                                    window.addEventListener('load', function() {
+                                                    window.addEventListener('load', function () {
                                                         var _utmz = {
-                                                            readCookie: function(name){
+                                                            readCookie: function (name) {
                                                                 var nameEQ = name + "=";
                                                                 var ca = document.cookie.split(';');
-                                                                for(var i=0;i < ca.length;i++) {
+                                                                for (var i = 0; i < ca.length; i++) {
                                                                     var c = ca[i];
-                                                                    while (c.charAt(0)==' ') c = c.substring(1,c.length);
-                                                                    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+                                                                    while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                                                                    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
                                                                 }
                                                                 return '';
                                                             },
-                                                            getCampaignValues: function() {
+                                                            getCampaignValues: function () {
                                                                 var r = {};
                                                                 try {
                                                                     var values = this.readCookie('__utmz');
-                                                                    for(i=0;i<4;i++){
-                                                                        values = values.substring(values.indexOf('.')+1);
+                                                                    for (i = 0; i < 4; i++) {
+                                                                        values = values.substring(values.indexOf('.') + 1);
                                                                     }
                                                                     values = values.split('|');
                                                                     for (var i = 0; i < values.length; i++) {
                                                                         r[values[i].split('=')[0]] = values[i].split('=')[1];
                                                                     }
-                                                                } catch(x) { /* unexpected cookie format */ }
+                                                                } catch (x) { /* unexpected cookie format */
+                                                                }
                                                                 return r;
                                                             },
-                                                            getSource: function() {
+                                                            getSource: function () {
                                                                 var cv = this.getCampaignValues();
-                                                                return ('utmcsr' in cv)?cv['utmcsr']:'n/a';
+                                                                return ('utmcsr' in cv) ? cv['utmcsr'] : 'n/a';
                                                             },
-                                                            getCampaign: function() {
+                                                            getCampaign: function () {
                                                                 var cv = this.getCampaignValues();
-                                                                return ('utmccn' in cv)?cv['utmccn']:'n/a';
+                                                                return ('utmccn' in cv) ? cv['utmccn'] : 'n/a';
                                                             },
-                                                            getMedium: function() {
+                                                            getMedium: function () {
                                                                 var cv = this.getCampaignValues();
-                                                                return ('utmcmd' in cv)?cv['utmcmd']:'n/a';
+                                                                return ('utmcmd' in cv) ? cv['utmcmd'] : 'n/a';
                                                             },
-                                                            getKeyword: function() {
+                                                            getKeyword: function () {
                                                                 var cv = this.getCampaignValues();
-                                                                return ('utmctr' in cv)?cv['utmctr']:'n/a';
+                                                                return ('utmctr' in cv) ? cv['utmctr'] : 'n/a';
                                                             },
-                                                            getAdContent: function() {
+                                                            getAdContent: function () {
                                                                 var cv = this.getCampaignValues();
-                                                                return ('utmcct' in cv)?cv['utmcct']:'n/a'
+                                                                return ('utmcct' in cv) ? cv['utmcct'] : 'n/a'
                                                             },
-                                                            getGClId: function() {
+                                                            getGClId: function () {
                                                                 var cv = this.getCampaignValues();
-                                                                return ('utmgclid' in cv)?cv['utmgclid']:null;
+                                                                return ('utmgclid' in cv) ? cv['utmgclid'] : null;
                                                             }
                                                         };
                                                         try {
-                                                            if(!document.querySelector && base2) document.querySelector = base2.DOM.Element.querySelector;
+                                                            if (!document.querySelector && base2) document.querySelector = base2.DOM.Element.querySelector;
                                                             var gaSource = document.querySelector('input.calc-GOOGLESOURCE');
                                                             // if gclid is present (adword auto-tagging), source can be inferred to be 'google'.
-                                                            if(gaSource) gaSource.value = _utmz.getGClId()?'google':_utmz.getSource();
+                                                            if (gaSource) gaSource.value = _utmz.getGClId() ? 'google' : _utmz.getSource();
 
                                                             var gaCampaign = document.querySelector('input.calc-GOOGLECAMPAIGN');
-                                                            if(gaCampaign) gaCampaign.value = _utmz.getCampaign();
+                                                            if (gaCampaign) gaCampaign.value = _utmz.getCampaign();
 
                                                             var gaMedium = document.querySelector('input.calc-GOOGLEMEDIUM');
                                                             // if gclid is present (adword auto-tagging), medium can be inferred to be 'cpc'.
-                                                            if(gaMedium) gaMedium.value = _utmz.getGClId()?'cpc':_utmz.getMedium();
+                                                            if (gaMedium) gaMedium.value = _utmz.getGClId() ? 'cpc' : _utmz.getMedium();
 
                                                             var gaKeyword = document.querySelector('input.calc-GOOGLEKEYWORD');
-                                                            if(gaKeyword) gaKeyword.value = _utmz.getKeyword();
+                                                            if (gaKeyword) gaKeyword.value = _utmz.getKeyword();
 
                                                             var gaAdContent = document.querySelector('input.calc-GOOGLEADCONTENT');
-                                                            if(gaAdContent) gaAdContent.value = _utmz.getAdContent();
+                                                            if (gaAdContent) gaAdContent.value = _utmz.getAdContent();
 
-                                                        } catch(x) { }
+                                                        } catch (x) {
+                                                        }
                                                     }, false);
                                                 })();
                                             </script>
                                         </div>
                                     </div>
-                                    <input type="hidden" id="tfa_882" name="tfa_882" value="" class="calc-GOOGLESOURCE"><input type="hidden" id="tfa_883" name="tfa_883" value="" class="calc-GOOGLECAMPAIGN"><input type="hidden" id="tfa_884" name="tfa_884" value="" class="calc-GOOGLEMEDIUM"><input type="hidden" id="tfa_885" name="tfa_885" value="" class="calc-GOOGLEKEYWORD"><input type="hidden" id="tfa_886" name="tfa_886" value="" class="calc-GOOGLEADCONTENT">
+                                    <input type="hidden" id="tfa_882" name="tfa_882" value="" class="calc-GOOGLESOURCE"><input
+                                        type="hidden" id="tfa_883" name="tfa_883" value=""
+                                        class="calc-GOOGLECAMPAIGN"><input type="hidden" id="tfa_884" name="tfa_884"
+                                                                           value="" class="calc-GOOGLEMEDIUM"><input
+                                        type="hidden" id="tfa_885" name="tfa_885" value=""
+                                        class="calc-GOOGLEKEYWORD"><input type="hidden" id="tfa_886" name="tfa_886"
+                                                                          value="" class="calc-GOOGLEADCONTENT">
                                 </div>
                                 <input type="hidden" id="tfa_901" name="tfa_901" value="G_USER_ID" class="">
-                                <div class="actions" id="tfa_0-A"><input type="submit" class="primaryAction" value="Contact a Student Advisor"></div>
+                                <div class="actions" id="tfa_0-A"><input type="submit" class="primaryAction"
+                                                                         value="Contact a Student Advisor"></div>
                                 <div style="clear:both"></div>
-                                <input type="hidden" value="297143" name="tfa_dbFormId" id="tfa_dbFormId"><input type="hidden" value="" name="tfa_dbResponseId" id="tfa_dbResponseId"><input type="hidden" value="22d2bb246efced63dc320560d8c7af88" name="tfa_dbControl" id="tfa_dbControl"><input type="hidden" value="37" name="tfa_dbVersionId" id="tfa_dbVersionId"><input type="hidden" value="" name="tfa_switchedoff" id="tfa_switchedoff">
+                                <input type="hidden" value="297143" name="tfa_dbFormId" id="tfa_dbFormId"><input
+                                    type="hidden" value="" name="tfa_dbResponseId" id="tfa_dbResponseId"><input
+                                    type="hidden" value="22d2bb246efced63dc320560d8c7af88" name="tfa_dbControl"
+                                    id="tfa_dbControl"><input type="hidden" value="37" name="tfa_dbVersionId"
+                                                              id="tfa_dbVersionId"><input type="hidden" value=""
+                                                                                          name="tfa_switchedoff"
+                                                                                          id="tfa_switchedoff">
                             </form>
                         </div>
                     </div>
-                    <p class="supportInfo" >
+                    <p class="supportInfo">
                         <a href="//tfaforms.com/forms/help/297143" target="new" style="font-size: 0.7em;">
-                            Need assistance with this form?    </a>
+                            Need assistance with this form? </a>
                     </p>
                 </div>
             </div>
         </div>
 
         <div class="left-wrapper page-section">
-            <h2 class="section-title section-title--left">Take advantage of lower fees</h2>
+            <h2 class="section-title section-title--left">Experience Kaplan’s world-class English tuition for less</h2>
             <div class="advantage-list-block">
                 <div class="advantage-list-block__left-block">
                     <ul class="list">
                         <li><i class="fa fa-check" aria-hidden="true"></i> <span> Learn English</span></li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> <span> Improve career prospects</span></li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> <span> Make new friends</span></li>
                         <li><i class="fa fa-check" aria-hidden="true"></i> <span> See the world</span></li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> <span> Make new friends</span></li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> <span> Improve your career prospects</span>
+                        </li>
+
                     </ul>
                 </div>
                 <div class="advantage-list-block__right-block">
-                    <p> Get in touch with an advisor today and discover more about which courses and
-                        destinations best suit your ambitions.</p>
+                    <p> Get in touch today to learn more about our fascinating courses and exciting destinations. Our
+                        skilled advisors will help you choose the program that best suits you.</p>
 
-                    <p><strong> But you need to hurry! </strong> Our new pricelist starts on 1st October. Don't
-                        miss your chance to save and secure your future today.</p>
+                    <p><strong> But you have to hurry! </strong> ! Our new pricelist launches on the 1st of October.
+                        Don’t miss your chance to save: secure your place today.
+                    </p>
                 </div>
             </div>
             <div class="example-courses">
@@ -599,17 +708,17 @@
                 <div class="packages">
                     <div class="packages__city">
                         <p class="packages__location"> LONDON </p>
-                        <p class="packages__type"> Business English + Homestay </p>
+                        <p class="packages__type"> Business English + homestay accommodation </p>
                     </div>
 
 
                     <div class="packages__save-and-price">
-                    <div class="packages__save">
-                        <div class="packages__save-inner">
-                            <span class="packages__save-title">Save</span>
-                            <p class="packages__save-price">£180</p>
+                        <div class="packages__save">
+                            <div class="packages__save-inner">
+                                <span class="packages__save-title">Save</span>
+                                <p class="packages__save-price">£180</p>
+                            </div>
                         </div>
-                    </div>
                         <div class="packages__price-today">
                             <span class="packages__save-title">Today</span>
                             <p class="packages__save-price">£1760</p>
@@ -624,7 +733,7 @@
                 <div class="packages">
                     <div class="packages__city">
                         <p class="packages__location"> DUBLIN </p>
-                        <p class="packages__type"> General English + Residence </p>
+                        <p class="packages__type"> General English + residence accommodation </p>
                     </div>
                     <div class="packages__save-and-price">
                         <div class="packages__save">
@@ -648,7 +757,7 @@
                     <div class="packages__city">
 
                         <p class="packages__location"> NEW YORK</p>
-                        <p class="packages__type"> Intensive English + Homestay </p>
+                        <p class="packages__type"> Intensive English + homestay accommodation </p>
 
                     </div>
                     <div class="packages__save-and-price">
@@ -669,13 +778,9 @@
                         </div>
                     </div>
                 </div>
-                <span class="span-book span-book--book-short">Contact a Kaplan advisor and find the right course for you.</span>
+
                 <div class="packages__notes">
-                    <p> * Entry fees and surcharges excluded.</p>
-
-                    <p> * Offer valid only for the cost of the course and bookings that are a minimum of 4
-                        weeks. </p>
-
+                    <p>* For illustration purposes only, additional fees and surcharges may apply to 2018 prices.</p>
                 </div>
 
             </div>
@@ -684,24 +789,29 @@
     </div>
 </div>
 
-<div id="Why-choose-kaplan" class="page-section why-choose-kaplan">
+<div id="Why-choose-kaplan" class="page-section why-choose-kaplan lazyload">
     <div class="wrapper">
-            <div class="why-choose-kaplan__percent">
-                <div class="why-choose-kaplan__percent-inner">
-                <div class="circle-percent">
-                    <div>96<span>%</span></div>
+        <div class="why-choose-kaplan__percent">
+            <div class="why-choose-kaplan__percent-inner">
+                <div class="circle-percent equal-height">
+                    <div>97<span>%</span></div>
                 </div>
             </div>
+        </div>
+        <div class="why-choose-kaplan__content">
+            <div class="why-choose-kaplan__content-inner">
+                <h1 class="section-title section-title--left section-title--white">Why choose Kaplan?</h1>
+                <h3 class="why-choose-kaplan__subtitle"><strong>97%</strong> of our students would recommend Kaplan
+                    International English to their friends</h3>
+
+                <ul>
+                    <li>Unforgettable immersive language adventures.</li>
+                    <li>The right course and destination for you – whatever your goals.</li>
+                    <li>A great way to prepare for higher education</li>
+                </ul>
+
             </div>
-            <div class="why-choose-kaplan__content">
-                <div class="why-choose-kaplan__content-inner">
-                    <h1 class="section-title section-title--left section-title--white" >Why choose Kaplan?</h1>
-                    <h3 class="why-choose-kaplan__subtitle"><strong>96%</strong> would recommend Kaplan
-                        International to their friends</h3>
-                    <a href="#" class="why-choose-kaplan__external-link">Find out more About Kaplan ➞</a>
-                    <a href="#" class="why-choose-kaplan__external-link">Free Brochure ➞</a>
-                </div>
-            </div>
+        </div>
     </div>
 </div>
 
@@ -709,57 +819,127 @@
 
     <div class="wrapper">
         <h1 class="section-title">WE HAVE THE PERFECT COURSE FOR YOU</h1>
-        <h4 class="section-subtitle section-subtitle--lowercase">Why not choose to study for a couple of weeks during the summer or an entire semester abroad?
+        <h4 class="section-subtitle section-subtitle--lowercase">Why not choose to study for a couple of weeks during
+            the summer or an entire semester abroad?
             <br> We have a course suitable to match your personal and professional goals.</h4>
+
 
         <div class="course-box">
             <ul>
-                <li>
-                    <h4>KAPLAN TEENS</h4>
-                    <img src="assets/images/courses/midtail-course-youngleaners.jpg" alt="">
+                <li data-url="#content-1">
+                    <div class="course-box__content">
+                        <div class="course-box__title">
+                            <div>ENGLISH PROGRAMS FOR TEENS</div>
+                        </div>
+                        <img class="lazyload" data-srcset="assets/images/courses/midtail-course-youngleaners.jpg"
+                             alt="">
+                    </div>
                 </li>
+                <li data-url="#content-2">
+                    <div class="course-box__content">
+                        <div class="course-box__title">
+                            <div>FLEXIBLE ENGLISH</div>
+                        </div>
+                        <img class="lazyload" data-srcset="assets/images/courses/midtail-course-flexible.jpg" alt="">
+                    </div>
+                </li>
+                <li data-url="#content-3">
 
-                <li>
-                    <h4>FLEXIBLE ENGLISH </h4>
-                    <img src="assets/images/courses/midtail-course-flexible.jpg" alt="">
+                    <div class="course-box__content">
+                        <div class="course-box__title">
+                            <div>LONG TERM STUDY</div>
+                        </div>
+                        <img class="lazyload" data-srcset="assets/images/courses/midtail-course-longterm.jpg" alt="">
+                    </div>
                 </li>
-                <li>
-                    <h4>LONG TERM STUDY</h4>
-                    <img src="assets/images/courses/midtail-course-longterm.jpg" alt="">
+                <li data-url="#content-4">
+
+                    <div class="course-box__content">
+                        <div class="course-box__title">
+                            <div>WORK & STUDY</div>
+                        </div>
+                        <img class="lazyload" data-srcset="assets/images/courses/midtail-course-youngleaners.jpg"
+                             alt="">
+                    </div>
                 </li>
-                <li>
-                    <h4>WORK & STUDY</h4>
-                    <img src="assets/images/courses/midtail-course-workstudy.jpg" alt="">
+                <li data-url="#content-5">
+                    <div class="course-box__content">
+                        <div class="course-box__title">
+                            <div>BUSINESS ENGLISH</div>
+                        </div>
+                        <img class="lazyload" data-srcset="assets/images/courses/midtail-course-workstudy.jpg" alt="">
+                    </div>
                 </li>
-                <li>
-                    <h4>BUSINESS ENGLISH</h4>
-                    <img src="assets/images/courses/midtail-course-business.jpg" alt="">
-                </li>
-                <li>
-                    <h4>EXAM PREP</h4>
-                    <img src="assets/images/courses/midtail-course-examprep.jpg" alt="">
-                </li>
-                <li>
-                    <h4>CAREER ESSENTIALS</h4>
-                    <img src="assets/images/courses/midtail-course-career-essential.jpg" alt="">
+                <li data-url="#content-6">
+                    <div class="course-box__content">
+                        <div class="course-box__title">
+                            <div>EXAM PREP</div>
+                        </div>
+                        <img class="lazyload" data-srcset="assets/images/courses/midtail-course-examprep.jpg" alt="">
+                    </div>
                 </li>
 
 
             </ul>
 
-            <a href="#" class="btn">
-                <span>Contact an  advisor</span>
-            </a>
+            <div id="content-1" class="course-box__description">
+                <div class="course-box__description__inner">
+                    <h4>ENGLISH PROGRAMS FOR TEENS</h4>
+                    <p>We welcome students aged 12+ to study English in a friendly, safe, and fun environment. With a
+                        busy program of exciting activities, students will make friends quickly while learning and
+                        exploring outside of class.</p>
+                </div>
+            </div>
+            <div id="content-2" class="course-box__description">
+                <div class="course-box__description__inner">
+                    <h4>FLEXIBLE ENGLISH</h4>
+                    <p>This course is ideal if you want to improve your general English skills around existing
+                        education, travels, or work life. Customize your course to suit your language goals and budget.
+                    </p>
+                </div>
+            </div>
+            <div id="content-3" class="course-box__description">
+                <div class="course-box__description__inner">
+                    <h4>LONG TERM STUDY</h4>
+                    <p>Improve your English faster by immersing yourself fully in another culture. Take a Semester or
+                        Academic Year course, available in either General or Intensive English.</p>
+                </div>
+            </div>
+            <div id="content-4" class="course-box__description">
+                <div class="course-box__description__inner">
+                    <h4>WORK & STUDY</h4>
+                    <p>Gain valuable work experience as you improve your English.
+                        Learn, earn, and practice your language skills during part-time employment. </p>
+                </div>
+            </div>
+            <div id="content-5" class="course-box__description">
+                <div class="course-box__description__inner">
+                    <h4>BUSINESS ENGLISH</h4>
+                    <p>Gain valuable work experience as you improve your English. Learn, earn, and practice your
+                        language skills during part-time employment.</p>
+                </div>
+            </div>
+            <div id="content-6" class="course-box__description">
+                <div class="course-box__description__inner">
+                    <h4>EXAM PREP</h4>
+                    <p>Focus on exam-taking skills and benefit from tips to maximize your test scores.
+                        We'll help prepare you for your IELTS, TOEFL®, Cambridge, GMAT®, and GRE®
+                        exams. </p>
+                </div>
+            </div>
+
 
         </div>
-
+        <a href="#Act-now" class="btn">
+            <span>Contact an  advisor</span>
+        </a>
     </div>
 </div>
 
 <div id="Go-further" class="page-section go-further">
 
     <div class="wrapper">
-        <h1 class="section-title section-title--white">WHY KAPLAN, YOU’LL GO FURTHER!</h1>
+        <h1 class="section-title section-title--white">WITH KAPLAN, YOU’LL GO FURTHER!</h1>
 
         <ul class="colored-icon-list">
             <li class="colored-icon-list__item">
@@ -771,8 +951,8 @@
 
                     <div class="colored-icon-list__desc">
                         Recognized as the best <br>
-                            study abroad experience<br>
-                            and value for money
+                        study abroad experience<br>
+                        and value for money
                     </div>
                 </div>
             </li>
@@ -805,15 +985,15 @@
             <li class="colored-icon-list__item">
                 <div class="colored-icon-list__item-inner">
 
-                <div class="colored-icon-list__circle colored-icon-list__circle--color4">
-                    <span class="btc-i btcicon-holding-cv"></span>
-                </div>
+                    <div class="colored-icon-list__circle colored-icon-list__circle--color4">
+                        <span class="btc-i btcicon-holding-cv"></span>
+                    </div>
 
-                <div class="colored-icon-list__desc">
-                    Build stronger, <br>
-                    more varied CV or <br>
-                    résumé <br>
-                </div>
+                    <div class="colored-icon-list__desc">
+                        Build stronger, <br>
+                        more varied CV or <br>
+                        résumé <br>
+                    </div>
                 </div>
             </li>
             <li class="colored-icon-list__item">
@@ -838,8 +1018,9 @@
 
 <div id="Contact-an-advisor" class="page-section contact-an-advisor">
     <div class="wrapper">
-        <h1 class="section-title section-title--small">Speak with an advisor today and discover more about studying English abroad</h1>
-        <a href="#" class="btn btn--mtop">
+        <h1 class="section-title section-title--small">Speak with an advisor today and discover more about studying
+            English abroad</h1>
+        <a href="#Act-now" class="btn btn--mtop">
             <span>SECURE THE OFFER</span>
         </a>
         <span class="contact-an-advisor__contact-number">+44 (0) 20 7045 5000</span>
@@ -847,9 +1028,108 @@
 
 </div>
 
-<div id="Testimonials" class="testimonials">
+<div id="Testimonials" class="testimonial lazyload">
     <div class="wrapper">
         <h1 class="section-title section-title--white">WHAT OUR STUDENTS SAY</h1>
+
+
+        <div class="testimonial__slider">
+
+            <div class="testimonial__slider__controls">
+                <div class="testimonial__slider__controls-inner">
+
+                    <span id="prev" class="prev icon icon--left-arrow"> </span>
+                    <span id="next" class="next icon icon--right-arrow"> </span>
+                </div>
+            </div>
+
+
+            <ul id="testimonial" class="testimonial-wrapper">
+                <li>
+                    <div class="testimonial__slider-inner">
+                        <div class="testimonial__student">
+                            <img class="lazyload" data-srcset="./assets/images/zyiad-ali-alosayfir.jpg" alt="">
+                        </div>
+                        <p>“Kaplan International English school is known as one of the best English language schools in
+                            the UK. I
+                            personally know a lot of people who studied at Kaplan and their opinions of the school were
+                            excellent. I took their advice and I have truly enjoyed a very successful experience.”</p>
+                        <h5>Zyiad Ali Alosayfir, Saudi Arabia</h5>
+                        <div class="clearfix"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="testimonial__slider-inner">
+                        <div class="testimonial__student">
+                            <img class="lazyload" data-srcset="./assets/images/julia-jarowicz.jpg" alt="">
+                        </div>
+                        <p>“My English has definitely improved. My aim is to become proficient and perfectly fluent.
+                            After
+                            Kaplan I will finish my university studies.” </p>
+                        <h5>Julia Jarowicz, Poland</h5>
+                        <div class="clearfix"></div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="testimonial__slider-inner">
+                        <div class="testimonial__student">
+                            <img class="lazyload" data-srcset="./assets/images/hyoju-nam.jpg" alt="">
+                        </div>
+                        <p>“My fear of speaking English has disappeared. Before Kaplan I was too nervous to try and
+                            speak
+                            it. I’ve been lucky enough to make good friends from all over the world and I am excited to
+                            be able to
+                            visit them in their countries.” </p>
+                        <h5>Hyoju Nam, South Korea </h5>
+                        <div class="clearfix"></div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="testimonial__slider-inner">
+                        <div class="testimonial__student">
+                            <img class="lazyload" data-srcset="./assets/images/maris-oksche.jpg" alt="">
+                        </div>
+                        <p>“Learning English is the most important part of my Kaplan Experience. The lessons are well
+                            designed and new media is used in the classroom. These conditions make learning a new
+                            language
+                            lots of fun.” </p>
+                        <h5>Maris Oksche, Germany </h5>
+                        <div class="clearfix"></div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="testimonial__slider-inner">
+                        <div class="testimonial__student">
+                            <img class="lazyload" data-srcset="./assets/images/bruna-schelb-correa.jpg" alt="">
+                        </div>
+                        <p>"My English has improved after living within the local culture and being immersed in an
+                            environment where English is needed all the time. It’s made me more confident.” </p>
+                        <h5>Bruna Schelb Correa, Brazil </h5>
+                        <div class="clearfix"></div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="testimonial__slider-inner">
+                        <div class="testimonial__student">
+                            <img class="lazyload" data-srcset="./assets/images/zyiad-ali-alosayfir.jpg" alt="">
+                        </div>
+                        <p>“Kaplan International English school is known as one of the best English language schools in
+                            the UK. I
+                            personally know a lot of people who studied at Kaplan and their opinions of the school were
+                            excellent. I took their advice and I have truly enjoyed a very successful experience.”</p>
+                        <h5>Zyiad Ali Alosayfir, Saudi Arabia</h5>
+                        <div class="clearfix"></div>
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
 
 
     </div>
@@ -863,10 +1143,14 @@
                 <div class="footer__about-kaplan">
                     <h2> About Kaplan </h2>
 
-                    <p>With 45+ accredited schools for adults and young learners across 8 English-speaking countries, Kaplan International English offers world-class English language education and the experience of a lifetime. </p>
-                    <p> We offer a range of courses for students aged 12 and up, and have done so for more than 40 years. Last year, more than 70,000 students traveled and studied with us, and 9 of 10 would recommend us to friends and family.</p>
+                    <p>With 45+ accredited schools for adults and young learners across 8 English-speaking countries,
+                        Kaplan International English offers world-class English language education and the experience of
+                        a lifetime. </p>
+                    <p> We offer a range of courses for students aged 12 and up, and have done so for more than 40
+                        years. Last year, more than 70,000 students traveled and studied with us, and 9 of 10 would
+                        recommend us to friends and family.</p>
 
-                    <a href="http://kaplaninternational.com/" target="_blank"> Learn more ►</a>
+                    <a href="http://kaplaninternational.com/" target="_blank"> Learn more <strong>►</strong> </a>
                 </div>
 
             </div>
@@ -876,22 +1160,28 @@
 
                     <ul>
                         <li>
-                            <a href="http://careers.kaplaninternational.com/jobs/" title="Careers with Kaplan" rel="" name="Careers" target="_self">Careers</a>
+                            <a href="http://careers.kaplaninternational.com/jobs/" title="Careers with Kaplan" rel=""
+                               name="Careers" target="_self">Careers</a>
                         </li>
                         <li>
-                            <a href="http://kaplaninternational.com/about/contact.aspx" title="Contact Details" rel="" name="ContactDetails" target="_self">Contact Details</a>
+                            <a href="http://kaplaninternational.com/about/contact.aspx" title="Contact Details" rel=""
+                               name="ContactDetails" target="_self">Contact Details</a>
                         </li>
                         <li>
-                            <a href="//kaplaninternational.com/english-test/index.aspx" title="English Test" rel="" name="EnglishTest" target="_self">English Test</a>
+                            <a href="//kaplaninternational.com/english-test/index.aspx" title="English Test" rel=""
+                               name="EnglishTest" target="_self">English Test</a>
                         </li>
                         <li>
-                            <a href="//kaplaninternational.com/terms/index.aspx" title="Terms &amp; Conditions" rel="" name="Terms&amp;Conditions" target="_self">Terms &amp; Conditions</a>
+                            <a href="//kaplaninternational.com/terms/index.aspx" title="Terms &amp; Conditions" rel=""
+                               name="Terms&amp;Conditions" target="_self">Terms &amp; Conditions</a>
                         </li>
                         <li>
-                            <a href="//kaplaninternational.com/terms/index.aspx#s5" title="Cookie Policy" rel="" name="CookiePolicy" target="_self">Cookie Policy</a>
+                            <a href="//kaplaninternational.com/terms/index.aspx#s5" title="Cookie Policy" rel=""
+                               name="CookiePolicy" target="_self">Cookie Policy</a>
                         </li>
                         <li>
-                            <a href="//kaplaninternational.com/sitemap/index.aspx" title="Sitemap" rel="" name="Sitemap" target="_self">Sitemap</a>
+                            <a href="//kaplaninternational.com/sitemap/index.aspx" title="Sitemap" rel="" name="Sitemap"
+                               target="_self">Sitemap</a>
                         </li>
                     </ul>
                 </div>
@@ -942,27 +1232,39 @@
             <div class="footer__accreditations__logo__wrapper">
                 <div class="footer__accreditations__logo">
                     <h5 class="footer__accreditations__logo__title">USA</h5>
-                    <a href="//accet.org/" target="_blank"><img src="./assets/images/acc-us-accet-w.png" alt="British Council"></a>
+                    <a href="//accet.org/" target="_blank"><img class="lazyload"
+                                                                data-srcset="./assets/images/acc-us-accet-w.png"
+                                                                alt="British Council"></a>
                 </div>
                 <div class="footer__accreditations__logo">
                     <h5 class="footer__accreditations__logo__title">UK</h5>
-                    <a href="//britishcouncil.org/" target="_blank"><img src="./assets/images/acc-uk-british-council-w.png" alt="British Council"></a>
+                    <a href="//britishcouncil.org/" target="_blank"><img class="lazyload"
+                                                                         data-srcset="./assets/images/acc-uk-british-council-w.png"
+                                                                         alt="British Council"></a>
                 </div>
                 <div class="footer__accreditations__logo">
                     <h5 class="footer__accreditations__logo__title">Australia</h5>
-                    <a href="//neas.org.au/" target="_blank"><img src="./assets/images/acc-au-neas-w.png" alt="British Council"></a>
+                    <a href="//neas.org.au/" target="_blank"><img class="lazyload"
+                                                                  data-srcset="./assets/images/acc-au-neas-w.png"
+                                                                  alt="British Council"></a>
                 </div>
                 <div class="footer__accreditations__logo">
                     <h5 class="footer__accreditations__logo__title">Canada</h5>
-                    <a href="//languagescanada.ca/" target="_blank"><img src="./assets/images/acc-ca-language-canada-w.png" alt="British Council"></a>
+                    <a href="//languagescanada.ca/" target="_blank"><img class="lazyload"
+                                                                         data-srcset="./assets/images/acc-ca-language-canada-w.png"
+                                                                         alt="British Council"></a>
                 </div>
                 <div class="footer__accreditations__logo">
                     <h5 class="footer__accreditations__logo__title">New Zealand</h5>
-                    <a href="//nzqa.govt.nz/" target="_blank"><img src="./assets/images/acc-nz-nzqa-w.png" alt="British Council"></a>
+                    <a href="//nzqa.govt.nz/" target="_blank"><img class="lazyload"
+                                                                   data-srcset="./assets/images/acc-nz-nzqa-w.png"
+                                                                   alt="British Council"></a>
                 </div>
                 <div class="footer__accreditations__logo">
                     <h5 class="footer__accreditations__logo__title">Ireland</h5>
-                    <a href="//acels.ie/" target="_blank"><img src="./assets/images/acc-ie-acels-w.png" alt="British Council"></a>
+                    <a href="//acels.ie/" target="_blank"><img class="lazyload"
+                                                               data-srcset="./assets/images/acc-ie-acels-w.png"
+                                                               alt="British Council"></a>
                 </div>
             </div>
 
@@ -970,19 +1272,19 @@
         </div>
 
 
-
     </div>
     <div class="footer__copyright">
         <div class="wrapper">
 
-        <div class="footer__copyright__content">
-            <h5 class="footer__copyright__content__company-name">Aspect Education Ltd</h5>
-            <p class="footer__copyright__content__address">Reg No: 4053877 / VAT No: 152088224 / Reg office: 2F, Warwick Building, Kensington Village, Avonmore Road, London, W14 8HQ UK</p>
-        </div>
+            <div class="footer__copyright__content">
+                <h5 class="footer__copyright__content__company-name">Aspect Education Ltd</h5>
+                <p class="footer__copyright__content__address">Reg No: 4053877 / VAT No: 152088224 / Reg office: 2F,
+                    Warwick Building, Kensington Village, Avonmore Road, London, W14 8HQ UK</p>
+            </div>
 
-        <div class="footer__copyright__website">
-            <a href="//www.kaplaninternational.com"><span> © Kaplaninternational.com</span></a>
-        </div>
+            <div class="footer__copyright__website">
+                <a href="//www.kaplaninternational.com"><span> © Kaplaninternational.com</span></a>
+            </div>
 
         </div>
     </div>
@@ -990,7 +1292,10 @@
 </footer>
 
 
-<script src="temp/scripts/App.js"></script>
+<!-- build:js /assets/scripts/App.js -->
+<script src="/temp/scripts/App.js"></script>
+<!-- endbuild -->
+
 
 
 </body>

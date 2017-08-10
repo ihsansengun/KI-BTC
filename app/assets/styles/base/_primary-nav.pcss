@@ -25,16 +25,14 @@
     text-align: center;
 
     @mixin atMedium {
-      padding-top: 10px;
+      padding-top: 5px;
       padding-left: 20px;
       float: left;
       text-align: left;
 
     }
 
-
   }
-
 
   li:last-child {
     padding-bottom: 20px;
@@ -46,29 +44,48 @@
 
   }
 
-
-
   a {
     color: #FFF;
     font-weight: 700;
     text-decoration: none;
     display: block;
-    padding: 7px 0;
-    font-size: 14px;
-
+    padding: 2px 0;
     background-color: #414980;
-    margin-bottom: 2px;
+    max-width: 270px;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    line-height: 24px;
+
+@mixin clearfix;
 
     @mixin atMedium {
       background-color: transparent;
       margin-bottom: 0;
+      font-size: 14px;
+
     }
   }
 
   span {
    display: inline-block;
-    margin-right: 4px;
+    margin-right: -4px;
 
+
+    @mixin atMedium {
+      margin-right: 4px;
+    }
+  }
+
+  .icon {
+
+    transform: scale(0.7);
+    transform-origin: 0 100%;
+    @mixin atMedium {
+      transform: scale(1.1);
+      transform-origin: 0 0;
+    }
   }
 
 }
