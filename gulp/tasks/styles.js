@@ -8,7 +8,9 @@ mixins = require('postcss-mixins'),
 hexrgba = require('postcss-hexrgba');
 lostgrid = require('lost'),
 pixelstorem = require('postcss-pixels-to-rem'),
-fontawesome = require('postcss-font-awesome'),
+fontawesome = require('postcss-font-awesome');
+rtl = require('rtlcss');
+
 
 
 
@@ -17,7 +19,7 @@ fontawesome = require('postcss-font-awesome'),
 
 gulp.task('styles', function() {
   return gulp.src('./app/assets/styles/styles.css')
-    .pipe(postcss([cssImport, mixins, cssvars, nested, fontawesome, hexrgba, autoprefixer, lostgrid()]))
+    .pipe(postcss([cssImport, mixins, cssvars, nested, fontawesome, hexrgba,lostgrid, autoprefixer ()]))
       .on('error', function(errorInfo) {
           console.log(errorInfo.toString());
           this.emit('end');
