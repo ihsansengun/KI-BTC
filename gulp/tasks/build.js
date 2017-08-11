@@ -1,4 +1,4 @@
-var gulp = require('gulp'),
+const gulp = require('gulp'),
 imagemin = require('gulp-imagemin'),
 del = require('del'),
 usemin = require('gulp-usemin'),
@@ -16,12 +16,13 @@ gulp.task('previewDist', function() {
   });
 });
 
+
 gulp.task('deleteDistFolder', function() {
   return del("./dist");
 });
 
 gulp.task('copyGeneralFiles', ['deleteDistFolder'], function() {
-  var pathsToCopy = [
+  const pathsToCopy = [
     './app/**/*',
     '!./app/index.html',
     '!./app/assets/images/**',
@@ -31,7 +32,7 @@ gulp.task('copyGeneralFiles', ['deleteDistFolder'], function() {
     '!./app/temp/**',
       '!./app/vendor',
       '!./app/vendor/**'
-  ]
+  ];
 
   return gulp.src(pathsToCopy)
     .pipe(gulp.dest("./dist"));
