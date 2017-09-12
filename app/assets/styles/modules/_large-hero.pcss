@@ -1,25 +1,94 @@
 .large-hero {
   position: relative;
-  background:url("../../assets/images/hero-img-small.jpg") top center no-repeat fixed;
-  background-size: cover;
   height: auto;
 
 
   @mixin atMedium {
-    background:url("../../assets/images/hero-img.jpg") top center no-repeat fixed;
-    background-size: cover;
-    height: 700px;
+    height: 660px;
+    width: 100%;
+    float: left;
 
   }
-  @mixin atRetina {
-    background:url("../../assets/images/hero-img@2x.jpg") top center no-repeat fixed;
+
+
+  &--bg-1 {
+
+    position: relative;
+    background:url("../../assets/images/hero-img-small-1.jpg") no-repeat fixed/*rtl:url("../../assets/images/hero-img-small-1-ar.jpg") no-repeat fixed*/;
     background-size: cover;
+    background-position: 50% 60px;
+
+
+    @mixin atMedium {
+      background:url("../../assets/images/hero-img-1.jpg")  no-repeat fixed/*rtl:url("../../assets/images/hero-img-1-ar.jpg") no-repeat fixed*/;
+      background-size: cover;
+      background-position: 50% 60px;
+
+    }
+    @mixin atRetina {
+      background:url("../../assets/images/hero-img-1@2x.jpg")  no-repeat fixed/*rtl:url("../../assets/images/hero-img-1-ar@2x.jpg") no-repeat fixed*/;
+      background-size: cover;
+      background-position: 50% 60px;
+
+    }
+
+
+  }
+
+
+  &--bg-2 {
+
+    position: relative;
+    background:url("../../assets/images/hero-img-small-2.jpg") top center no-repeat fixed;
+    background-size: cover;
+    background-position: top center;
+
+
+    @mixin atMedium {
+      background:url("../../assets/images/hero-img-2.jpg") top center no-repeat fixed;
+      background-size: cover;
+      background-position: top center;
+
+    }
+    @mixin atRetina {
+      background:url("../../assets/images/hero-img-2@2x.jpg") top center no-repeat fixed;
+      background-size: cover;
+      background-position: top center;
+
+    }
+
+
+  }
+
+
+  &--bg-3 {
+
+    position: relative;
+    background:url("../../assets/images/hero-img-small-3.jpg") no-repeat fixed;
+    background-size: cover;
+    background-position: 50% -100px;
+
+
+    @mixin atMedium {
+      background:url("../../assets/images/hero-img-3.jpg")  no-repeat fixed;
+      background-size: cover;
+      background-position: 50% -100px;
+
+    }
+    @mixin atRetina {
+      background:url("../../assets/images/hero-img-3@2x.jpg") no-repeat fixed;
+      background-size: cover;
+      background-position: 50% -100px;
+
+    }
+
+
   }
 
 
   &__text-content {
     position: relative;
-    margin-top:70px;
+    margin-top:90px;
     padding: 20px;
     text-align: center;
     lost-column: 1/1;
@@ -30,6 +99,7 @@
     }
 
   }
+
 
   &__p {
     display: inline-block;
@@ -45,6 +115,32 @@
       font-size: 1.75rem;
     }
 
+    &--white {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.65);
+
+      color: $darkGray;
+      text-shadow: none;
+
+      @mixin atMedium {
+        color: white;
+        text-shadow: 1px 1px 9px rgba(150, 150, 150, 0.45);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.65);
+
+      }
+
+    }
+
+
+    &--white-2 {
+      color: white;
+      text-shadow: 1px 1px 9px rgba(150, 150, 150, 0.45);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.65);
+
+
+    }
+
+
+
 
   }
   &__h2 {
@@ -54,6 +150,23 @@
     font-weight: 400;
     margin: 0;
     padding: 0;
+
+    &--white {
+      color: $darkGray;
+      text-shadow: none;
+
+      @mixin atMedium {
+        color: white;
+        text-shadow: 1px 1px 9px rgba(150, 150, 150, 0.45);
+      }
+    }
+
+    &--white-2 {
+      color: white;
+      text-shadow: 1px 1px 9px rgba(150, 150, 150, 0.45);
+
+    }
+
 
     @mixin atSmaller {
       font-size: 1.2rem;
@@ -73,6 +186,23 @@
     line-height: 100%;
     margin: 0;
     padding: 0;
+
+    &--white {
+      color: $darkGray;
+      text-shadow: none;
+
+      @mixin atMedium {
+        color: white;
+        text-shadow: 1px 1px 9px rgba(150, 150, 150, 0.45);
+      }
+    }
+
+    &--white-2 {
+      color: white;
+      text-shadow: 1px 1px 9px rgba(150, 150, 150, 0.45);
+
+    }
+
 
     @mixin atSmaller {
       font-size: 2rem;
@@ -144,6 +274,8 @@
     padding-top: 45px;
     background-color: $lightBlue;
     z-index: 1;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   &__act-now-title {
     margin: 0;
@@ -160,22 +292,41 @@
     color: white;
     text-align: center;
     font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
 
   &__counter-title{
     width: 100%;
 
-     h4 {
+
+    h4 {
        display: block;
        text-align: center;
-       color: white;
+       color: #121b60;
        font-size: 16px;;
        text-transform: uppercase;
        line-height: 140%;
        margin: 14px 0;
+       padding: 0 10px;
+       text-shadow: none;
+
+       @mixin atMedium {
+         color: white;
+         text-shadow: 1px 1px 9px rgba(150, 150, 150, 0.45);
+       }
      }
 
+    &--blue {
+      h4 {
+        color: #121b60;
+        @mixin atMedium {
+          color: #121b60;
+        }
+      }
+
+    }
 
   }
   &__counter{
@@ -191,10 +342,119 @@
       text-transform: uppercase;
       line-height: 140%;
       margin: 0;
+      padding: 0 10px;
     }
 
   }
 
 }
 
+
+:lang(es) .large-hero__act-now-title {
+  font-size: 26px;
+}
+
+:lang(es) .large-hero__act-now-sub-title {
+  font-size: 16px;
+}
+
+
+:lang(ar) .large-hero__act-now-title {
+ padding-bottom: 10px;
+}
+
+:lang(ar) .large-hero__act-now-sub-title {
+ line-height: 150%;
+}
+
+:lang(ar) .large-hero__h1 {
+  line-height: 120%;
+}
+
+
+:lang(de) .large-hero__act-now-title {
+  font-size: 26px;
+
+}
+
+:lang(de) .large-hero__h1 {
+  font-size: 65px;
+
+}
+
+:lang(de) .large-hero__h2 {
+  font-size: 27px;
+
+}
+
+
+
+:lang(fr) .large-hero__h1 {
+  font-size: 28px;
+
+  @mixin atSmaller {
+    font-size: 38px;
+  }
+
+  @mixin atMedium {
+    font-size: 58px;
+  }
+
+}
+
+:lang(fr) .large-hero__h2 {
+  font-size: 18px;
+
+
+  @mixin atSmaller {
+    font-size: 28px;
+  }
+
+  @mixin atMedium {
+    font-size: 38px;
+  }
+
+}
+
+:lang(fr) .large-hero__p {
+  font-size: 15px;
+
+  @mixin atSmaller {
+    font-size: 18px;
+  }
+
+  @mixin atMedium {
+    font-size: 25px;
+  }
+
+}
+
+
+
+:lang(fr) .large-hero__p--white {
+  text-shadow: 1px 1px 9px hsl(0, 0%, 50%);
+}
+
+:lang(fr) .large-hero__h2--white {
+    padding-bottom: 10px;
+}
+
+
+:lang(tr) .large-hero__p {
+  font-size: 16px;
+  border-bottom: none;
+
+  @mixin atSmaller {
+    font-size: 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.65);
+
+  }
+
+  @mixin atMedium {
+    font-size: 25px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.65);
+
+  }
+
+}
 

@@ -1,0 +1,245 @@
+{
+  "html": {
+    "lang" : "en",
+    "meta-description": "BEAT THE CLOCK AND BOOK YOUR PLACE BY SEPTEMBER 30th, 2017",
+    "title": "Thinking of learning English next year?",
+    "tealium-tag" : "kie-english"
+  },
+
+  "facebook": {
+    "title": "Thinking of learning English next year?",
+    "description" : "BEAT THE CLOCK AND BOOK YOUR PLACE BY SEPTEMBER 30th, 2017",
+    "url" : "https://study.kaplaninternational.com/en/036_plan-for-2018-and-save/",
+    "image" : "http://study.kaplaninternational.com/_assets/036_plan-for-2018-and-save/images/facebook.jpg"
+  },
+
+  "menu": {
+    "tel" : "1-888-744-3046",
+    "tel-link" : "18887443046",
+    "contact" : "CONTACT US"
+  },
+
+  "hero" : {
+    "copy1" : "Thinking of learning English next year?",
+    "copy2" : "Kaplan’s prices are going up…",
+    "copy3" : "ACT NOW TO SAVE!",
+    "copy4" : "Don’t pay more. Book by September 30th, 2017",
+    "copy5" : "OUR NEW PRICELIST IS COMING SOON",
+    "copy6" : "BEAT THE CLOCK AND BOOK YOUR PLACE BY 30 SEPTEMBER 2017",
+    "copy7" : "ACT NOW",
+    "copy8" : "TO GUARANTEE 2017 PRICES!"
+  },
+
+  "take-advantages" : {
+
+    "copy1" : "Experience Kaplan’s world-class English course for less",
+    "copy2" : "Learn English",
+    "copy3" : "Reach your academic goals",
+    "copy4" : "Make new friends",
+    "copy5" : "Improve your career prospects",
+    "copy6" : "Contact us today to learn more about our fascinating courses. Our experienced advisors will help you choose the program that best suits your needs.",
+    "copy7" : "<strong> But you have to hurry! Our new pricelist launches on October 1st. Don't miss your chance to save: secure your spot today!",
+    "formID" : "297143",
+
+    "example-courses" : {
+      "copy1" : "Example courses:",
+      "copy2" : "Based on 4 weeks of study",
+      "copy3" : "COURSE PACKAGE",
+      "copy4" : "SAVE",
+      "copy5" : "PRICE",
+      "copy6" : "TODAY",
+      "copy7" : "2018",
+      "copy8" : "* For illustration purposes only, additional fees and surcharges may apply to 2018 prices.",
+
+
+      "city1": {
+        "copy1" : "SAN FRANCISCO",
+        "copy2" : "Business English + homestay accommodation",
+        "copy3" : "$620",
+        "copy4" : "$2920",
+        "copy5" : "$3540"
+      },
+
+      "city2": {
+        "copy1" : "CHICAGO",
+        "copy2" : "General English + residence accommodation",
+        "copy3" : "$520",
+        "copy4" : "$2920",
+        "copy5" : "$3440"
+      },
+
+      "city3": {
+        "copy1" : "NEW YORK EMPIRE STATE",
+        "copy2" : "Intensive English + homestay accommodation",
+        "copy3" : "$580",
+        "copy4" : "$3280",
+        "copy5" : "$3860"
+      }
+
+    }
+  },
+
+  "why-choose-kaplan" : {
+    "copy1" : "Why choose Kaplan?",
+    "copy2" : "<strong>97%</strong> of our students would recommend Kaplan International English to their friends",
+    "copy3" : "Unforgettable immersive language adventures.",
+    "copy4" : "The right course for you – whatever your goals.",
+    "copy5" : "A great way to prepare for higher education"
+  },
+
+  "courses" : {
+    "copy1" : "WE HAVE THE PERFECT COURSE FOR YOU",
+    "copy2" : "Why not choose to study English for a couple of weeks during the summer or for an entire semester? <br> We have a course suitable to match your personal and professional goals  <br> Transfer to Kaplan hassle-free. Talk to an educational advisor to start the process",
+
+    "course1" : {
+      "copy1" : "ENGLISH PROGRAMS FOR TEENS",
+      "copy2" : "We welcome students aged 12+ to study English in a friendly, safe, and fun environment. With a busy program of exciting activities, students will make friends quickly while learning and exploring outside of class."
+    },
+
+    "course2" : {
+      "copy1" : "FLEXIBLE ENGLISH",
+      "copy2" : "This course is ideal if you want to improve your general English skills around existing education, travels, or work life. Customize your course to suit your language goals and budget."
+    },
+
+    "course3" : {
+      "copy1" : "LONG TERM STUDY",
+      "copy2" : "Improve your English faster by immersing yourself fully in another culture. Take a Semester or Academic Year course, available in either General or Intensive English."
+    },
+
+    "course4" : {
+      "copy1" : "VACATION ENGLISH",
+      "copy2" : "Designed to improve your English language skills and give you more professional and academic options in the future. As well as taking lessons, you will have plenty of time to explore the city and for social activities."
+    },
+
+    "course5" : {
+      "copy1" : "BUSINESS ENGLISH",
+      "copy2" : "Business skills will put you ahead of the competition. This course is ideal for professionals who need to use English in the workplace."
+    },
+
+    "course6" : {
+      "copy1" : "EXAM PREP",
+      "copy2" : "Focus on exam-taking skills and benefit from tips to maximize your test scores. We'll help prepare you for your IELTS, TOEFL®, Cambridge, GMAT®, and GRE® exams."
+    },
+
+    "course7" : {
+      "copy1" : "",
+      "copy2" : ""
+    },
+
+    "course8" : {
+      "copy1" : "",
+      "copy2" : ""
+    },
+
+    "copy4" : "Contact an advisor"
+
+  },
+
+  "why-kaplan" : {
+    "copy1" : "WITH KAPLAN, YOU’LL GO FURTHER!",
+    "copy2" : "Recognized as the best <br> English learning experience <br> and value for your money",
+    "copy3" : "Make new international <br> contacts and life <br> long friends ",
+    "copy4" : "Improve your confidence <br> to speak, write and <br> read in English",
+    "copy5" : "Build stronger, <br> more varied CV or <br> résumé",
+    "copy6" : " Proven to boost your <br> career potential <br> to earn more"
+  },
+
+  "contact-advisor" : {
+    "copy1" : "Speak with an advisor today and discover more about studying English with us",
+    "copy2" : "SECURE THE OFFER"
+  },
+
+  "testimonials" : {
+    "copy1" : "WHAT OUR STUDENTS SAY",
+
+    "testimonial1" : {
+      "copy1" : "Kaplan International English school is known as one of the best English language schools in the UK. I personally know a lot of people who studied at Kaplan and their opinions of the school were excellent. I took their advice and I have truly enjoyed a very successful experience.",
+      "copy2" : "Zyiad Ali Alosayfir, Saudi Arabia"
+    },
+
+    "testimonial2" : {
+      "copy1" : "My English has definitely improved. My aim is to become proficient and perfectly fluent. After Kaplan I will finish my university studies.",
+      "copy2" : "Julia Jarowicz, Poland"
+    },
+
+
+    "testimonial3" : {
+      "copy1" : "My fear of speaking English has disappeared. Before Kaplan I was too nervous to try and speak it. I’ve been lucky enough to make good friends from all over the world and I am excited to be able to visit them in their countries.",
+      "copy2" : "Hyoju Nam, South Korea"
+    },
+
+    "testimonial4" : {
+      "copy1" : "Learning English is the most important part of my Kaplan Experience. The lessons are well designed and new media is used in the classroom. These conditions make learning a new language lots of fun.",
+      "copy2" : "Maris Oksche, Germany"
+    },
+
+    "testimonial5" : {
+      "copy1" : "My English has improved after living within the local culture and being immersed in an environment where English is needed all the time. It’s made me more confident.",
+      "copy2" : "Bruna Schelb Correa, Brazil"
+    }
+
+
+
+  },
+
+  "footer" : {
+    "copy1" : "About Kaplan",
+    "copy2" : "With 45+ accredited schools for adults and young learners across 8 English-speaking countries, Kaplan International English offers world-class English language education and the experience of a lifetime. ",
+    "copy3" : "We offer a range of courses for students aged 12 and up, and have done so for more than 40 years. Last year, more than 70,000 students traveled and studied with us, and 9 of 10 would recommend us to friends and family.",
+    "copy4" : "Learn more ",
+
+    "links" :  {
+      "copy0" : "Links",
+
+      "copy1": "Careers",
+      "copy2": "//careers.kaplaninternational.com/jobs/",
+
+      "copy3": "Contact Details",
+      "copy4": "//kaplaninternational.com/contact-us-corporate-enquiries-and-call-us",
+
+      "copy5": "English Test",
+      "copy6": "//kaplaninternational.com/free-english-test",
+
+      "copy7": "Terms & Conditions",
+      "copy8": "//kaplaninternational.com/privacy",
+
+      "copy9": "Cookie Policy",
+      "copy10": "//kaplaninternational.com/privacy#s5",
+
+      "copy11": "Sitemap",
+      "copy12" : "//kaplaninternational.com/"
+    },
+
+    "follow-us": {
+      "copy1" : "Follow us",
+
+      "copy2" : "Facebook",
+      "copy3" : "//facebook.com/KIEGlobal",
+
+      "copy4" : "Twitter",
+      "copy5" : "//twitter.com/kaplanintl",
+
+      "copy6" : "Instagram",
+      "copy7" : "//instagram.com/kaplaninternational",
+
+      "copy8" : "Kaplan Blog",
+      "copy9" : "//kaplaninternational.com/blog/"
+
+    },
+
+    "accreditation" : {
+      "copy1" : "Worldwide accreditations",
+      "copy2" : "USA",
+      "copy3" : "UK",
+      "copy4" : "Australia",
+      "copy5" : "Canada",
+      "copy6" : "New Zealand",
+      "copy7" : "Ireland"
+
+    }
+
+  }
+
+}
+
+

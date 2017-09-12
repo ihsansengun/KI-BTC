@@ -3,16 +3,35 @@
   width: 100%;
 
   &__left-block {
+    position: relative;
+
     lost-column: 1/1;
-    border-bottom: 3px solid $pink;
     padding-bottom: 10px;
     margin-bottom: 10px;
 
     @mixin atSmall {
       lost-column: 2/6;
-      border-right: 3px solid $pink;
-      padding-right: 10px;
       border-bottom: none;
+
+    }
+
+    &::after {
+      position: absolute;
+      content: " ";
+      height: 100%;
+      right: -0;
+      top:0;
+      width: 100%;
+      border-bottom: 3px solid $pink;
+
+
+      @mixin atSmall {
+        width: 3px;
+        right: -15px;
+        border-right: 3px solid $pink;
+
+
+      }
 
     }
   }
@@ -41,18 +60,17 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    columns: 2;
+    //columns: 2;
+
 
     @mixin atSmall {
-      columns:1
+      //columns:1
     }
-
 
   }
   li {
     line-height: 180%;
     text-align: left;
-
     font-size: 14px;
 
     @mixin atSmall {
@@ -61,16 +79,29 @@
     }
   }
 
-  li i::before {
-    font-family: FontAwesome;
-    content: "\f00c";
-    padding-right: 5px;
-    color: $pink;
+  li .icon {
+    display: inline-block;
   }
-
 
 }
 
+
+:lang(fr) .advantage-list-block__left-block {
+width: 100%;
+
+  @mixin atMedium {
+    width: 42%;
+
+  }
+}
+
+:lang(fr) .advantage-list-block__right-block {
+  width: 100%;
+  @mixin atMedium {
+    width: 48%;
+
+  }
+}
 
 
 

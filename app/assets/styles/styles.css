@@ -1,3 +1,4 @@
+@import "base/_arabic-font.css";
 @import "normalize.css";
 @import "base/_variables.pcss";
 @import "base/_mixins.pcss";
@@ -10,7 +11,6 @@
 @import "modules/_left-wrapper.pcss";
 @import "modules/_right-wrapper.pcss";
 @import "modules/_page-section.pcss";
-@import "modules/_form.pcss";
 @import "modules/_section-title.pcss";
 @import "modules/_advantages.pcss";
 @import "modules/_advantage-list-block.pcss";
@@ -32,3 +32,7 @@
 @import "base/_primary-nav.pcss";
 @import "modules/_reveal-item.pcss";
 @import "modules/_countdown.pcss";
+@import "modules/_form.pcss";
+
+
+

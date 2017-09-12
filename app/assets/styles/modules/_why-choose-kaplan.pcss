@@ -7,19 +7,19 @@
   overflow: hidden;
 
   &.lazyloaded {
-    background: url('../../assets/images/why-kaplan-bg.jpg') bottom center no-repeat;
+    background: url('../../assets/images/why-kaplan-bg.jpg') top center no-repeat/*rtl:url("../../assets/images/why-kaplan-bg-ar.jpg") top center no-repeat*/;
     background-size: cover;
   }
 
+
   @mixin atMedium {
     min-height: 350px;
-
   }
 
   @mixin atRetina {
 
     &.lazyloaded {
-      background: url("../../assets/images/why-kaplan-bg@2x.jpg") top center no-repeat;
+      background: url("../../assets/images/why-kaplan-bg@2x.jpg") top center no-repeat/*rtl:url("../../assets/images/why-kaplan-bg-ar@2x.jpg") top center no-repeat*/;
       background-size: cover;
     }
 
@@ -94,6 +94,12 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    display: none;
+
+    @mixin atSmall {
+      display: block;
+
+    }
 
     li {
       font-size: 14px;

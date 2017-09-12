@@ -9921,16 +9921,14 @@ var _HideFormElement2 = _interopRequireDefault(_HideFormElement);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var hideFormElement = new _HideFormElement2.default();
 var mobileMenu = new _MobileMenu2.default();
 var jqueryCycle = new _JqueryCycle2.default($('#testimonial'));
 var courseBox = new _CourseBox2.default();
-var hideFormElement = new _HideFormElement2.default();
-
 var timer = new _Countdown2.default();
 
 new _RevealOnScroll2.default($('.colored-icon-list__item'), '65%');
 new _RevealOnScroll2.default($('.circle-percent'), '85%');
-
 new _SmoothScroll2.default();
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
@@ -9956,6 +9954,7 @@ var MobileMenu = function () {
         this.header = $('.header');
         this.menuIcon = $('.header__menu-icon');
         this.menuContent = $('.header__menu-content');
+        this.body = $('body');
         this.events();
     }
 
@@ -9963,6 +9962,8 @@ var MobileMenu = function () {
         key: 'events',
         value: function events() {
             this.menuIcon.click(this.toggleMenu.bind(this));
+            this.body.click(this.hideMenu.bind(this));
+            this.menuContent.click(this.toggleMenu.bind(this));
         }
     }, {
         key: 'toggleMenu',
@@ -9970,6 +9971,15 @@ var MobileMenu = function () {
             this.menuContent.toggleClass('header__menu-content--is-visible');
             this.header.toggleClass('header--is-expanded');
             this.menuIcon.toggleClass('header__menu-icon--close-x');
+        }
+    }, {
+        key: 'hideMenu',
+        value: function hideMenu(e) {
+            if (!this.header.is(e.target) && this.header.has(e.target).length === 0) {
+                this.menuContent.removeClass('header__menu-content--is-visible');
+                this.header.removeClass('header--is-expanded');
+                this.menuIcon.removeClass('header__menu-icon--close-x');
+            }
         }
     }]);
 
@@ -10843,7 +10853,9 @@ var smoothScroll = function () {
     _createClass(smoothScroll, [{
         key: 'addSmoothScroll',
         value: function addSmoothScroll() {
-            this.headerLinks.smoothScroll();
+            this.headerLinks.smoothScroll({
+                offset: -70
+            });
         }
     }]);
 
@@ -12795,26 +12807,94 @@ var timer = function () {
 
         this.el = $('#timer');
         this.htmlLang = document.getElementsByTagName("html")[0].getAttribute("lang");
-        // console.log(this.htmlLang)
 
+        this._month = 9;
+        this._day = 30;
 
-        if (this.htmlLang == 'en') {
-            this.year = 2017;
-            this.month = 9;
-            this.day = 30;
-            this.hour = 23;
-            this.minute = 59;
-            this.lang = 'eng';
-            this.addTimer();
-        } else if (this.htmlLang == 'fr') {
+        // if you need to extend the time add a new case
+        switch (this.htmlLang) {
+            case 'th':
+                this.year = 2017;
+                this.month = this._month;
+                this.day = this._day;
+                this.hour = 23;
+                this.minute = 59;
+                this.lang = 'en';
+                this.addTimer();
 
-            this.year = 2017;
-            this.month = 9;
-            this.day = 30;
-            this.hour = 23;
-            this.minute = 59;
-            this.lang = 'fr';
-            this.addTimer();
+                break;
+
+            case 'es-VE':
+
+                this.year = 2017;
+                this.month = this._month;
+                this.day = this._day;
+                this.hour = 23;
+                this.minute = 59;
+                this.lang = 'es';
+                this.addTimer();
+
+                break;
+
+            case 'es-CO':
+
+                this.year = 2017;
+                this.month = this._month;
+                this.day = this._day;
+                this.hour = 23;
+                this.minute = 59;
+                this.lang = 'es';
+                this.addTimer();
+
+                break;
+
+            case 'es-MX':
+
+                this.year = 2017;
+                this.month = this._month;
+                this.day = this._day;
+                this.hour = 23;
+                this.minute = 59;
+                this.lang = 'es';
+                this.addTimer();
+
+                break;
+
+            // counter for latam- it's using es-AR to avoid (spanish) lang conflict
+            case 'es-AR':
+                this._month = 9;
+                this._day = 15;
+
+                this.year = 2017;
+                this.month = this._month;
+                this.day = this._day;
+                this.hour = 23;
+                this.minute = 59;
+                this.lang = 'es';
+                this.addTimer();
+
+                break;
+
+            case 'pt-BR':
+
+                this.year = 2017;
+                this.month = this._month;
+                this.day = this._day;
+                this.hour = 23;
+                this.minute = 59;
+                this.lang = 'br';
+                this.addTimer();
+
+                break;
+
+            default:
+                this.year = 2017;
+                this.month = this._month;
+                this.day = this._day;
+                this.hour = 23;
+                this.minute = 59;
+                this.lang = this.htmlLang;
+                this.addTimer();
         }
     }
 
@@ -12859,63 +12939,78 @@ exports.default = timer;
         minute_ms = 60,
         lang = {
         rus: {
-            second: ['ÑÐµÐºÑƒÐ½Ð´Ð°', 'ÑÐµÐºÑƒÐ½Ð´Ñ‹', 'ÑÐµÐºÑƒÐ½Ð´'],
-            minute: ['Ð¼Ð¸Ð½ÑƒÑ‚Ð°', 'Ð¼Ð¸Ð½ÑƒÑ‚Ñ‹', 'Ð¼Ð¸Ð½ÑƒÑ‚'],
-            hour: ['Ñ‡Ð°Ñ', 'Ñ‡Ð°ÑÐ°', 'Ñ‡Ð°ÑÐ¾Ð²'],
-            day: ['Ð´ÐµÐ½ÑŒ', 'Ð´Ð½Ñ', 'Ð´Ð½ÐµÐ¹']
+            second: ['секунда', 'секунды', 'секунд'],
+            minute: ['минута', 'минуты', 'минут'],
+            hour: ['час', 'часа', 'часов'],
+            day: ['день', 'дня', 'дней']
         },
-        eng: {
+
+        ru: {
+            second: ['second', 'секунды'],
+            minute: ['minute', 'минуты'],
+            hour: ['hour', 'ЧАСЫ'],
+            day: ['day', 'ДНИ']
+        },
+        en: {
             second: ['second', 'seconds'],
             minute: ['minute', 'minutes'],
             hour: ['hour', 'hours'],
             day: ['day', 'days']
         },
+
+        kr: {
+            second: ['second', '둘째'],
+            minute: ['minute', '분'],
+            hour: ['hour', '시간'],
+            day: ['day', '일']
+        },
+
         it: {
             second: ['second', 'SECONDI'],
             minute: ['minute', 'MINUTI'],
             hour: ['hour', 'ORE'],
             day: ['day', 'GIORNI']
         },
-        tur: {
+        tr: {
             second: ['second', 'saniye'],
             minute: ['minute', 'dakika'],
             hour: ['hour', 'saat'],
-            day: ['day', 'gÃ¼n']
+            day: ['day', 'gün']
         },
 
         ar: {
-            second: ['second', 'Ø§Ù„Ø«ÙˆØ§Ù†ÙŠ'],
-            minute: ['minute', 'Ø§Ù„Ø¯Ù‚Ø§Ø¦Ù‚'],
-            hour: ['hour', 'Ø§Ù„Ø³Ø§Ø¹Ø§Øª'],
-            day: ['day', 'Ø§Ù„Ø£ÙŠØ§Ù…']
+            second: ['second', 'ثانيا'],
+            minute: ['minute', 'اللحظة'],
+            hour: ['hour', 'ساعة'],
+            day: ['day', 'يوم']
         },
 
-        rola: {
+        es: {
             second: ['second', 'SEGUNDOS'],
             minute: ['minute', 'MINUTOS'],
             hour: ['hour', 'HORAS'],
-            day: ['day', 'DÃ­AS']
+            day: ['day', 'DÍA']
         },
 
         cn: {
-            second: ['second', 'ç§’'],
-            minute: ['minute', 'åˆ†é’Ÿ'],
-            hour: ['hour', 'å°æ—¶'],
-            day: ['day', 'å¤©']
+            second: ['second', '秒'],
+            minute: ['minute', '分钟'],
+            hour: ['hour', '小时'],
+            day: ['day', '天']
         },
 
         tw: {
-            second: ['second', 'ç§’'],
-            minute: ['minute', 'åˆ†é˜'],
-            hour: ['hour', 'å°æ™‚'],
-            day: ['day', 'å¤©']
+            second: ['second', '秒'],
+            minute: ['minute', '分鐘'],
+            hour: ['hour', '小時'],
+            day: ['day', '天']
         },
 
-        jp: {
-            second: ['second', 'ç§’'],
-            minute: ['minute', 'åˆ†'],
-            hour: ['hour', 'æ™‚é–“'],
-            day: ['day', 'æ—¥']
+        ja: {
+            second: ['second', '秒'],
+            minute: ['minute', '分'],
+            hour: ['hour', '時間'],
+            day: ['day', '日']
         },
 
         de: {
@@ -12956,7 +13051,7 @@ exports.default = timer;
             dayVisible: true, // Ð¿Ð¾ÐºÐ°Ð·Ñ‹Ð²Ð°Ñ‚ÑŒ Ð»Ð¸ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð´Ð½ÐµÐ¹, ÐµÑÐ»Ð¸ Ð½ÐµÑ‚, Ñ‚Ð¾ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ñ‡Ð°ÑÐ¾Ð² Ð¼Ð¾Ð¶ÐµÑ‚ Ð¿Ñ€ÐµÐ²Ñ‹ÑˆÐ°Ñ‚ÑŒ 23
             dubleNumbers: true, // Ð¿Ð¾ÐºÐ°Ð·Ñ‹Ð²Ð°Ñ‚ÑŒ Ñ‡Ð°ÑÑ‹, Ð¼Ð¸Ð½ÑƒÑ‚Ñ‹ Ð¸ ÑÐµÐºÑƒÐ½Ð´Ñ‹ Ñ Ð²ÐµÐ´ÑƒÑ‰Ð¸Ð¼Ð¸ Ð½Ð¾Ð»ÑÐ¼Ð¸ ( 2Ñ‡Ð°ÑÐ° 5Ð¼Ð¸Ð½ÑƒÑ‚ 4ÑÐµÐºÑƒÐ½Ð´Ñ‹ = 02:05:04)
             effectType: 'none', // ÑÑ„Ñ„ÐµÐºÑ‚ Ð¾Ñ‚ÑÑ‡ÐµÑ‚Ð° Ñ‚Ð°Ð¹Ð¼ÐµÑ€Ð°: 'none' - Ð½ÐµÑ‚ ÑÑ„Ñ„ÐµÐºÑ‚Ð°, 'opacity' - Ð²Ñ‹Ñ†Ð²ÐµÑ‚Ð°Ð½Ð¸Ðµ
-            lang: 'eng',
+            lang: 'en',
 
             headTitle: '', // Ñ‚ÐµÐºÑÑ‚ Ð½Ð°Ð´ Ñ‚Ð°Ð¹Ð¼ÐµÑ€Ð¾Ð¼ (Ð¼Ð¾Ð¶Ð½Ð¾ Ð² HTML Ñ„Ð¾Ñ€Ð¼Ð°Ñ‚Ðµ)
             footTitle: '', // Ñ‚ÐµÐºÑÑ‚ Ð¿Ð¾Ð´ Ñ‚Ð°Ð¹Ð¼ÐµÑ€Ð¾Ð¼ (Ð¼Ð¾Ð¶Ð½Ð¾ Ð² HTML Ñ„Ð¾Ñ€Ð¼Ð°Ñ‚Ðµ)
@@ -13110,20 +13205,27 @@ exports.default = timer;
             case 'rus':
                 cases = [2, 0, 1, 1, 1, 2];
                 return titles[number % 100 > 4 && number % 100 < 20 ? 2 : cases[number % 10 < 5 ? number % 10 : 5]];
-            case 'eng':
+            case 'en':
                 return titles[number == 1 ? 0 : 1];
-            case 'tur':
+
+            case 'ru':
+                return titles[number == 1 ? 0 : 1];
+
+            case 'kr':
+                return titles[number == 1 ? 0 : 1];
+
+            case 'tr':
                 return titles[number == 1 ? 0 : 1];
 
             case 'ar':
                 return titles[number == 1 ? 0 : 1];
-            case 'rola':
+            case 'es':
                 return titles[number == 1 ? 0 : 1];
             case 'cn':
                 return titles[number == 1 ? 0 : 1];
             case 'tw':
                 return titles[number == 1 ? 0 : 1];
-            case 'jp':
+            case 'ja':
                 return titles[number == 1 ? 0 : 1];
             case 'it':
                 return titles[number == 1 ? 0 : 1];
@@ -13164,11 +13266,11 @@ var CourseBox = function () {
     _createClass(CourseBox, [{
         key: 'init',
         value: function init() {
-
             var allTheContents = $(".course-box__description");
 
             this.btn.click(function () {
                 var contentId = $(this).attr('data-url'),
+                    thisTitle = $(this).find('.course-box__title div'),
                     content = $(contentId);
                 $(this).after($(content));
                 allTheContents.not(content).slideUp();
@@ -13176,6 +13278,8 @@ var CourseBox = function () {
 
                 $(this).toggleClass('down-arrow');
                 $('.course-box ul li').not(this).removeClass('down-arrow');
+                $(this).find('.course-box__title div').addClass('active');
+                $('.course-box__title div').not(thisTitle).removeClass('active');
             });
         }
     }]);
@@ -13206,6 +13310,7 @@ var HideFormElement = function () {
         _classCallCheck(this, HideFormElement);
 
         this.form = $('.form');
+        // this.kalendae = $('.kalendae');
         this.body = $('body');
         this.allInputs = $(".form select");
         this.hideInitially();
@@ -13215,7 +13320,7 @@ var HideFormElement = function () {
     _createClass(HideFormElement, [{
         key: 'events',
         value: function events() {
-            this.body.click(this.toggleForm.bind(this));
+            this.form.click(this.toggleForm.bind(this));
         }
     }, {
         key: 'hideInitially',
@@ -13225,12 +13330,16 @@ var HideFormElement = function () {
     }, {
         key: 'toggleForm',
         value: function toggleForm(e) {
+            this.allInputs.parent().parent().slideDown();
 
-            if (!this.form.is(e.target) && this.form.has(e.target).length === 0) {
-                this.allInputs.parent().parent().hide();
-            } else {
-                this.allInputs.parent().parent().show();
+            /*if (!this.form.is(e.target)
+                && this.form.has(e.target).length === 0) {
+                this.allInputs.parent().parent().slideUp()
+                alert(e.target.className)
             }
+            else {
+                this.allInputs.parent().parent().slideDown()
+            }*/
         }
     }]);
 

@@ -1,0 +1,245 @@
+{
+  "html": {
+    "lang" : "cn",
+    "meta-description": "BEAT THE CLOCK AND BOOK YOUR PLACE BY 30 SEPTEMBER 2017",
+    "title": "您有明年出国游学的计划吗？",
+    "tealium-tag" : "kie-chinese"
+  },
+
+  "facebook": {
+    "title": "您有明年出国游学的计划吗？",
+    "description" : "2017年9月30日前报名马上锁定低价",
+    "url" : "https://study.kaplaninternational.com/en/036_plan-for-2018-and-save/",
+    "image" : "http://study.kaplaninternational.com/_assets/036_plan-for-2018-and-save/images/facebook.jpg"
+  },
+
+  "menu": {
+    "tel" : "+44 (0)20 7045 5000",
+    "tel-link" : "4402070455000",
+    "contact" : "联系官方代理"
+  },
+
+  "hero" : {
+    "copy1" : "您有明年出国游学的计划吗？",
+    "copy2" : "Kaplan国际英语游学的价格即将上调…",
+    "copy3" : "马上行动锁定优惠",
+    "copy4" : "享受2017年的低价",
+    "copy5" : "我们课程的新报价即将到来",
+    "copy6" : "2017年9月30日前预定您的课程还可锁定优惠价格",
+    "copy7" : "马上行动",
+    "copy8" : "享受2017年的低价"
+  },
+
+  "take-advantages" : {
+
+    "copy1" : "省钱游学更精彩",
+    "copy2" : "学习地道英语",
+    "copy3" : "周游全世界",
+    "copy4" : "提高职场竞争力",
+    "copy5" : "结识新的朋友",
+    "copy6" : "从10月1日起我们即将使用新的价格。在此之前预定的课程，不但享受调价前的价格，还可免申请费！最短课程时间为2周，全年可以入学，每周一开课，适合各种英语水平的学生和在职人士。",
+    "copy7" : "<strong> 立即行动！ </strong> ! 获取官方专业代理的详细咨询，帮助您选择最适合的课程和学校。明日成功从今日开始。",
+    "formID" : "385074",
+
+    "example-courses" : {
+      "copy1" : "报价举例:",
+      "copy2" : "以四周价格为例",
+      "copy3" : "课程打包价",
+      "copy4" : "节省",
+      "copy5" : "价格",
+      "copy6" : "现在",
+      "copy7" : "2018",
+      "copy8" : "* 还有其他申请费用如夏日津贴等另计*免申请费活动与2017年9月30日截止",
+
+
+      "city1": {
+          "copy1" : "英国伦敦",
+          "copy2" : "假期英語+寄宿家庭+申请费",
+          "copy3" : "280英镑",
+          "copy4" : "1700英镑",
+          "copy5" : "1980英镑"
+        },
+
+      "city2": {
+        "copy1" : "澳大利亚悉尼",
+        "copy2" : "假期英語+寄宿家庭+申请费",
+        "copy3" : "420澳币",
+        "copy4" : "2660澳币",
+        "copy5" : "3080澳币"
+      },
+
+      "city3": {
+        "copy1" : "美国纽约帝国大厦",
+        "copy2" : "假期英語+寄宿家庭+申请费",
+        "copy3" : "325美元",
+        "copy4" : "2660美元",
+        "copy5" : "2985美元"
+      }
+
+    }
+  },
+
+  "why-choose-kaplan" : {
+    "copy1" : "选择KAPLAN您能走更远",
+    "copy2" : "<strong>97%</strong> 的学生推荐KAPLAN国际英语给自己的亲朋好友",
+    "copy3" : "获得难忘的沉浸式英语游学机会",
+    "copy4" : "根据您的目标提供最适合您的课程",
+    "copy5" : "帮助您更好的升入理想高校"
+  },
+
+  "courses" : {
+    "copy1" : "我们为您提供量身定制的课程",
+    "copy2" : "您可以从以下热门课程中进行选择，既有两周以上的英语课程，又有半年至一年的长期课程。 <br> 总有一种课程适合您的需求并助您达成目标",
+
+    "course1" : {
+      "copy1" : "假期英语",
+      "copy2" : "不仅能满足学习的愿望，也能在学习之余享受充分的旅游时间，体验异国文化。 每週上五天课，每天四个小时。课业负担相对轻松。"
+    },
+
+    "course2" : {
+      "copy1" : "常用英语",
+      "copy2" : "常用英语课程集中在语言的四个主要方面：阅读，写作，听力和口语。 这些课程的设置强度适中，有助于学生迅速而有效地学习。"
+    },
+
+    "course3" : {
+      "copy1" : "强化英语",
+      "copy2" : "课程设置更为紧张，更专注与迅速提高学生的英语技能。 在很短的时间内提高口语水平。个性化的课程设置同时也可以保证每位学生都能收获到自己所需要的语言技巧。"
+    },
+
+    "course4" : {
+      "copy1" : "商务英语",
+      "copy2" : "掌握在商业背景下有效实际的实用英语技能，既适合已经工作的职场人士利用假期进行充电。 为职场晋升增加砝码，又适合即将步入职场的学生群体，希望增加简历的含金量。"
+    },
+
+    "course5" : {
+      "copy1" : "考试英语",
+      "copy2" : "帮助您在国际认可的雅思，托福，GMAT或GRE等考试中取得所需的分数。 所有的语言学校中有专门人员负责为学生提供大学申请指导服务，帮助学生进入理想的大学。"
+    },
+
+    "course6" : {
+      "copy1" : "长期英语",
+      "copy2" : "学生可以从初级进阶到流利等级，全面提高英语水平，顺利达到升入国外大学的标准。 深入融入英语国家的当地生活，感受不同国家的风土人情，提高自己的国际视野。"
+    },
+
+    "course7" : {
+      "copy1" : "",
+      "copy2" : ""
+    },
+
+    "course8" : {
+      "copy1" : "",
+      "copy2" : ""
+    },
+
+    "copy4" : "联系官方代理"
+
+  },
+
+  "why-kaplan" : {
+    "copy1" : "为什么选择Kaplan？",
+    "copy2" : "获得行业认证的<br>顶级海外学习体验<br>物超所值",
+    "copy3" : "结识全球的人脉<br>获一生的朋友<br>充满友爱",
+    "copy4" : "提升个人自信<br>听说读写<br>全方面掌控",
+    "copy5" : "简历含金量高,<br>从商业竞争中<br>脱颖而出",
+    "copy6" : "助力职场发展<br>收获全球视野<br>赢得个人成功"
+  },
+
+  "contact-advisor" : {
+    "copy1" : "规划出国学习的行程是一个繁琐复杂的过程，但我们致力于提供完善的服务。",
+    "copy2" : "立即锁定低价"
+  },
+
+  "testimonials" : {
+    "copy1" : "学生评价",
+
+    "testimonial1" : {
+      "copy1" : "我知道Kaplan国际英语是英国最好的英语学校之一。我自己认识很多在Kaplan学习过的朋友。他们都对这里有非常高的评价。我听取了他们的建议，所以现在也能有这么难忘的体验。",
+      "copy2" : "Zyiad Ali Alosayfir, 沙特阿拉伯"
+    },
+
+    "testimonial2" : {
+      "copy1" : "我的英语水平得到了很大提高，我的目标是能流利得说英文，在Kaplan的课程结束之后，我想进入大学学习。",
+      "copy2" : "Julia Jarowicz,波兰"
+    },
+
+
+    "testimonial3" : {
+      "copy1" : "我原来说英语的那些恐惧都不见了。在来Kaplan之前我每次说英语都很紧张。我觉得自己非常幸运结识了许多新的朋友，来自世界各地的年轻人。我非常希望在毕业后去我朋友们的国家玩儿。",
+      "copy2" : "Hyoju Nam, 韩国"
+    },
+
+    "testimonial4" : {
+      "copy1" : "学习英语是我的Kaplan经历中最重要的部分，这里的课程设计的非常好，老师们充分运用很多新媒体，让我们的学习过程充满许多乐趣。",
+      "copy2" : "Maris Oksche,德国"
+    },
+
+    "testimonial5" : {
+      "copy1" : "自从在地道的英语环境中生活了一段时间，我的英语得到了很大提高。全身心的投入英文环境，完全沉浸在海外文化中，让我变得非常有自信。",
+      "copy2" : "Bruna Schelb Correa, 巴西"
+    }
+
+
+
+  },
+
+  "footer" : {
+    "copy1" : "关于Kaplan国际英语",
+    "copy2" : "Kaplan成立于1938年，是全球顶级的英文培训机构，拥有近80年的教育培训经验。 我们获得全球多家英语权威机构的认证，44所英语语言学校遍布全球。 ",
+    "copy3" : "我们为超过12岁以上的青少年和成年人提供不同类型的英文课程。去年，超过七万名学生从世界各地来到Kaplan学习，超过97%的学生愿意推荐Kaplan给自己的亲友。",
+    "copy4" : "了解更多",
+
+    "links" :  {
+      "copy0" : "链接",
+
+      "copy1": "英文课程",
+      "copy2": "//kaplaninternational.cn/language-study-abroad/",
+
+      "copy3": "下载游学手册",
+      "copy4": "//kaplaninternational.cn/downloadbrochure/index/",
+
+      "copy5": "报名表格",
+      "copy6": "//kaplaninternational.cn/contact/index/",
+
+      "copy7": "条件/条款",
+      "copy8": "//kaplaninternational.cn/terms/index/",
+
+      "copy9": "Cookie Policy",
+      "copy10": "//kaplaninternational.cn/terms/index/",
+
+      "copy11": "KAPLAN官网",
+      "copy12" : "//kaplaninternational.cn"
+    },
+
+    "follow-us": {
+      "copy1" : "关注我们",
+
+      "copy2" : "微博",
+      "copy3" : "//weibo.com/2651029111/profile?topnav=1&wvr=6&is_all=1",
+
+      "copy4" : "优酷",
+      "copy5" : "//i.youku.com/KaplanEnglish",
+
+      "copy6" : "博客",
+      "copy7" : "//kaplaninternational.com/cn/blog/",
+
+      "copy8" : "",
+      "copy9" : ""
+
+    },
+
+    "accreditation" : {
+      "copy1" : "世界各地权威认证",
+      "copy2" : "USA",
+      "copy3" : "UK",
+      "copy4" : "Australia",
+      "copy5" : "Canada",
+      "copy6" : "New Zealand",
+      "copy7" : "Ireland"
+
+    }
+
+  }
+
+}
+
+

@@ -1,0 +1,249 @@
+{
+  "html": {
+    "lang" : "es",
+    "meta-description": "Inscríbete ya y reserva tu curso para 2018 al precio de 2017.",
+    "title": "¿Estás pensando aprender inglés en el extranjero el próximo año?",
+    "tealium-tag" : "kie-english"
+  },
+
+  "facebook": {
+    "title": "¿Estás pensando en aprender inglés en el extranjero el próximo año?",
+    "description" : "Inscríbete ya y reserva tu curso para 2018 a precio del 2017",
+    "url" : "https://study.kaplaninternational.com/ve/011_cursos-2018-precios-2017/",
+    "image" : "http://study.kaplaninternational.com/_assets/036_plan-for-2018-and-save/images/facebook.jpg"
+  },
+
+  "menu": {
+    "tel" : "212 991 9135",
+    "tel-link" : "582129919135",
+    "contact" : "CONTÁCTANOS"
+  },
+
+  "hero" : {
+    "copy1" : "¿Estás pensando en aprender inglés en el extranjero?",
+    "copy2" : "Los precios están por aumentar…",
+    "copy3" : "¡RESERVA HOY Y AHORRA!",
+    "copy4" : "Inscríbete antes del 30 de septiembre y viaja el 2018 al precio 2017.",
+    "copy5" : "NUESTROS PRECIOS AUMENTARÁN PRONTO",
+    "copy6" : "APRESÚRATE Y RESERVA TU CURSO ANTES DEL 30 DE SEPTIEMBRE",
+    "copy7" : "¡RESERVALO HOY!",
+    "copy8" : "A PRECIOS DEL 2017"
+  },
+
+  "take-advantages" : {
+
+    "copy1" : "Reserva tu programa de inglés con Kaplan al mejor precio.",
+    "copy2" : "Aprende inglés",
+    "copy3" : "Conoce el mundo",
+    "copy4" : "Impulsa tu carrera",
+    "copy5" : "Haz nuevos amigos",
+    "copy6" : "Ponte en contacto hoy para conocer todo acerca de nuestros cursos y destinos increíbles. Nuestro equipo de asesores educativos te ayudará a elegir la opción que mejor se adecúe a tus necesidades.",
+    "copy7" : "<strong>¡No lo dejes pasar!</strong> Nuestros nuevos precios aumentaran entre un 10% y 20%. ¡No te pierdas la oportunidad de ahorrar y asegura hoy tu espacio en la ciudad que siempre soñaste!",
+    "formID" : "408036",
+
+    "example-courses" : {
+      "copy1" : "Ejemplo de cursos:",
+      "copy2" : "Reserva antes del 30 de septiembre y asegura los precios con descuento.",
+      "copy3" : "CURSO Y ALOJAMIENTO",
+      "copy4" : "AHORRO",
+      "copy5" : "PRECIO",
+      "copy6" : "HOY",
+      "copy7" : "DESPUÉS",
+      "copy8" : "*Precios de referencia (tarifas adicionales y recargos podrían aplicarse a los precios del 2018).",
+
+
+      "city1": {
+        "copy1" : "ESTADOS UNIDOS",
+        "copy2" : "1 mes de curso + alojamiento en casa de familia",
+        "copy3" : "<span>USD$</span>900 ",
+        "copy4" : "<span>USD$</span>2.100",
+        "copy5" : "<span>USD$</span>3.000"
+      },
+
+      "city2": {
+        "copy1" : "INGLATERRA",
+        "copy2" : "2 meses de curso + alojamiento en casa de familia",
+        "copy3" : "<span> USD$</span>1.400",
+        "copy4" : "<span> USD$</span>3.400",
+        "copy5" : "<span> USD$</span>4.800"
+      },
+
+      "city3": {
+        "copy1" : "CANADÁ",
+        "copy2" : "Semestre académico + alojamiento en casa de familia",
+        "copy3" : "<span> USD$</span>5.600",
+        "copy4" : "<span> USD$</span>7.400",
+        "copy5" : "<span> USD$</span>13.000"
+      }
+
+    }
+  },
+
+  "why-choose-kaplan" : {
+    "copy1" : "¿POR QUÉ ELEGIR KAPLAN?",
+    "copy2" : "<strong>97%</strong> de nuestros estudiantes nos recomiendan a sus amigos y familiares",
+    "copy3" : "Vive una aventura inolvidable en una nueva cultura",
+    "copy4" : "El programa y el destino ideal para ti – cualquiera que sea tu objetivo",
+    "copy5" : "Una excelente forma de prepararte para la educación superior"
+  },
+
+  "courses" : {
+    "copy1" : "TENEMOS EL CURSO PERFECTO PARA TI",
+    "copy2" : "Anímate a estudiar inglés en el extranjero durante dos semanas o un semestre  <br> Te ofrecemos el curso que mejor se adapte a tus metas personales y profesionales.",
+
+
+    "course1" : {
+      "copy1" : "INGLÉS FLEXIBLE",
+      "copy2" : "Este curso es ideal si deseas perfeccionar tus habilidades de inglés en tu vida cotidiana. Personaliza tu curso de manera que se adapte a tus logros personales y presupuesto."
+    },
+
+    "course2" : {
+      "copy1" : "CURSOS DE LARGA DURACIÓN",
+      "copy2" : "Perfecciona tu inglés más rápido sumergiéndote en otra cultura. Escoge entre un semestre o año académico, ambos disponibles en inglés semi-intensivo e intensivo."
+
+    },
+
+    "course3" : {
+      "copy1" : "INGLÉS DE NEGOCIOS",
+      "copy2" : "Tu habilidad de negociar en inglés te pondrá delante de la competencia. Este curso es ideal para profesionales que necesitan comunicarse en inglés en su lugar de trabajo."
+    },
+
+    "course4" : {
+      "copy1" : "TRABAJA Y ESTUDIA",
+      "copy2" : "Adquiere experiencia laboral a medida que mejoras tu inglés. Aprende y practica tus habilidades lingüísticas mientras trabajas media jornada."
+
+    },
+
+    "course5" : {
+      "copy1" : "PREPARACIÓN DE EXÁMENES ",
+      "copy2" : "Enfocado en desarrollar las habilidades y los beneficios para maximizar los resultados de tu examen. Te prepararemos para presentar el TOEFL®, IELTS, Cambridge, GMAT® y GRE®."
+    },
+
+    "course6" : {
+      "copy1" : "CAMPAMENTOS DE VERANO ",
+      "copy2" : "Recibimos a estudiantes a partir de los 12 a 16 años en un ambiente amigable, seguro y divertido. Con un extenso programa de increíbles actividades, los estudiantes harán amigos mientras aprenden y exploran fuera del salón de clases."
+    },
+
+    "course7" : {
+      "copy1" : "",
+      "copy2" : ""
+    },
+
+    "course8" : {
+      "copy1" : "",
+      "copy2" : ""
+    },
+
+
+    "copy4" : "CONTACTA A UN ASESOR"
+
+  },
+
+  "why-kaplan" : {
+    "copy1" : "¡LLEGA MÁS LEJOS CON KAPLAN!",
+    "copy2" : "Mejor opción en <br> calidad-precio para<br> estudios en el extranjero",
+    "copy3" : "Haz contactos <br> internacionales y amigos <br>para toda la vida ",
+    "copy4" : "Exprésate con seguridad <br> al hablar y escribir <br> en inglés",
+    "copy5" : "Construye un sólido y <br>competitivo CV<br>",
+    "copy6" : "Impulsa tu <br> carrera profesional <br> con grandes resultados"
+  },
+
+  "contact-advisor" : {
+    "copy1" : "CONTACTA A UN ASESOR EDUCATIVO HOY Y DESCUBRE MÁS ACERCA DE ESTUDIAR INGLÉS EN EL EXTRANJERO",
+    "copy2" : "APROVECHA ESTA OFERTA"
+  },
+
+  "testimonials" : {
+    "copy1" : "¿QUÉ DICEN NUESTROS ESTUDIANTES?",
+
+    "testimonial1" : {
+      "copy1" : "Kaplan International es conocida como una de las mejores escuelas de idiomas en el Reino Unido. Personalmente conozco muchas personas que estudiaron con Kaplan y sus opiniones fueron excelentes. Seguí sus recomendaciones y realmente he disfrutado de una experiencia muy exitosa.",
+      "copy2" : "Zyiad Ali Alosayfir, Arabia Saudita"
+    },
+
+    "testimonial2" : {
+      "copy1" : "Mi inglés ha mejorado definitivamente, mi objetivo es llegar a un nivel experto y hablar fluidamente. Después de Kaplan, terminaré mis estudios universitarios",
+      "copy2" : "Julia Jarowicz, Polonia"
+    },
+
+
+    "testimonial3" : {
+      "copy1" : "Antes de estudiar en Kaplan estaba muy nerviosa de hablar inglés, ahora esos nervios han desaparecido. Me siento realmente afortunada de poder tener nuevos amigos de todas partes del mundo y de poder ir a visitarlos en sus países.",
+      "copy2" : "Hyoju Nam, Corea del Sur"
+    },
+
+    "testimonial4" : {
+      "copy1" : "Aprender inglés ha sido lo más importante en mi experiencia con Kaplan, las clases están muy bien diseñadas y la nueva tecnología es usada en el salón de clases. Estas herramientas te hacen aprender un nuevo idioma de una forma divertida.",
+      "copy2" : "Maris Oksche, Alemania"
+    },
+
+    "testimonial5" : {
+      "copy1" : "Mi inglés ha mejorado después de estar en contacto con la cultura local y haber estado inmersa en un ambiente donde el inglés se necesita todo el tiempo. Esto me ha dado más seguridad",
+      "copy2" : "Bruna Schelb Correa, Brasil"
+    }
+
+
+
+  },
+
+  "footer" : {
+    "copy1" : "Acerca de Kaplan",
+    "copy2" : "Con más de 40 escuelas acreditadas para jóvenes y adultos en 8 paíes de habla inglesa, Kaplan International English ofrece cursos de inglés de calidad mundial y una experiencia para toda la vida. ",
+    "copy3" : "Ofrecemos una amplia variedad de cursos para estudiantes desde los 12 años y lo hemos hecho por más de 40 años. El año pasado, más de 70,000 estudiantes viajaron y estudiaron con nos nosotros, de los cuales 9 de 10 nos recomendaría a sus familiares y amigos.",
+    "copy4" : "Más Información",
+
+    "links" :  {
+      "copy0" : "Links",
+
+      "copy1": "Oficinas Regionales",
+      "copy2": "//careers.kaplaninternational.com/ve/oficinas-regionales",
+
+      "copy3": "Contáctanos",
+      "copy4": "//kaplaninternational.com/ve/contact-us/form",
+
+      "copy5": "Prueba de Inglés",
+      "copy6": "//kaplaninternational.com/ve/prueba-de-ingles-gratis",
+
+      "copy7": "Términos y Condiciones",
+      "copy8": "//kaplaninternational.com/ve/terminos-y-condiciones",
+
+      "copy9": "Catálogo gratuito",
+      "copy10": "//kaplaninternational.com/ve/brochure-download/form",
+
+      "copy11": "Promociones",
+      "copy12": "//kaplaninternational.com/latam/promociones"
+    },
+
+    "follow-us": {
+      "copy1" : "Síguenos",
+
+      "copy2" : "Facebook",
+      "copy3" : "//facebook.com/kaplancolombia",
+
+      "copy4" : "Twitter",
+      "copy5" : "//twitter.com/Kaplan_colombia",
+
+      "copy6" : "Instagram",
+      "copy7" : "//instagram.com/kaplancolombia",
+
+      "copy8" : "Kaplan Blog",
+      "copy9" : "//kaplaninternational.com/latam/blog/"
+
+    },
+
+    "accreditation" : {
+      "copy1" : "Acreditaciones en el mundo",
+      "copy2" : "Estados Unidos",
+      "copy3" : "Reino Unido",
+      "copy4" : "Australia",
+      "copy5" : "Canadá",
+      "copy6" : "Nueva Zelanda",
+      "copy7" : "Irlanda"
+
+    }
+
+  }
+
+}
+
+

@@ -1,0 +1,245 @@
+{
+  "html": {
+    "lang" : "de",
+    "meta-description": "SICHERN SIE SICH NOCH HEUTE IHREN PLATZ FÜR 2018 UND SPAREN SIE DABEI",
+    "title": "Buchen Sie noch 2017 und machen Sie 2018 zu Ihrem Sprachenjahr",
+    "tealium-tag" : "kie-german"
+  },
+
+  "facebook": {
+    "title": "Buchen Sie noch 2017 und machen Sie 2018 zu Ihrem Sprachenjahr?",
+    "description" : "SICHERN SIE SICH NOCH HEUTE IHREN PLATZ UND SPAREN SIE DABEI",
+    "url" : "https://study.kaplaninternational.com/en/036_plan-for-2018-and-save/",
+    "image" : "http://study.kaplaninternational.com/_assets/036_plan-for-2018-and-save/images/facebook.jpg"
+  },
+
+  "menu": {
+    "tel" : "+49 (0)69 97 53 30 38",
+    "tel-link" : "496997533038",
+    "contact" : "KONTAKTIEREN SIE UNS"
+  },
+
+  "hero" : {
+    "copy1" : "Englisch lernen in 2018",
+    "copy2" : "Zu 2017er Preisen buchen und Geld sparen",
+    "copy3" : "SICHERN SIE SICH JETZT NOCH DEN GÜNSTIGEREN PREIS!",
+    "copy4" : "Warum sollten Sie einen anderen Preis bezahlen? Sichern Sie sich jetzt Ihren Platz zum bestehenden Preis bis zum 31.10.2017!",
+    "copy5" : "PREISWECHSEL STEHT BEVOR",
+    "copy6" : "SICHERN SIE SICH JETZT DEN ALTEN PREIS UND BUCHEN SIE BIS ZUM 31.10.2017",
+    "copy7" : "JETZT RESERVATION ANFRAGEN",
+    "copy8" : "UM SICH IHREN PLATZ ZU SICHERN!"
+  },
+
+  "take-advantages" : {
+
+    "copy1" : "Investieren Sie jetzt in Ihre Zukunft und buchen Sie mit Kaplan weltklasse Englischunterricht",
+    "copy2" : "Englisch lernen",
+    "copy3" : "Die Welt entdecken",
+    "copy4" : "Neue Freunde aus aller Welt",
+    "copy5" : "Karrieremöglichkeiten verbessern",
+    "copy6" : "Kontaktieren Sie uns noch heute, um mehr über unsere Englischprogramme zu erfahren! Unsere erfahrenen und freundlichen Berater helfen Ihnen dabei, das für Sie passende Programm zu finden!",
+    "copy7" : "<strong> Schnell sein lohnt sich </strong> ! Buchen Sie noch bis zum 31.10.2017 und sichern Sie sich den bestehenden Preis und noch heute Ihren Platz",
+    "formID" : "297143",
+
+    "example-courses" : {
+      "copy1" : "Preisbeispiele:",
+      "copy2" : "Basierend auf 4 Kurswochen",
+      "copy3" : "ENGLISCHKURS",
+      "copy4" : "SPAREN SIE",
+      "copy5" : "PREIS",
+      "copy6" : "AKTUELL",
+      "copy7" : "2018",
+      "copy8" : "* Bei der Übersicht handelt es sich um Beispiele für die Kurskosten, allfällige Zusatzkosten sind nicht aufgeführt",
+
+
+      "city1": {
+          "copy1" : "LONDON",
+          "copy2" : "Geschäftsenglisch - 1 Monat",
+          "copy3" : "100 £ ",
+          "copy4" : "1.400 £",
+          "copy5" : "1.500 £"
+        },
+
+      "city2": {
+        "copy1" : "NEW YORK",
+        "copy2" : "Intensivenglisch - 2 Monate",
+        "copy3" : "360 $",
+        "copy4" : "4120 $",
+        "copy5" : "4480 $"
+      },
+
+      "city3": {
+        "copy1" : "SYDNEY",
+        "copy2" : "Allgemeinenglisch - 3 Monate",
+        "copy3" : "360 $",
+        "copy4" : "4320 $",
+        "copy5" : "4680 $"
+      }
+
+    }
+  },
+
+  "why-choose-kaplan" : {
+    "copy1" : "Warum Kaplan?",
+    "copy2" : "<strong>97 %</strong> würden Kaplan International ihren Freunden weiterempfehlen",
+    "copy3" : "Eine Sprachreise ist eine Erfahrung fürs Leben, die Sie nie vergessen werden",
+    "copy4" : "Wählen Sie aus über 40 Zielen.",
+    "copy5" : "Bereiten Sie sich auf Ihre internationale Karriere oder Ihr Studium vor"
+  },
+
+  "courses" : {
+    "copy1" : "BEI UNS FINDEN SIE, WONACH SIE SUCHEN",
+    "copy2" : "Wie wäre es mit einem Intensivenglischkurs während des Sommers? Oder möchten gleich ein ganzes Semester im Ausland verbringen und dabei Ihre Englischkenntnisse perfektionieren?Was auch immer Ihre Bedürfnisse und Ansprüche in Sachen Englisch lernen sind, wir haben den passenden Englischkurs für Sie.",
+
+    "course1" : {
+      "copy1" : "SCHÜLERSPRACHREISEN",
+      "copy2" : "Schülersprachreisen bieten Jugendlichen im Alter von 12 bis 18 Jahren eine großartige Gelegenheit, die englische Sprache in einer sicheren und attraktiven Umgebung zu erlernen. Die eigens für Schüler entwickelte K+ Teens Lehrmethode erlaubt nebst dem Studium mit Büchern den Einsatz von Smartphone-Apps oder Onlienübungen, die für ein abwechslungsreiches Lernerlebnis sorgen. Unser meistgebuchtes Standardprogramm umfasst 15 Lektionen Englischunttericht in der Woche und ein abwechslungsreiches Freizeitprogramm. In jeder Schule betreuen unsere Mitarbeiter die Sprachschüler und kümmern sich um deren Wohlbefinden."
+    },
+
+    "course2" : {
+      "copy1" : "FLEXIBLE ENGLISCHKURSE",
+      "copy2" : "Können oder mögen Sie sich nicht an fixe Start- und Enddaten halten? Überhaupt kein Problem! Unsere fllexiblen Englischkurse passen sich Ihren individuellen Bedürfnissen an. Bestimmen Sie Startzeitpunkt (Einstieg jeden Montag möglich), Dauer (ab 2 - 20 Wochen) und Intensität (normal oder intensiv) selber. Dieser Englischkurs eignet sich besonders, um allgemeine Englischkenntnisse für Alltag, Bildung, Reisen und Beruf zu erlernen oder zu verbessern."
+    },
+
+    "course3" : {
+      "copy1" : "LANGZEITKURSE",
+      "copy2" : "Bei einem Langzeitkurs tauchen Sie vollkommen in die neue Kultur und den englischen Sprachgebrauch ein. Wählen Sie aus einem 5, 6 oder 9-monatigen Programm und besuchen Sie unseren akkreditierten Allgemeinenglisch- oder Intensivenglischkurs, welcher Ihnen dazu verhilft, Englisch fließend zu beherrschen. Lernen Sie ein neues Land und neue Freunde kennen. Langzeitkurse sind an allen Kaplan-Schulen möglich."
+    },
+
+    "course4" : {
+      "copy1" : "WORK & STUDY",
+      "copy2" : "Perfekte Englischkenntnisse sind im internationalen Arbeitsmarkt unentbehrlich. Eine gute Beherrschung der englischen Sprache in Kombination mit praktischer Erfahrung in einem englischsprachigen Unternehmen sticht im Lebenslauf heraus und hilft Ihnen, sich von der Konkurrenz abzuheben. Unsere Work & Study Programme kombinieren Englisch lernen mit praktischer Arbeitserfahrung in Form eines Praktikums oder Jobs im Ausland."
+    },
+
+    "course5" : {
+      "copy1" : "GESCHÄFTSENGLISCHKURS",
+      "copy2" : "Geschäftsenglischkenntnisse helfen Ihnen, sich aus der Bewerbermasse hervorzuheben und Ihre Berufschancen zu verbessern. Dieser Kurs fokussiert sich auf Vokabular aus dem Geschätsalltag und eignet sich für Erwerbstätige, die innerhalb eines internationalen Arbeitsumfelds und im Geschäftsalltag gute Englischkenntnisse benötigen."
+    },
+
+    "course6" : {
+      "copy1" : "PRÜFUNGSVORBEREITUNGSKURSE",
+      "copy2" : "Die eigens von Kaplan entwickelten Kursprogramme zur Prüfungsvorbereitung helfen Ihnen dabei, sich optimal für IELTS, TOEFL®, Cambridge, GMAT®, and GRE® Prüfungen vorzubereiten. Der Fokus liegt dabei auf dem dem Prüfungsinhalt und der richtigen Vorgehensstrategie, die Ihnen hilft, Ihr gewünschtes Resultat zu erreichen."
+    },
+
+    "course7" : {
+      "copy1" : "",
+      "copy2" : ""
+    },
+
+    "course8" : {
+      "copy1" : "",
+      "copy2" : ""
+    },
+
+    "copy4" : "Kontaktieren Sie uns"
+
+  },
+
+  "why-kaplan" : {
+    "copy1" : "MEHR ERREICHEN MIT KAPLAN",
+    "copy2" : "Wertvolle Auslandserfahrung <br> und anerkanntes <br> Preis- Leisungsverhältnis.",
+    "copy3" : "Freundschaften knüpfen<br>und Erinnerungen<br>fürs Leben mitnehmen.",
+    "copy4" : "Steigern Sie Ihr Sprach, <br>Lese- und <br>Schreibvermögen.",
+    "copy5" : "Werten Sie Ihren<br>Lebenslauf auf<br>und heben Sie sich ab.",
+    "copy6" : "Steigern Sie Ihre<br>Karrierechancen, <br>verdienen Sie mehr"
+  },
+
+  "contact-advisor" : {
+    "copy1" : "KONTAKTIEREN SIE UNS UND ERFAHREN SIE BEI EINEM BERATUNGSGESPRÄCH MEHR ÜBER ENGLISCHKURSE IM AUSLAND",
+    "copy2" : "JETZT PROFITIEREN"
+  },
+
+  "testimonials" : {
+    "copy1" : "WAS UNSERE TEILNEHMER SAGEN",
+
+    "testimonial1" : {
+      "copy1" : "Kaplan Sprachschulen sind bekannt als einer der besten Sprachschulen in Großbritannien. Ich persönlich kenne viele Leute, die bereits bei Kaplan einen Sprachaufenthalt gebucht haben und die von der Organisation und den Sprachschulen sehr begeistert waren. Ich hörte auf ihre Empfehlung, sammelte wertvolle Erfahrung und habe eine unvergessliche Zeit erlebt.",
+      "copy2" : "Zyiad Ali Alosayfir, Saudi Arabien"
+    },
+
+    "testimonial2" : {
+      "copy1" : "Ich habe mein Englisch sehr verbessert, mein Ziel ist es, eines Tages die Sprache fließend zu beherrschen.",
+      "copy2" : "Julia Jarowicz, Polen"
+    },
+
+
+    "testimonial3" : {
+      "copy1" : "Meine Furcht Englisch zu sprechen habe ich völlig überwunden. Vor meinem Kaplan Sprachaufenthalt war ich zu schüchtern Englisch zu sprechen. Ich bin sehr glücklich, neue Freunde aus der ganzen Welt getroffen zu haben und freue mich schon auf viele spannende Begegnungen in ihren Ländern.",
+      "copy2" : "Hyoju Nam, Südkorea"
+    },
+
+    "testimonial4" : {
+      "copy1" : "Englisch lernen ist die wichtigste Erfahrung mit Kaplan, wir erhielten ein maßgeschneidertes Unterrichtsprogramm. Moderne Medien wurden im Klassenraum verwendet, so dass wir am Unterricht auch sehr viel Spaß und Freude hatten.",
+      "copy2" : "Maris Oksche, Deutschland"
+    },
+
+    "testimonial5" : {
+      "copy1" : "Durch das Eintauchen in die fremde Kultur und durch das Leben in meinem englischsprechenden Umfeld, konnte ich meine Englischkenntnisse sehr verbessern und habe mehr Selbstbesusstein gewonnen.",
+      "copy2" : "Bruna Schelb Correa, Brasilien"
+    }
+
+
+
+  },
+
+  "footer" : {
+    "copy1" : "Über Kaplan",
+    "copy2" : "Mit über 40 akkreditieren Sprachschulen für Erwachsene und Jugendliche bietet Kaplan International English innovativen Sprachunterricht in 8 englischsprachigen Ländern und eine unvergessliche Lebenserfahrung. ",
+    "copy3" : "Seit über 80 Jahren bieten wir Kurse für Sprachschüler ab 12 Jahren. Im vergangenen Jahr sind mehr als 70'000 Sprachschüler mit uns ins Ausland gereist und 9 von 10 empfehlen uns an Freunde und Familie.",
+    "copy4" : "Mehr erfahren ",
+
+    "links" :  {
+      "copy0" : "Links",
+
+      "copy1": "Karriere",
+      "copy2": "//careers.kaplaninternational.com/jobs/",
+
+      "copy3": "Kontakt",
+      "copy4": "//kaplaninternational.com/de/ueber-uns/team",
+
+      "copy5": "Englisch Test",
+      "copy6": "//kaplaninternational.com/de/kostenloser-englischtest",
+
+      "copy7": "Terms & Conditions",
+      "copy8": "//kaplaninternational.com/de/reisebedingungen",
+
+      "copy9": "Cookie Policy",
+      "copy10": "//kaplaninternational.com/de/reisebedingungen#s5",
+
+      "copy11": "Sitemap",
+      "copy12" : "//kaplaninternational.com/"
+    },
+
+    "follow-us": {
+      "copy1" : "Folgen Sie uns",
+
+      "copy2" : "Facebook",
+      "copy3" : "//facebook.com/kaplandeutsch",
+
+      "copy4" : "Twitter",
+      "copy5" : "//twitter.com/kaplandeutsch",
+
+      "copy6" : "Instagram",
+      "copy7" : "//instagram.com/kaplaninternational",
+
+      "copy8" : "Kaplan Blog",
+      "copy9" : "//kaplaninternational.com/de/blog/"
+
+    },
+
+    "accreditation" : {
+      "copy1" : "Weltweite Akkreditierungen",
+      "copy2" : "USA",
+      "copy3" : "UK",
+      "copy4" : "Australia",
+      "copy5" : "Canada",
+      "copy6" : "New Zealand",
+      "copy7" : "Ireland"
+
+    }
+
+  }
+
+}
+
+

@@ -1,0 +1,246 @@
+{
+  "html": {
+    "lang" : "th",
+    "meta-description": "BEAT THE CLOCK AND BOOK YOUR PLACE BY 30 SEPTEMBER 2017",
+    "title": "จองปีนี้ เรียนปีหน้า ประหยัดกว่าเป็นแสน",
+    "tealium-tag" : "kie-thai"
+  },
+
+  "facebook": {
+    "title": "จองปีนี้ เรียนปีหน้า ประหยัดกว่าเป็นแสน",
+    "description" : "BEAT THE CLOCK AND BOOK YOUR PLACE BY 30 SEPTEMBER 2017",
+    "url" : "https://study.kaplaninternational.com/en/036_plan-for-2018-and-save/",
+    "image" : "http://study.kaplaninternational.com/_assets/036_plan-for-2018-and-save/images/facebook.jpg"
+  },
+
+  "menu": {
+    "tel" : "+44 (0)20 7045 5000",
+    "tel-link" : "4402070455000",
+    "contact" : "ขอรับคำปรึกษาฟรี"
+  },
+
+  "hero" : {
+    "copy1" : "จองปีนี้เ รียนปีหน้า ประหยัดกว่าเป็นแสน",
+    "copy2" : "โอกาสสุดท้าย",
+    "copy3" : "ก่อนปรับราคาขึ้น!",
+    "copy4" : "จองก่อน 30 กันยายน นี้เท่านั้น",
+    "copy5" : "เหลือเวลาอีกไม่นาน ก่อนที่ราคาจะปรับขึ้น",
+    "copy6" : "*ราคาจะปรับขึ้นในวันที่ 1 ตุลาคม 2017",
+    "copy7" : "ติดต่อเรา",
+    "copy8" : "เพื่อรับราคาและโปรโมชั่นปัจจุบัน"
+  },
+
+  "take-advantages" : {
+
+    "copy1" : "โอกาสสุดท้าย ก่อนปรับราคาขึ้น ประหยัดกว่าเป็นแสน",
+    "copy2" : "เรียนรู้ผ่านระบบ K+ ที่ทันสมัย",
+    "copy3" : "โรงเรียนกว่า 40 สาขา 6 ประเทศ",
+    "copy4" : "คอร์สเรียนหลากหลายและยืดหยุ่น",
+    "copy5" : "เพื่อนจาก150 ประเทศทั่วโลก",
+    "copy6" : "ติดต่อเจ้าหน้าที่ เพื่อรับตัวอย่างราคาค่าเรียน และโปรโมชั่นอื่นๆอีกมากมาย",
+    "copy7" : "<strong>จองก่อน 30 กันยายนี้! ก่อนราคาจะถูกปรับขึ้นในวันที่ 1 ตุลาคม 2017 </strong>)",
+    "formID" : "301074",
+    "projectID" : "tfa_356",
+
+
+    "example-courses" : {
+      "copy1" : "ตัวอย่างคอร์สเรียน",
+      "copy2" : "ตัวอย่างราคา 4 สัปดาห์",
+      "copy3" : "COURSE PACKAGE",
+      "copy4" : "SAVE",
+      "copy5" : "PRICE",
+      "copy6" : "TODAY",
+      "copy7" : "2018",
+      "copy8" : "* ราคาดังกล่าวเป็นเพียงการคำนวนค่าเรียนและค่าที่พักเท่านั้น <br> * ราคาดังกล่าวยังไม่รวมค่าตั๋วเครื่องบิน ค่าวีซ่า และอื่นๆ",
+
+
+      "city1": {
+        "copy1" : "Auckland",
+        "copy2" : "Intensive English + Homestay",
+        "copy3" : "<span> NZ$ </span>520",
+        "copy4" : "<span> NZ$ </span>2,600",
+        "copy5" : "<span> NZ$ </span>3,120"
+      },
+
+      "city2": {
+        "copy1" : "Cambridge",
+        "copy2" : "IELTS + Homestay",
+        "copy3" : "£468",
+        "copy4" : "£1812",
+        "copy5" : "£2280"
+      },
+
+      "city3": {
+        "copy1" : "Boston Harvard Square",
+        "copy2" : "General English + Homestay",
+        "copy3" : "$680",
+        "copy4" : "$2,480",
+        "copy5" : "$3,160"
+      }
+
+    }
+  },
+
+  "why-choose-kaplan" : {
+    "copy1" : "ทำไมถึงเลือก KAPLAN?",
+    "copy2" : "นักเรียน <strong>97%</strong> แนะนำ Kaplan ให้กับเพื่อนๆและครอบครัว",
+    "copy3" : "ประการณ์การสอนกว่า 80 ปี",
+    "copy4" : "ได้รับการรับรองมาตรฐานโดยสถาบันนานาชาติทั่วโลก",
+    "copy5" : "มีเครือข่ายมหาวิทยาลัยและวิทยาลัยกว่า 250 แห่งทั่วโลก"
+  },
+
+  "courses" : {
+    "copy1" : "เรามีคอร์สเรียนที่หลากหลาย",
+    "copy2" : "เลือกเรียนภาษาอังกฤษที่ต่างประเทศกับ Kaplan International สถาบันชั้นนำระดับโลก <br> นักเรียนสามารถเลือกคอร์สเรียนที่เหมาะสมกับตัวเองได้",
+
+    "course1" : {
+      "copy1" : "Higher Education",
+      "copy2" : "บริการเรียนต่อระดับปริญญาของเราจะช่วยให้คุณได้เข้าเรียนในมหาวิทยาลัยในต่างประเทศ ในอนาคตได้อย่างไร้กังวล"
+    },
+
+    "course2" : {
+      "copy1" : "GENERAL ENGLISH COURSE",
+      "copy2" : "สำหรับนักเรียนที่ต้องการเรียนภาษาอังกฤษเพื่อพัฒนาทักษะด้านต่างๆ และยังสามารถใช้เวลาว่างจากการเรียนไปทำกิจกรรมต่างๆนอกห้องเรียน"
+    },
+
+    "course3" : {
+      "copy1" : "LONG TERM STUDY",
+      "copy2" : "เรียนภาษาอังกฤษระยะยาว เรียนภาษาอังกฤษระยะยาว Semester (6 เดือน) หรือ Year (1 ปี) นักเรียนจะได้รับการเรียนการสอนที่ครบหลักสูตร พร้อมกับซึบซับวัฒนธรรมที่น่าสนใจของชาวต่างชาติ"
+    },
+
+    "course4" : {
+      "copy1" : "INTENSIVE ENGLISH COURSE",
+      "copy2" : "เรียนภาษาอังกฤษแบบเข้มข้น ช่วยให้นักเรียนได้บรรลุเป้าหมายได้รวดเร็วกว่าเดิม กับทักษะ 4 ด้าน ด้วยเนื้อหาที่เปี่ยมล้นไปด้วยคุณภาพและเข้าใจง่าย"
+    },
+
+    "course5" : {
+      "copy1" : "BUSINESS ENGLISH",
+      "copy2" : "เรียนภาษาอังกฤษธุรกิจ ฝึกฝนทักษะ เทคนิคการเรียน การสัมภาษณ์ การประชุม การนำเสนองานต่อที่ประชุมและอื่นๆ"
+    },
+
+    "course6" : {
+      "copy1" : "EXAM PREP",
+      "copy2" : "คอร์สเตรียมสอบภาษาอังกฤษ นักเรียนที่ต้องการสอบภาษาอังกฤษ เพื่อเตรียมเข้ามหาวิทยาลัยทั้งในและต่างประเทศ หลักสูตรครอบคลุมดังนี้ IELTS, TOEFL®, Cambridge, GMAT®, และ GRE®"
+    },
+
+    "course7" : {
+      "copy1" : "",
+      "copy2" : ""
+    },
+
+    "course8" : {
+      "copy1" : "",
+      "copy2" : ""
+    },
+
+    "copy4" : "ติดต่อขอคำปรึกษาฟรี"
+
+  },
+
+  "why-kaplan" : {
+    "copy1" : "เรียนกับ Kaplan เพื่ออนาคตที่ดีกว่า",
+    "copy2" : "หนึ่งในโรงเรียนที่ดีที่สุด กับประสบการณ์การเรียนที่ต่างประเทศ ที่คุ้มค่าแก่การลงทุน",
+    "copy3" : "พบเพื่อนใหม่จากทั่วโลก กว่า 150 ประเทศ และสร้างความทรงจำดีๆร่วมกัน ",
+    "copy4" : "สร้างความมั่นใจ ในการพูด การเขียน และการอ่านภาษาอังกฤษ",
+    "copy5" : "สร้างศักยภาพ ของประวัติการทำงานด้วย CV résumé ที่โด่ดเด่น",
+    "copy6" : "พิสูจน์ความสำเร็จ ศักยภาพในการทำงาน เพื่อเงินเดือนที่สูงขึ้น"
+  },
+
+  "contact-advisor" : {
+    "copy1" : "ติดต่อเจ้าหน้าที่ของเราเพื่อรับราคาพิเศษ และโปรโมชั่นอื่นๆ",
+    "copy2" : "รับราคาตัวอย่างของปี 2017"
+  },
+
+  "testimonials" : {
+    "copy1" : "ความคิดเห็นนักเรียน KAPLAN INTERNATIONAL",
+
+    "testimonial1" : {
+      "copy1" : "โรงเรียน Kaplan International เป็นที่รู้จักกันว่าเป็นหนึ่งในโรงเรียนภาษาอังกฤษที่ดีที่สุดในประเทศ ฉันรู้จักเพื่อ นๆหลายคนที่เรียนที่นี่และพวกเค้าก็ชอบที่นี่มากๆ ฉันฟังคำแนะนำของเพื่อนๆแล้วเลือกเรียนที่นี่ ซึ่งไม่ผิดหวังจริงๆ",
+      "copy2" : "Zyiad Ali Alosayfir, Saudi Arabia"
+    },
+
+    "testimonial2" : {
+      "copy1" : "ภาษาอังกฤษของฉันพัฒนาขึ้นมากจริงๆ ฉันมุ่งหมายว่าจะต้องเก่งภาษาอังกฤษยิ่งๆขึ้นไป หลังจากเรียนที่ Kaplan ฉันก็จะเรียนต่อในระดับมหาวิทยาลัย ",
+      "copy2" : "Julia Jarowicz, Poland"
+    },
+
+
+    "testimonial3" : {
+      "copy1" : "ฉันเป็นคนที่กลัวการพูดภาษาอังกฤษมาก แต่หลังจากที่ได้เรียนกับ Kaplan ความกังวลของฉันก็หายไปอย่างสิ้นเชิง  ฉันโชคดีมากที่เจอแต่เพื่อนดีๆที่มาจากทั่วโลก และฉันก็วางแผนที่จะไปเที่ยวที่ประเทศของพวกเค้าด้วย ",
+      "copy2" : "Hyoju Nam, South Korea"
+    },
+
+    "testimonial4" : {
+      "copy1" : "เรียนภาษาอังกฤษเป็นประสบการณ์ที่สำคัญที่สุดที่ได้จากการเรียนที่ Kaplan บทเรียนที่มีความทันสมัยด้วยเนื้อหาและเทคโนโลยีการเรียนการสอน ทำให้การเรียนมีความสนุกและน่าสนใจมากขึ้น ",
+      "copy2" : "Maris Oksche, Germany"
+    },
+
+    "testimonial5" : {
+      "copy1" : "ภาษาอังกฤษของฉันดีขึ้นมาก หลังจากที่ได้มาอยู่กับคนท้องถิ่นที่ต่างประเทศ และได้ซึมซับวัฒนธรรมต่างๆที่น่าสนใจ ทำให้ฉันมีความมั่นใจมากขึ้นด้วย ",
+      "copy2" : "Bruna Schelb Correa, Brazil"
+    }
+
+
+  },
+
+  "footer" : {
+    "copy1" : "About Kaplan",
+    "copy2" : "With 45+ accredited schools for adults and young learners across 8 English-speaking countries, Kaplan International English offers world-class English language education and the experience of a lifetime. ",
+    "copy3" : "We offer a range of courses for students aged 12 and up, and have done so for more than 40 years. Last year, more than 70,000 students traveled and studied with us, and 9 of 10 would recommend us to friends and family.",
+    "copy4" : "Learn more ",
+
+    "links" :  {
+      "copy0" : "Links",
+
+      "copy1": "Careers",
+      "copy2": "//careers.kaplaninternational.com/jobs/",
+
+      "copy3": "Contact Details",
+      "copy4": "//kaplaninternational.com/th/contact-us/form",
+
+      "copy5": "English Test",
+      "copy6": "//kaplaninternational.com/th/free-english-test",
+
+      "copy7": "Terms & Conditions",
+      "copy8": "//kaplaninternational.com/th/terms-and-conditions",
+
+      "copy9": "Cookie Policy",
+      "copy10": "//kaplaninternational.com/privacy#s5",
+
+      "copy11": "Sitemap",
+      "copy12" : "//kaplaninternational.com/th"
+    },
+
+    "follow-us": {
+      "copy1" : "Follow us",
+
+      "copy2" : "Facebook",
+      "copy3" : "//facebook.com/KaplanInternationalThailand",
+
+      "copy4" : "Twitter",
+      "copy5" : "//twitter.com/Kaplan_TH",
+
+      "copy6" : "Instagram",
+      "copy7" : "//instagram.com/kaplanthailand",
+
+      "copy8" : "Kaplan Blog",
+      "copy9" : "//kaplaninternational.com/th/blog/"
+
+    },
+
+    "accreditation" : {
+      "copy1" : "Worldwide accreditations",
+      "copy2" : "USA",
+      "copy3" : "UK",
+      "copy4" : "Australia",
+      "copy5" : "Canada",
+      "copy6" : "New Zealand",
+      "copy7" : "Ireland"
+
+    }
+
+  }
+
+}
+
+

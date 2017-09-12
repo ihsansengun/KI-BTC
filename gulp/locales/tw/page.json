@@ -1,0 +1,245 @@
+{
+  "html": {
+    "lang" : "tw",
+    "meta-description": "2017年9月30日前報名馬上鎖定低價",
+    "title": "您有明年出國遊學的計劃嗎？",
+    "tealium-tag" : "kie-taiwanese"
+  },
+
+  "facebook": {
+    "title": "您有明年出國遊學的計劃嗎？",
+    "description" : "2017年9月30日前報名馬上鎖定低價",
+    "url" : "https://study.kaplaninternational.com/en/036_plan-for-2018-and-save/",
+    "image" : "http://study.kaplaninternational.com/_assets/036_plan-for-2018-and-save/images/facebook.jpg"
+  },
+
+  "menu": {
+    "tel" : "+44 (0)20 7045 5000",
+    "tel-link" : "4402070455000",
+    "contact" : "聯絡官方代辦"
+  },
+
+  "hero" : {
+    "copy1" : "您有明年出國遊學的計劃嗎？",
+    "copy2" : "Kaplan國際英語遊學的價格即將上調…",
+    "copy3" : "現在報名仍可享受調價前的價格",
+    "copy4" : "9月30日前報名享受2017年低價",
+    "copy5" : "2017年10月1日起我們將上調學費價格",
+    "copy6" : "2017年9月30日之前預定您的課程還可鎖定優惠價格",
+    "copy7" : "馬上行動",
+    "copy8" : "享受2017年的低價！"
+  },
+
+  "take-advantages" : {
+
+    "copy1" : "省钱游学更精彩",
+    "copy2" : "學習地道英語",
+    "copy3" : "週遊全世界",
+    "copy4" : "提高職場競爭力",
+    "copy5" : "結識新的朋友",
+    "copy6" : "從10月1日起我們即將使用新的價格。在此之前預定的課程，不但可以享受調價前的價格，還可以享受最高20%折扣！課程全年可以入學，每周一開課，適合各種英語水平的學生和在職人士。",
+    "copy7" : "<strong> 立即行動！ </strong> ! 獲取官方專業代辦的詳細咨詢，幫助您選擇最適合的課程和學校。明日成功從今日開始。",
+    "formID" : "297143",
+
+    "example-courses" : {
+      "copy1" : "報價舉例:",
+      "copy2" : "以四周價格為例",
+      "copy3" : "課程打包價",
+      "copy4" : "節省",
+      "copy5" : "價格",
+      "copy6" : "今日",
+      "copy7" : "2018",
+      "copy8" : "* 其他申請費用如夏日津貼等另計*折扣優惠適用于四周及以上的課程報名",
+
+
+      "city1": {
+          "copy1" : "英國倫敦",
+          "copy2" : "假期英語+寄宿家庭+申請費",
+          "copy3" : "224英鎊",
+          "copy4" : "1756英鎊",
+          "copy5" : "1980英鎊"
+        },
+
+      "city2": {
+        "copy1" : "美國紐約帝國大廈",
+        "copy2" : "假期英語+寄宿家庭+申請費",
+        "copy3" : "490美元",
+        "copy4" : "2495美元",
+        "copy5" : "2985美元"
+      },
+
+      "city3": {
+        "copy1" : "加拿大多倫多",
+        "copy2" : "假期英語+寄宿家庭+申請費",
+        "copy3" : "238加元",
+        "copy4" : "2327加元",
+        "copy5" : "2565加元"
+      }
+
+    }
+  },
+
+  "why-choose-kaplan" : {
+    "copy1" : "為什麽選擇KAPLAN?",
+    "copy2" : "<strong>97%</strong> 的學生推薦KAPLAN國際英語給自己的親朋好友",
+    "copy3" : "獲得難忘的沈浸式英語遊學機會",
+    "copy4" : "根據您的目標提供最適合您的課程與遊學目的地選擇",
+    "copy5" : "幫助您更好的升入理想高校"
+  },
+
+  "courses" : {
+    "copy1" : "我們為您提供量身定制的課程",
+    "copy2" : "您可以從以下熱門課程中進行選擇，既有兩周以上的英語課程，又有半年至一年的長期課程 <br> 總有一種課程適合您的需求並助您達成目標",
+
+    "course1" : {
+      "copy1" : "假期英語",
+      "copy2" : "不僅能滿足學習的願望，也能在學習之余享受充分的旅遊時間，體驗異國文化。 每週上五天課，每天四個小時。課業負擔相對輕松。"
+    },
+
+    "course2" : {
+      "copy1" : "常用英語",
+      "copy2" : "常用英語課程集中在語言的四個主要方面：閱讀，寫作，聽力和口語。 這些課程的設置強度適中，有助于學生迅速而有效地學習。"
+    },
+
+    "course3" : {
+      "copy1" : "強化英語",
+      "copy2" : "課程設置更為緊張，更專注與迅速提高學生的英語技能。 在很短的時間內提高口語水平。個性化的課程設置同時也可以保證每位學生都能收獲到自己所需要的語言技巧。"
+    },
+
+    "course4" : {
+      "copy1" : "商務英語",
+      "copy2" : "掌握在商業背景下有效實際的實用英語技能，既適合已經工作的職場人士利用假期進行充電。 為職場晉升增加砝碼，又適合即將步入職場的學生群體，希望增加簡曆的含金量。"
+    },
+
+    "course5" : {
+      "copy1" : "考試英語",
+      "copy2" : "幫助您在國際認可的雅思，托福，GMAT或GRE等考試中取得所需的分數。 所有的語言學校中有專門人員負責為學生提供大學申請指導服務，幫助學生進入理想的大學。"
+    },
+
+    "course6" : {
+      "copy1" : "長期英語",
+      "copy2" : "學生可以從初級進階到流利等級，全面提高英語水平，順利達到升入國外大學的標準。 深入融入英語國家的當地生活，感受不同國家的風土人情，提高自己的國際視野。"
+    },
+
+    "course7" : {
+      "copy1" : "",
+      "copy2" : ""
+    },
+
+    "course8" : {
+      "copy1" : "",
+      "copy2" : ""
+    },
+
+    "copy4" : "聯絡官方代辦"
+
+  },
+
+  "why-kaplan" : {
+    "copy1" : "選擇Kaplan您能走的更遠",
+    "copy2" : "獲得行業認證的 <br> 頂級海外學習體驗 <br> 物超所值",
+    "copy3" : "結識全球的人脈 <br> 收獲一生的朋友 <br> 充滿友愛 ",
+    "copy4" : "提升個人自信 <br> 聽說讀寫 <br> 全方面掌控",
+    "copy5" : "簡曆含金量高 <br> 從商業競爭中 <br> 脫穎而出",
+    "copy6" : "助力職場發展<br> 收獲全球視野 <br> 贏得個人成功"
+  },
+
+  "contact-advisor" : {
+    "copy1" : "規劃出國學習的行程是一個繁瑣複雜的過程，但我們致力于提供完善的服務。",
+    "copy2" : "立即鎖定低價"
+  },
+
+  "testimonials" : {
+    "copy1" : "學生評價",
+
+    "testimonial1" : {
+      "copy1" : "我知道Kaplan國際英語是英國最好的英語學校之一。我自己認識很多在Kaplan學習過的朋友。他們都對這裏有非常高的評價。我聽取了他們的建議，所以現在也能有這麽難忘的體驗。",
+      "copy2" : "Zyiad Ali Alosayfir, 沙特阿拉伯"
+    },
+
+    "testimonial2" : {
+      "copy1" : "我的英語水平得到了很大提高，我的目標是能流利得說英文，在Kaplan的課程結束之後，我想進入大學學習。",
+      "copy2" : "Julia Jarowicz, 波蘭"
+    },
+
+
+    "testimonial3" : {
+      "copy1" : "我原來說英語的那些恐懼都不見了。在來Kaplan之前我每次說英語都很緊張。我覺得自己非常幸運結識了許多新的朋友，來自世界各地的年輕人。我非常希望在畢業後去我朋友們的國家玩兒",
+      "copy2" : "Hyoju Nam, 韓國"
+    },
+
+    "testimonial4" : {
+      "copy1" : "學習英語是我的Kaplan經曆中最重要的部分，這裏的課程設計的非常好，老師們充分運用很多新媒體，讓我們的學習過程充滿許多樂趣。",
+      "copy2" : "Maris Oksche, 德國"
+    },
+
+    "testimonial5" : {
+      "copy1" : "自從在地道的英語環境中生活了一段時間，我的英語得到了很大提高。全身心的投入英文環境，完全沈浸在海外文化中，讓我變得非常有自信。",
+      "copy2" : "Bruna Schelb Correa, 巴西"
+    }
+
+
+
+  },
+
+  "footer" : {
+    "copy1" : "關於Kaplan國際英語",
+    "copy2" : "Kaplan成立于1938年，是全球頂級的英文培訓機構，擁有近80年的教育培訓經驗。 我們獲得全球多家英語權威機構的認證，44所英語語言學校遍布全球 ",
+    "copy3" : "我們為超過12歲以上的青少年和成年人提供不同類型的英文課程。去年，超過七萬名學生從世界各地來到Kaplan學習，超過95%的學生願意推薦Kaplan給自己的親友。",
+    "copy4" : "了解更多",
+
+    "links" :  {
+      "copy0" : "鏈接",
+
+      "copy1": "英文課程",
+      "copy2": "//kaplaninternational.com/tw/english-courses-abroad",
+
+      "copy3": "下載遊學手冊",
+      "copy4": "//kaplaninternational.com/tw/brochure-download/form",
+
+      "copy5": "免費英文測試",
+      "copy6": "//kaplaninternational.com/tw/english-level-test/form",
+
+      "copy7": "條件/條款",
+      "copy8": "//kaplaninternational.com/tw/terms-and-conditions",
+
+      "copy9": "Cookie Policy",
+      "copy10": "//kaplaninternational.com/tw/terms-and-conditions",
+
+      "copy11": "KAPLAN官網",
+      "copy12" : "//kaplaninternational.com/tw"
+    },
+
+    "follow-us": {
+      "copy1" : "關注我們",
+
+      "copy2" : "臉書",
+      "copy3" : "//facebook.com/kaplantaiwan",
+
+      "copy4" : "Youtube",
+      "copy5" : "//youtube.com/user/KICTaiwan",
+
+      "copy6" : "Instagram",
+      "copy7" : "//instagram.com/kaplan_taiwan",
+
+      "copy8" : "部落格",
+      "copy9" : "//kaplaninternational.com/tw/blog"
+
+    },
+
+    "accreditation" : {
+      "copy1" : "世界各地權威認證",
+      "copy2" : "USA",
+      "copy3" : "UK",
+      "copy4" : "Australia",
+      "copy5" : "Canada",
+      "copy6" : "New Zealand",
+      "copy7" : "Ireland"
+
+    }
+
+  }
+
+}
+
+

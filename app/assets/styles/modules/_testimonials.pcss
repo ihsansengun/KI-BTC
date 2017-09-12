@@ -6,6 +6,8 @@
 
   &.lazyloaded {
     background: url('../../assets/images/testimonial-bg.jpg') top center no-repeat;
+    background-size: cover;
+
   }
 
   @mixin atRetina {
@@ -98,9 +100,9 @@
   position: absolute;
   display: block;
   top: 50%;
-  right: 50%;
+  right: 50%/*rtl:ignore*/;
   margin-top: -20px;
-  margin-right: -100px;
+  margin-right: -100px/*rtl:ignore*/;
 
   z-index: 200;
   cursor: pointer;
@@ -110,9 +112,9 @@
   position: absolute;
   display: block;
   top: 50%;
-  left: 50%;
+  left: 50%/*rtl:ignore*/;
   margin-top: -20px;
-  margin-left: -100px;
+  margin-left: -100px/*rtl:ignore*/;
 
   z-index: 200;
   cursor: pointer;

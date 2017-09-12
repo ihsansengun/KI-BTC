@@ -1,11 +1,13 @@
 var gulp = require('gulp'),
 watch = require('gulp-watch'),
-browserSync = require('browser-sync').create();
+browserSync = require('browser-sync').create(),
+devip = require('dev-ip');
 
 gulp.task('watch', function() {
 
   browserSync.init({
     notify: false,
+      tunnel: true,
     server: {
       baseDir: "app"
     }

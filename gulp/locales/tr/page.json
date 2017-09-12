@@ -1,0 +1,247 @@
+{
+  "html": {
+    "lang" : "tr",
+    "meta-description": "30 EYLÜL'DEN ÖNCE KAYIT OLUN ve 2017 FİYATLARI ÖDEYİN",
+    "title": "Önümüzdeki yıl İngilizce öğrenmeyi mi düşünüyorsunuz?",
+    "tealium-tag" : "kie-turkish"
+  },
+
+  "facebook": {
+    "title": "Önümüzdeki yıl İngilizce öğrenmeyi mi düşünüyorsunuz?",
+    "description" : "30 EYLÜL'DEN ÖNCE KAYIT OLUN ve 2017 FİYATLARI ÖDEYİN",
+    "url" : "https://study.kaplaninternational.com/tr/036_plan-for-2018-and-save/",
+    "image" : "http://study.kaplaninternational.com/_assets/036_plan-for-2018-and-save/images/facebook.jpg"
+  },
+
+  "menu": {
+    "tel" : "0212 375 57 88",
+    "tel-link" : "0212 375 57 88",
+    "contact" : "FİYAT TEKLİFİ AL"
+  },
+
+  "hero" : {
+    "copy1" : "Önümüzdeki yıl İngilizce öğrenmeyi mi düşünüyorsunuz?",
+    "copy2" : "2018 için eğitiminizi şimdi planlayın...",
+    "copy3" : "TASARRUF EDİN!",
+    "copy4" : "30 Eylül'den önce kayıt olun ve 2017 fiyatları ödeyin",
+    "copy5" : "FİYATLAR 30 EYLÜL 2017'DE YÜKSELİYOR",
+    "copy6" : "AYRINTILI BİLGİ İÇİN EĞİTİM DANIŞMANI İLE GÖRÜŞÜN",
+    "copy7" : "HAREKETE GEÇİN",
+    "copy8" : "2017 FİYATLARINI GARANTİLEYİN!"
+  },
+
+  "take-advantages" : {
+
+    "copy1" : "KAPLAN'IN EĞİTİM KALİTESİNİ AVANTAJLI FİYATLARLA DENEYİMLEYİN",
+    "copy2" : "İngilizce öğrenin",
+    "copy3" : "Seyahat edin",
+    "copy4" : "Yeni arkadaşlar edinin",
+    "copy5" : "Kariyerinizde ilerleyin",
+    "copy6" : "Bugün eğitim danışmanlarımızdan biriyle iletişime geçin, amaçlarınız için size en uygun kurslarımız ile okullarımız hakkında daha fazlasını keşfedin.",
+    "copy7" : "<strong> Ama acele etmelisiniz! </strong> ! Yeni fiyat listemiz 1 Ekim'den itibaren yürürlükte olacak. Geleceğinizi bugünden tasarruf yaparak garanti alma şansını kaçırmayın.",
+    "formID" : "276989",
+    "projectID" : "tfa_513",
+
+
+    "example-courses" : {
+      "copy1" : "ÖRNEK KURSLAR:",
+      "copy2" : "4 haftalık kurs baz alınarak hazırlanmıştır:",
+      "copy3" : "KURS PAKETİ",
+      "copy4" : "FARK",
+      "copy5" : "FİYAT",
+      "copy6" : "ŞİMDİ",
+      "copy7" : "2018",
+      "copy8" : "* Gösterilen fiyatlar örnek amaçlıdır, 2018 fiyatlarına ek ücretler ve masraflar eklenebilir.",
+
+
+      "city1": {
+          "copy1" : "LONDRA",
+          "copy2" : "Genel İngilizce + Aile Yanı Konaklama",
+          "copy3" : "£330",
+          "copy4" : "£2070",
+          "copy5" : "£2400"
+        },
+
+      "city2": {
+        "copy1" : "DUBLIN",
+        "copy2" : "Genel İngilizce + Aile Yanı Konaklama",
+        "copy3" : "€386",
+        "copy4" : "€1934",
+        "copy5" : "€2320"
+      },
+
+      "city3": {
+        "copy1" : "NEW YORK",
+        "copy2" : "Genel İngilizce + Aile Yanı Konaklama",
+        "copy3" : "$650",
+        "copy4" : "$3035",
+        "copy5" : "$3685"
+      }
+
+    }
+  },
+
+  "why-choose-kaplan" : {
+    "copy1" : "NEDEN KAPLAN?",
+    "copy2" : "Kaplan'la eğitim alanların <strong>%97</strong>'si Kaplan'ı tavsiye ediyor.",
+    "copy3" : "Unutulmayacak bir yabancı dil öğrenme macerası.",
+    "copy4" : "Sizin için doğru olan, amacınıza uygun seçilmiş kurs ve okul.",
+    "copy5" : "Yüksek öğretime hazırlanmak için mükemmel bir yol."
+  },
+
+  "courses" : {
+    "copy1" : "SİZİN İÇİN EN DOĞRU İNGİLİZCE KURSUNA SAHİBİZ",
+    "copy2" : "Neden yaz tatilinde birkaç hafta ya da tam bir sömestir yurt dışında eğitim almayı tercih etmeyesiniz? <br> Kişisel ve profesyonel hedeflerinize uyan bir kursumuz mutlaka bulunmaktadır.",
+
+    "course1" : {
+      "copy1" : "KAPLAN GENÇ ÖĞRENCİLER",
+      "copy2" : "12 yaş ve üzeri İngilizce öğrenmek isteyen öğrencileri arkadaş canlısı, güvenli ve eğlenceli bir ortamda ağırlıyoruz. Heyecan verici aktivitelerle dolu bir programla sınıf dışında keşfe çıkarken ve öğrenirken öğrenciler kolayca arkadaşlık kuracaklar."
+    },
+
+    "course2" : {
+      "copy1" : "GENEL İNGİLİZCE KURSU",
+      "copy2" : "Eğer Genel İngilizce yeteneklerinizi eğitim, seyahat ya da iş hayatı için geliştirmek istiyorsanız bu kurs sizin için idealdir. Bütçenize ve amaçlarınıza uyması için kursunuzu kişiselleştirin."
+    },
+
+    "course3" : {
+      "copy1" : "UZUN DÖNEM KURSLAR",
+      "copy2" : "Farklı bir kültürle yoğrulurken İngilizcenizi daha hızlı geliştirin. Bir sömestir ya da akademik yıl boyunca Genel İngilizce ya da Yoğun İngilizce kursu alın."
+    },
+
+    "course4" : {
+      "copy1" : "WORK & STUDY",
+      "copy2" : "Gain valuable work experience as you improve your English. Learn, earn, and practice your language skills during part-time employment."
+    },
+
+    "course5" : {
+      "copy1" : "İŞ İNGİLİZCESİ",
+      "copy2" : "İngilizce iş becerileri sizin diğerlerinden bir adım öne çıkmanızı sağlayacak. Bu kurs, iş alanında İngilizce kullanmaya ihtiyacı olan profesyoneller için idealdir."
+    },
+
+    "course6" : {
+      "copy1" : "SINAVLARA HAZIRLIK",
+      "copy2" : "Sınav yeteneklerine odaklanarak test sonuçlarınızı en yüksek seviyeye çekebilmek için size verilen tavsiyelerden yararlanın. IELTS, TOEFL®, Cambridge, GMAT® ve GRE® sınavlarına hazırlanmanıza yardımcı oluruz."
+    },
+
+    "course7" : {
+      "copy1" : "",
+      "copy2" : ""
+    },
+
+    "course8" : {
+      "copy1" : "",
+      "copy2" : ""
+    },
+
+    "copy4" : "FİYAT TEKLİFİ ALIN"
+
+  },
+
+  "why-kaplan" : {
+    "copy1" : "KAPLAN SİZİ İLERİYE TAŞIYACAK",
+    "copy2" : "Paranızın karşılığını veren <br> yurt dışı dil eğitiminde <br> en iyisi olarak tanınır",
+    "copy3" : "Uluslararası kontaklar <br> ve yeni arkadaşlıklar <br> edinin",
+    "copy4" : "İngilizce okuma, yazma ve konuşma <br> yeteneklerinizi <br> geliştirin",
+    "copy5" : "Daha güçlü, <br> daha çeşitli bir CV <br> ya da özgeçmiş yaratın",
+    "copy6" : "Kariyerinizde ilerleyin <br> ve daha iyi bir pozisyon için <br> terfi alın"
+  },
+
+  "contact-advisor" : {
+    "copy1" : "YURT DIŞI İNGİLİZCE EĞİTİM HAKKINDA DAHA FAZLA BİLGİ İÇİN EĞİTİM DANIŞMANIYLA İLETİŞİME GEÇİN",
+    "copy2" : "FİYAT TEKLİFİ ALIN"
+  },
+
+  "testimonials" : {
+    "copy1" : "ÖĞRENCİLERİMİZ NE DİYOR",
+
+    "testimonial1" : {
+      "copy1" : "Kaplan İngiltere'deki en iyi dil okulu olarak biliniyor. Ben şahsen Kaplan ile eğitim almış birçok kişi tanıyorum, hepsi de okulun mükemmel olduğunu düşünüyorlar. Onların tavsiyesini dinledim ve bu mükemmel deneyimin bir parçası olarak keyfini çıkardım.",
+      "copy2" : "Zyiad Ali Alosayfir, Suudi Arabistan"
+    },
+
+    "testimonial2" : {
+      "copy1" : "İngilizcem kesinlikle gelişti. Amacım dili akıcı bir şekilde konuşabilmek ve İngilizce'ye tam olarak hakim hale gelmek. Kaplan'dan sonra üniversite eğitimimi tamamlayacağım.",
+      "copy2" : "Julia Jarowicz, Polonya"
+    },
+
+
+    "testimonial3" : {
+      "copy1" : "İngilizce konuşma korkum tamamen kayboldu. Kaplan'dan önce konuşmayı denemeye bile çok endişeliydim. Dünyanın her yerinden iyi arkadaşlar edindiğim için çok şanslıyım ve onları kendi ülkelerinde ziyaret edeceğim için çok heyecanlıyım.",
+      "copy2" : "Hyoju Nam, Güney Kore"
+    },
+
+    "testimonial4" : {
+      "copy1" : "İngilizce öğrenmek Kaplan Deneyimimin en önemli parçasıydı, dersler çok iyi şekilde tasarlanmıştı ve sınıflarda son teknoloji aletler kullanılıyordu. Bu tür imkanlar İngilizce öğrenmeyi daha eğlenceli kılıyor.",
+      "copy2" : "Maris Oksche, Almanya"
+    },
+
+    "testimonial5" : {
+      "copy1" : "Yerel halkla yaşadıktan sonra ve İngilizce'nin sürekli gerekli olduğu bir yerle iç içe olunca İngilizcem oldukça gelişti. Bu da benim kendime olan güvenimi artırdı.",
+      "copy2" : "Bruna Schelb Correa, Brezilya"
+    }
+
+
+
+  },
+
+  "footer" : {
+    "copy1" : "Kaplan Hakkında",
+    "copy2" : "Anadili İngilizce olan 8 ülkede akredite edilmiş 40’ın üzerinde dil okulu ile Kaplan International English, öğrencilere birinci sınıf İngilizce eğitimi ve hayatlarının deneyimini sunar.",
+    "copy3" : "12 ve üzeri yaş aralığı için 40 yılı aşkın süredir kapsamlı İngilizce eğitim programları sunuyoruz. Geçtiğimiz senelerde binlerce öğrenci Kaplan’la İngilizce öğrendi ve 10 öğrenciden 9’u Kaplan deneyiminden memnun olarak ayrıldı.",
+    "copy4" : "Daha fazla bilgi ",
+
+    "links" :  {
+      "copy0" : "LİNKLER",
+
+      "copy1": "Kariyer",
+      "copy2": "//careers.kaplaninternational.com/jobs/",
+
+      "copy3": "İletişim Bilgileri",
+      "copy4": "//kaplaninternational.com/contact-us-corporate-enquiries-and-call-us",
+
+      "copy5": "İngilizce Testi",
+      "copy6": "//kaplaninternational.com/tr/ucretsiz-ingilizce-testi",
+
+      "copy7": "Koşul & Şartlar",
+      "copy8": "//kaplaninternational.com/privacy",
+
+      "copy9": "Cookie Policy",
+      "copy10": "//kaplaninternational.com/privacy#s5",
+
+      "copy11": "Sitemap",
+      "copy12" : "//kaplaninternational.com/"
+    },
+
+    "follow-us": {
+      "copy1" : "Takip edin",
+
+      "copy2" : "Facebook",
+      "copy3" : "//facebook.com/kicturkiye",
+
+      "copy4" : "Twitter",
+      "copy5" : "//twitter.com/kaplan_turkiye",
+
+      "copy6" : "Instagram",
+      "copy7" : "//instagram.com/kaplan_turkiye",
+
+      "copy8" : "Kaplan Blog",
+      "copy9" : "//kaplaninternational.com/tr/blog/"
+
+    },
+
+    "accreditation" : {
+      "copy1" : "ULUSLARARASI AKREDITASYONLAR",
+      "copy2" : "USA",
+      "copy3" : "UK",
+      "copy4" : "Australia",
+      "copy5" : "Canada",
+      "copy6" : "New Zealand",
+      "copy7" : "Ireland"
+
+    }
+
+  }
+
+}
+
+

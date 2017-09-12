@@ -2,41 +2,65 @@
 Instead edit gulp/templates/sprite */
 
 .icon {
-  background-image: url('../../assets/images/sprites/sprite-8773fc59.svg');
+  background-image: url('../../assets/images/sprites/sprite-32be850d.svg')/*rtl:ignore*/;
 }
 
 .no-svg .icon {
-  background-image: url('../../assets/images/sprites/');
+  background-image: url('../../assets/images/sprites/sprite-32be850d.png')/*rtl:ignore*/;
 
 }
 
 
+.icon--booking {
+  width: 17px;
+  height: 17px;
+  background-position: 64.67065868263474% 50%/*rtl:ignore*/;
+}
+
+.icon--check {
+  width: 16px;
+  height: 14px;
+  background-position: 84.52380952380952% 47.76119402985075%/*rtl:ignore*/;
+}
+
+.icon--date {
+  width: 17px;
+  height: 16px;
+  background-position: 74.8502994011976% 49.23076923076923%/*rtl:ignore*/;
+}
+
 .icon--kaplan-logo {
-  width: 180px;
-  height: 31px;
-  background-position: 0 0;
+  width: 184px;
+  height: 32px;
+  background-position: 0 0/*rtl:ignore*/;
 }
 
 .icon--left-arrow {
-  width: 30px;
-  height: 30px;
-  background-position: 0 100%;
+  width: 32px;
+  height: 32px;
+  background-position: 0 65.3061224489796%/*rtl:ignore*/;
+}
+
+.icon--location {
+  width: 17px;
+  height: 17px;
+  background-position: 0 100%/*rtl:ignore*/;
 }
 
 .icon--mail {
-  width: 20px;
-  height: 20px;
-  background-position: 37.5% 75.60975609756098%;
+  width: 22px;
+  height: 22px;
+  background-position: 39.50617283950617% 54.23728813559322%/*rtl:ignore*/;
 }
 
 .icon--phone {
-  width: 20px;
-  height: 20px;
-  background-position: 50% 75.60975609756098%;
+  width: 22px;
+  height: 22px;
+  background-position: 53.08641975308642% 54.23728813559322%/*rtl:ignore*/;
 }
 
 .icon--right-arrow {
-  width: 30px;
-  height: 30px;
-  background-position: 20% 100%;
+  width: 32px;
+  height: 32px;
+  background-position: 21.05263157894737% 65.3061224489796%/*rtl:ignore*/;
 }

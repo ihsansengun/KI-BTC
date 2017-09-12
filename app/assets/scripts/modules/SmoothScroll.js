@@ -7,8 +7,11 @@ class smoothScroll {
     }
 
     addSmoothScroll () {
-        this.headerLinks.smoothScroll();
+        this.headerLinks.smoothScroll({
+            offset: -70
+        });
     }
 }
+
 
 export default smoothScroll;

@@ -1,0 +1,247 @@
+{
+  "html": {
+    "lang" : "it",
+    "meta-description": "PRENOTA IL TUO CORSO 2018 AL PREZZO 2017 E RISPARMIA",
+    "title": "Soggiorni Studio Kaplan - Prezzi bloccati",
+    "tealium-tag" : "kie-italian"
+  },
+
+  "facebook": {
+    "title": "Stai pensando di studiare inglese all’estero l’anno prossimo?",
+    "description" : "PRENOTA IL TUO CORSO 2018 AL PREZZO 2017 E RISPARMIA ",
+    "url" : "https://study.kaplaninternational.com/it/036_prezzi_bloccati/",
+    "image" : "http://study.kaplaninternational.com/_assets/036_plan-for-2018-and-save/images/facebook.jpg"
+  },
+
+  "menu": {
+    "tel" : "800976004",
+    "tel-link" : "800976004",
+    "contact" : " Contattaci "
+  },
+
+  "hero" : {
+    "copy1" : "Stai pensando di studiare inglese all’estero l’anno prossimo?",
+    "copy2" : "Offerta Speciale Corsi 2018",
+    "copy3" : "PREZZI BLOCCATI FINO AL 30 SETTEMBRE",
+    "copy4" : "Prenota ora e risparmia con oltre il 15% di sconto",
+    "copy5" : "OFFERTA IN SCADENZA TRA",
+    "copy6" : "PRENOTA IL TUO CORSO 2018 AL PREZZO 2017",
+    "copy7" : "CONTATTACI ORA",
+    "copy8" : "E RISPARMIA OLTRE IL 15%"
+  },
+
+  "take-advantages" : {
+
+    "copy1" : "Pianifica in tempo il tuo 2018 e investi sul tuo futuro!",
+    "copy2" : "Risparmia prenotando con i prezzi 2017",
+    "copy3" : "Prenota con sconti oltre il 15%",
+    "copy4" : "Studia nelle scuole più ambite",
+    "copy5" : "Prenota gli alloggi migliori",
+    "copy6" : "Affrettati! Prenotando entro il 30 Settembre potrai bloccare il tuo corso ad un prezzo speciale e risparmiare oltre il 15%.",
+    "copy7" : "Soddisfa la tua voglia di viaggiare, imparare e scoprire. Parti per un Soggiorno Studio Kaplan! Compila il form e un nostro consulente ti ricontatterà entro 48 ore.",
+    "formID" : "309471",
+    "projectID" : "tfa_444",
+
+
+    "example-courses" : {
+      "copy1" : "ESEMPIO CORSI IN PROMOZIONE*: ",
+      "copy2" : "Costo di un mese di corso generale",
+      "copy3" : "Corsi",
+      "copy4" : "RISPARMIA",
+      "copy5" : "PREZZO",
+      "copy6" : "OGGI",
+      "copy7" : "NEL 2018",
+      "copy8" : "*Offerta limitata e soggetta a disponibilità. Non ha valore retroattivo e non è cumulabile con altri sconti/convenzioni in corso. I prezzi sono indicativi, includono corso generale e tassa di iscrizione, non comprendono servizi extra e alloggio.",
+
+
+      "city1": {
+        "copy1" : "LONDRA - 4 Settimane",
+        "copy2" : "Corso Generale + Iscrizione",
+        "copy3" : "£198",
+        "copy4" : "£1.082",
+        "copy5" : "1.280"
+      },
+
+      "city2": {
+        "copy1" : "DUBLINO - 4 Settimane",
+        "copy2" : "Corso Generale + Iscrizione",
+        "copy3" : "€182",
+        "copy4" : "€1.138",
+        "copy5" : "€1.320"
+      },
+
+      "city3": {
+        "copy1" : "NEW YORK - 4 Settimane",
+        "copy2" : "Corso Generale + Iscrizione",
+        "copy3" : "$365",
+        "copy4" : "$1.620",
+        "copy5" : "$1.985"
+      }
+
+    }
+  },
+
+  "why-choose-kaplan" : {
+    "copy1" : "PERCHÉ SCEGLIERE KAPLAN?",
+    "copy2" : "<strong>97%</strong> dei nostri studenti ci raccomanda",
+    "copy3" : "75 anni di esperienza nell’insegnamento",
+    "copy4" : "150+ nazionalità degli studenti",
+    "copy5" : "41 scuole di inglese nel mondo"
+  },
+
+  "courses" : {
+    "copy1" : "KAPLAN OFFRE CORSI ADATTI A TUTTE LE ESIGENZE",
+    "copy2" : "I nostri corsi ti aiutano a raggiungere i tuoi obiettivi, sia professionali che accademici. <br> Scegli tra vacanze studio, preparazione esami, lunghi periodi all'estero o studio & lavoro.",
+
+    "course1" : {
+      "copy1" : "VACANZE STUDIO PER RAGAZZI",
+      "copy2" : "Corsi per ragazzi dai 12 ai 17 anni che imparano l’inglese in un ambiente sicuro, divertente e internazionale. Combina le classi con attività ricreative che ti consentiranno di migliorare il tuo inglese velocemente."
+    },
+
+    "course2" : {
+      "copy1" : "CORSI DI INGLESE",
+      "copy2" : "Corsi flessibili per chi intende migliorare l'inglese in tempi brevi vivendo in un Paese madrelingua. Scegli tra corso generale, semi-intensivo e intensivo e adatta il corso alle tue esigenze. "
+    },
+
+    "course3" : {
+      "copy1" : "CORSI DI LUNGO PERIODO",
+      "copy2" : "Migliora l'inglese con un'immersione totale nella cultura anglofona. Scegli un Semestre o un Anno accademico all'estero per consolidare competenze fondamentali per raggiungere i tuoi obiettivi professionali o accademici."
+    },
+
+    "course4" : {
+      "copy1" : "STUDIO & LAVORO",
+      "copy2" : "Studia inglese e potenzia il tuo curriculum con un’esperienza di lavoro all’estero. Dopo il corso, potrai mettere in pratica il tuo inglese in un ambiente di lavoro internazionale e multiculturale."
+    },
+
+    "course5" : {
+      "copy1" : "BUSINESS ENGLISH",
+      "copy2" : "Migliora le tue abilità linguistiche in campo lavorativo. Questo corso è ideale per chi deve utilizzare l’inglese al lavoro e per aspirare ad una carriera internazionale e di successo."
+    },
+
+    "course6" : {
+      "copy1" : "PREPARAZIONE ESAMI",
+      "copy2" : "Preparati agli esami d'inglese più richiesti da università internazionali e aziende italiane e straniere. Kaplan è leader nella preparazione agli esami IELTS, Cambridge, TOEFL e GMAT."
+    },
+
+    "course7" : {
+      "copy1" : "",
+      "copy2" : ""
+    },
+
+    "course8" : {
+      "copy1" : "",
+      "copy2" : ""
+    },
+
+    "copy4" : "RICHIEDI UN PREVENTIVO"
+
+  },
+
+  "why-kaplan" : {
+    "copy1" : "SUPERA OGNI CONFINE CON KAPLAN INTERNATIONAL",
+    "copy2" : "La miglior esperienza studi all'estero",
+    "copy3" : "Stringi nuove amicizie internazionali ",
+    "copy4" : "Acquisisci sicurezza nell'usare l'inglese",
+    "copy5" : "Costruisci un Curriculum più competitivo",
+    "copy6" : "Espandi le tue possibilità di carriera"
+  },
+
+  "contact-advisor" : {
+    "copy1" : "PARLA CON UN ESPERTO KAPLAN PER UNA CONSULENZA GRATUITA",
+    "copy2" : "BLOCCA L’OFFERTA"
+  },
+
+  "testimonials" : {
+    "copy1" : "I COMMENTI DEI NOSTRI SUDENTI",
+
+    "testimonial1" : {
+      "copy1" : "Kaplan International è leader nella formazione linguistica a livello internazionale. Personalmente ho conosciuto diverse persone che hanno studiato con Kaplan in Uk e hanno avuto esperienze eccellenti. Ho ascoltato il loro consiglio e ho vissuto un'esperienza fantastica",
+      "copy2" : "Zyiad Ali Alosayfir, Arabia Saudita"
+    },
+
+    "testimonial2" : {
+      "copy1" : "Il mio inglese è nettamente migliorato, il mio obiettivo è diventare fluente. Dopo Kaplan mi concentrerò sui miei studi universitari",
+      "copy2" : "Julia Jarowicz, Polonia"
+    },
+
+
+    "testimonial3" : {
+      "copy1" : "I miei timori di non poter parlare inglese, sono scomparsi. Prima di Kaplan ero molto ansiosa all’idea di parlare in inglese. Adesso sono molto più sicura di me e ho fatto tante amicizie internazionali con ragazzi da tutto il mondo",
+      "copy2" : "Hyoju Nam, Sud Corea"
+    },
+
+    "testimonial4" : {
+      "copy1" : "Imparare bene l'inglese è stata la parte più importante della mia Kaplan Experience. Le lezioni sono molto interattive, si usano multimedia in classe, e in questo modo anche studiare diventa divertente",
+      "copy2" : "Maris Oksche, Germania"
+    },
+
+    "testimonial5" : {
+      "copy1" : "Il mio inglese é  migliorato e sono riuscita a scoprire una nuova cultura, dove l'inglese è indispensabile in ogni momento, questo mi ha reso più sicura di me",
+      "copy2" : "Bruna Schelb Correa, Brasile"
+    }
+
+
+
+  },
+
+  "footer" : {
+    "copy1" : "Chi siamo",
+    "copy2" : "Kaplan International English è una società leader mondiale nell'organizzazione di corsi di inglese all'estero e vacanze studio.",
+    "copy3" : "Kaplan offre oltre 41 scuole di inglese nei Paesi madrelingua e garantisce alti standards di insegnamento e qualità accademica.",
+    "copy4" : "Scopri di più ",
+
+    "links" :  {
+      "copy0" : "Links",
+
+      "copy1": "Carriera con Kaplan",
+      "copy2": "//careers.kaplaninternational.com/jobs/",
+
+      "copy3": "Kaplan Italia",
+      "copy4": "//kaplaninternational.com/it/about-kaplan/team",
+
+      "copy5": "Test d'inglese",
+      "copy6": "//study.kaplaninternational.com/l/it/english-test/kaplan.html",
+
+      "copy7": "Terms & Conditions",
+      "copy8": "https://www.kaplaninternational.com/it/termini-e-condizioni",
+
+      "copy9": "Cookie Policy",
+      "copy10": "https://www.kaplaninternational.com/it/termini-e-condizioni",
+
+      "copy11": "Sitemap",
+      "copy12" : "//kaplaninternational.com/"
+    },
+
+    "follow-us": {
+      "copy1" : "Follow us",
+
+      "copy2" : "Facebook",
+      "copy3" : "//facebook.com/kicitalia",
+
+      "copy4" : "Twitter",
+      "copy5" : "//twitter.com/KaplanItalia",
+
+      "copy6" : "Instagram",
+      "copy7" : "//instagram.com/KaplanItalia",
+
+      "copy8" : "Kaplan Blog",
+      "copy9" : "//kaplaninternational.com/it/blog"
+
+    },
+
+    "accreditation" : {
+      "copy1" : "Worldwide accreditations",
+      "copy2" : "USA",
+      "copy3" : "UK",
+      "copy4" : "Australia",
+      "copy5" : "Canada",
+      "copy6" : "New Zealand",
+      "copy7" : "Ireland"
+
+    }
+
+  }
+
+}
+
+

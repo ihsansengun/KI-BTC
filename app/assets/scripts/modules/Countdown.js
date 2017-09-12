@@ -4,28 +4,94 @@ class timer {
     constructor() {
         this.el = $('#timer');
         this.htmlLang = document.getElementsByTagName("html")[0].getAttribute("lang");
-        // console.log(this.htmlLang)
 
+        this._month = 9;
+        this._day = 30;
 
-        if (this.htmlLang == 'en' ) {
-            this.year = 2017;
-            this.month = 9;
-            this.day = 30;
-            this.hour = 23;
-            this.minute = 59;
-            this.lang = 'eng';
-            this.addTimer();
+        // if you need to extend the time add a new case
+        switch (this.htmlLang) {
+            case 'th':
+                this.year = 2017;
+                this.month = this._month;
+                this.day = this._day;
+                this.hour = 23;
+                this.minute = 59;
+                this.lang = 'en';
+                this.addTimer();
 
-        } else if (this.htmlLang == 'fr' ) {
+                break;
 
-            this.year = 2017;
-            this.month = 9;
-            this.day = 30;
-            this.hour = 23;
-            this.minute = 59;
-            this.lang = 'fr';
-            this.addTimer();
+            case 'es-VE':
+                
+                this.year = 2017;
+                this.month = this._month;
+                this.day = this._day;
+                this.hour = 23;
+                this.minute = 59;
+                this.lang = 'es';
+                this.addTimer();
 
+                break;
+
+            case 'es-CO':
+
+                this.year = 2017;
+                this.month = this._month;
+                this.day = this._day;
+                this.hour = 23;
+                this.minute = 59;
+                this.lang = 'es';
+                this.addTimer();
+
+                break;
+
+            case 'es-MX':
+
+                this.year = 2017;
+                this.month = this._month;
+                this.day = this._day;
+                this.hour = 23;
+                this.minute = 59;
+                this.lang = 'es';
+                this.addTimer();
+
+                break;
+
+            // counter for latam- it's using es-AR to avoid (spanish) lang conflict
+            case 'es-AR':
+                this._month = 9;
+                this._day = 15;
+
+                this.year = 2017;
+                this.month = this._month;
+                this.day = this._day;
+                this.hour = 23;
+                this.minute = 59;
+                this.lang = 'es';
+                this.addTimer();
+
+                break;
+
+            case 'pt-BR':
+
+                this.year = 2017;
+                this.month = this._month;
+                this.day = this._day;
+                this.hour = 23;
+                this.minute = 59;
+                this.lang = 'br';
+                this.addTimer();
+
+                break;
+
+            default:
+                this.year = 2017;
+                this.month = this._month;
+                this.day = this._day;
+                this.hour = 23;
+                this.minute = 59;
+                this.lang = this.htmlLang;
+                this.addTimer();
         }
 
 

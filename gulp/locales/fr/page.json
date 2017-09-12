@@ -1,0 +1,248 @@
+{
+  "html": {
+    "lang" : "fr",
+    "meta-description": "RÉSERVEZ AVANT LE 30 SEPTEMBRE 2017",
+    "title": "Vous souhaitez partir en séjour linguistique en 2018 ?",
+    "tealium-tag" : "kie-french"
+  },
+
+
+  "facebook": {
+    "title": "Vous souhaitez partir en séjour linguistique en 2018 ?",
+    "description" : "RÉSERVEZ AVANT LE 30 SEPTEMBRE 2017",
+    "url" : "https://study.kaplaninternational.com/fr/036_reservez-pour-2018-et-economisez/",
+    "image" : "//study.kaplaninternational.com/_assets/036_plan-for-2018-and-save/images/facebook.jpg"
+  },
+
+  "menu": {
+    "tel" : "+33 (0)1 48 00 06 00",
+    "tel-link" : "330148000600",
+    "contact" : "CONTACTEZ UN CONSEILLER"
+  },
+
+  "hero" : {
+    "copy1" : "Vous envisagez de partir en séjour linguistique en 2018 ?",
+    "copy2" : "Nos tarifs sont sur le point de changer",
+    "copy3" : "RÉSERVEZ MAINTENANT POUR DÉPENSER MOINS",
+    "copy4" : "Tarifs 2017 -  15% de réduction*",
+    "copy5" : "LA COURSE CONTRE LA MONTRE A DÉMARRÉ",
+    "copy6" : "RÉSERVEZ AVANT LE 30 SEPTEMBRE 2017",
+    "copy7" : "DERNIERS JOURS",
+    "copy8" : "POUR PROFITER DES TARIFS 2017"
+  },
+
+  "take-advantages" : {
+
+    "copy1" : "Pourquoi réserver votre séjour dès maintenant ?",
+    "copy2" : "Tarifs 2017 garantis",
+    "copy3" : "Jusqu’à 15% de reduction supplémentaire*",
+    "copy4" : "Vous versez un acompte de 250€ aujourd’hui",
+    "copy5" : "Vous avez jusqu'à 30 jours avant votre départ pour régler le solde",
+    "copy6" : "Contactez dès aujourd’hui un conseiller qui vous fera profiter de son expertise pour trouver le programme qui vous correspond.",
+    "copy7" : "<strong>Faites vite !</strong> Nos nouveaux tarifs entreront en vigueur le 1<sup>er</sup> octobre. Réservez dès aujourd’hui votre séjour linguistique au meilleur prix.",
+    "formID" : "260901",
+
+
+
+    "example-courses" : {
+      "copy1" : "EXEMPLES DE PROGRAMMES**",
+      "copy2" : " ",
+      "copy3" : "PROGRAMME D’ANGLAIS",
+      "copy4" : "ÉCONOMISEZ",
+      "copy5" : "TARIFS",
+      "copy6" : "MAINTENANT",
+      "copy7" : "2018",
+      "copy8" : "* Réduction supplémentaire ! Retrouvez nos promotions en cours. <br>** Ces tarifs sont donnés à titre d’exemple. Les prix sont calculés sur la base du taux de change en cours de l’USD, l’AUD et la GBP. Des frais et charges additionnels peuvent s’ajouter aux tarifs 2018.",
+
+
+      "city1": {
+        "copy1" : "OXFORD",
+        "copy2" : "Cours d’Anglais Intensif – 4 semaines",
+        "copy3" : "200 €",
+        "copy4" : "1 440 €",
+        "copy5" : "1 640 €"
+      },
+
+      "city2": {
+        "copy1" : "SYDNEY",
+        "copy2" : "Cours d’Anglais Général – 12 semaines ",
+        "copy3" : "630 €",
+        "copy4" : "2 500 €",
+        "copy5" : "3 130 €"
+      },
+
+      "city3": {
+        "copy1" : "NEW YORK",
+        "copy2" : "Semestre Académique Général – 5 mois",
+        "copy3" : "415 €",
+        "copy4" : "5 660 €",
+        "copy5" : "7 075 €"
+      }
+
+    }
+  },
+
+  "why-choose-kaplan" : {
+    "copy1" : "POURQUOI CHOISIR KAPLAN ?",
+    "copy2" : "<strong>97 %</strong> de nos étudiants sont prêts à recommander Kaplan International English à leur entourage.",
+    "copy3" : "Vivez une aventure linguistique inoubliable en immersion totale.",
+    "copy4" : "Choisissez le programme et la destination adaptés à vos objectifs.",
+    "copy5" : "Donnez un nouvel élan à votre parcours académique et professionnel."
+  },
+
+  "courses" : {
+    "copy1" : "NOUS AVONS LE PROGRAMME QUI VOUS CORRESPOND",
+    "copy2" : "Envie de passer deux semaines ou tout un semestre à l’étranger ? <br>Nous avons le programme qui correspond à vos objectifs personnels et professionnels.",
+
+    "course1" : {
+      "copy1" : "SÉJOUR LINGUISTIQUE ADOLESCENT",
+      "copy2" : "Nous permettons aux étudiants dès l’âge de 14 ans d’apprendre l’anglais dans un environnement convivial et sécurisé. Grâce à un programme d’activités sociales varié, les étudiants pourront rapidement sympathiser avec leurs camarades tout en apprenant l’anglais et en explorant leur destination."
+    },
+
+    "course2" : {
+      "copy1" : "ANGLAIS À LA CARTE",
+      "copy2" : "Créez votre programme sur mesure de 2 à 52 semaines selon vos objectifs linguistiques, vos disponibilités et votre budget. Le programme d’Anglais Standard vous offre plus de temps pour voyager ou travailler en dehors des cours, tandis que le programme d’Anglais Intensif permet une progression rapide."
+    },
+
+    "course3" : {
+      "copy1" : "GAP YEAR (5 à 9 mois)",
+      "copy2" : "Apprenez à parler anglais couramment en vous immergeant totalement dans une nouvelle culture. Lancez-vous dans un Semestre ou une Année Académique complète, en Anglais Général ou Intensif. Vous aurez l’occasion unique d’explorer les richesses de votre destination et vous faire des amis du monde entier."
+    },
+
+    "course4" : {
+      "copy1" : "ANGLAIS + STAGE OU JOB",
+      "copy2" : "L’anglais est aujourd’hui la langue de communication universelle des entreprises à l’international. Gagnez en expérience professionnelle tout en améliorant votre anglais grâce à nos formules combinant cours d'anglais et stage ou job à l'étranger. Une bonne maitrise de l’anglais, accompagnée d'une expérience pratique dans une entreprise anglophone, sera un avantage majeur pour votre C.V."
+    },
+
+    "course5" : {
+      "copy1" : "ANGLAIS PROFESSIONEL (BUSINESS)",
+      "copy2" : "Ce programme est idéal pour les professionnels et les jeunes diplômés ayant besoin de communiquer en anglais au travail. Il permet d'améliorer la fluidité de votre anglais général, d'étoffer votre vocabulaire commercial et de renforcer vos capacités à vous exprimer dans des situations professionnelles. Vos nouvelles compétences en Anglais Business vous donneront un avantage majeur sur le marché de l’emploi."
+    },
+
+    "course6" : {
+      "copy1" : "PRÉPARATION AUX EXAMENS",
+      "copy2" : "Concentrez-vous sur le passage de votre examen et les techniques nécessaires pour optimiser vos résultats. Nos cours sont conçus spécialement pour améliorer vos compétences en anglais et vous donner confiance en vous. Nous vous aidons à vous préparer au mieux aux examens de l'IELTS<sup>®</sup>, du TOEFL<sup>®</sup>, de Cambridge, du GMAT<sup>®</sup>, et du GRE<sup>®</sup>."
+    },
+
+    "course7" : {
+      "copy1" : "",
+      "copy2" : ""
+    },
+
+    "course8" : {
+      "copy1" : "",
+      "copy2" : ""
+    },
+
+    "copy4" : "CONTACTER UN CONSEILLER"
+
+  },
+
+  "why-kaplan" : {
+    "copy1" : "AVEC KAPLAN, EXPLOREZ VOTRE POTENTIEL",
+    "copy2" : "Partez avec un organisme reconnu depuis 80 ans pour son excellence académique",
+    "copy3" : "Faites-vous un réseau international et formez des amitiés uniques",
+    "copy4" : "Gagnez en assurance pour parler, écrire et lire en anglais",
+    "copy5" : "Enrichissez votre CV et renforcez votre profil sur le marché de l’emploi",
+    "copy6" : "Améliorez vos perspectives de carrière et de rémunération"
+  },
+
+  "contact-advisor" : {
+    "copy1" : "DISCUTEZ DE VOTRE PROJET AVEC UN CONSEILLER ET TROUVEZ LA FORMULE ADAPTÉE",
+    "copy2" : "PROFITER DE L’OFFRE"
+  },
+
+  "testimonials" : {
+    "copy1" : "CE QUE PENSENT NOS ÉTUDIANTS",
+
+    "testimonial1" : {
+      "copy1" : "Kaplan International est réputé comme étant l'une des meilleures écoles d'anglais de tout le Royaume-Uni. Je connais personnellement de nombreuses personnes ayant étudié à Kaplan et trouvé l’école excellente. J'ai suivi leurs conseils et j'ai adoré cette expérience.",
+      "copy2" : "Zyiad Ali Alosayfir, Arabie saoudite "
+    },
+
+    "testimonial2" : {
+      "copy1" : "J'ai fait d'énormes progrès en anglais. Mon objectif est de devenir parfaitement bilingue. Après Kaplan, je compte terminer mes études à l'université",
+      "copy2" : "Julia Jarowicz, Pologne"
+    },
+
+
+    "testimonial3" : {
+      "copy1" : "Mon appréhension à parler anglais a complètement disparu. Avant Kaplan, j'étais si nerveuse que je n'arrivais pas à aligner deux mots d'anglais. Aujourd'hui, je me sens extrêmement chanceuse d'avoir pu me faire des amis du monde entier, et j'ai hâte de leur rendre visite dans leur pays !",
+      "copy2" : "Hyoju Nam, Corée du Sud"
+    },
+
+    "testimonial4" : {
+      "copy1" : "J'ai rejoint Kaplan pour apprendre l'anglais. Les cours sont très bien conçus et l'utilisation des nouvelles technologies permet de s'amuser tout en apprenant la langue.",
+      "copy2" : "Maris Oksche, Allemagne"
+    },
+
+    "testimonial5" : {
+      "copy1" : "C'est grâce à l'immersion dans la culture locale que j'ai pu faire tant de progrès. On parle anglais tout le temps, et ça permet de se sentir plus à l'aise.",
+      "copy2" : "Bruna Schelb Correa, Brésil"
+    }
+
+
+
+  },
+
+  "footer" : {
+    "copy1" : "À propos de Kaplan",
+    "copy2" : "Avec plus de 43 écoles accréditées pour adultes et jeunes étudiants situées dans huit pays anglophones différents, Kaplan International English propose des programmes d'apprentissage de l'anglais d'un standard académique extrêmement élevé.",
+    "copy3" : "Depuis maintenant plus de 75 ans, nous proposons une large gamme de programmes pour les étudiants âgés de 12 ans et plus. Au total, ce sont plus de 70 000 étudiants qui sont partis étudier avec nous, et 9 sur 10 d'entre eux sont prêts à nous recommander à leurs amis ou à leur famille.",
+    "copy4" : "En savoir plus ",
+
+    "links" :  {
+      "copy0" : "Liens",
+
+      "copy1": "Carrières",
+      "copy2": "//careers.kaplaninternational.com/jobs/",
+
+      "copy3": "Informations de contact",
+      "copy4": "//www.kaplaninternational.com/fr/informations/notre-equipe",
+
+      "copy5": "Test d'anglais",
+      "copy6": "//www.kaplaninternational.com/fr/test-anglais-gratuit",
+
+      "copy7": "Termes & Conditions",
+      "copy8": "//www.kaplaninternational.com/fr/termes-et-conditions",
+
+      "copy9": "Cookies",
+      "copy10": "//www.kaplaninternational.com/fr/termes-et-conditions",
+
+      "copy11": "Plan du site",
+      "copy12" : "//www.kaplaninternational.com/fr"
+    },
+
+    "follow-us": {
+      "copy1" : "Follow us",
+
+      "copy2" : "Facebook",
+      "copy3" : "//www.facebook.com/kicfrance",
+
+      "copy4" : "Twitter",
+      "copy5" : "//twitter.com/kaplanfrance",
+
+      "copy6" : "Youtube",
+      "copy7" : "//www.youtube.com/user/kaplanfrance",
+
+      "copy8" : "Kaplan Blog",
+      "copy9" : "//www.kaplaninternational.com/fr/blog/?_ga=2.42458277.1612399953.1502098132-1360585891.1460116423/"
+
+    },
+
+    "accreditation" : {
+      "copy1" : "Accrédité par",
+      "copy2" : "États-Unis",
+      "copy3" : "Royaume-Uni",
+      "copy4" : "Australie",
+      "copy5" : "Canada",
+      "copy6" : "Nouvelle-Zélande",
+      "copy7" : "Irlande"
+
+    }
+
+  }
+
+}
+
+

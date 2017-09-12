@@ -8,19 +8,13 @@ import CourseBox from './modules/CourseBox';
 import HideFormElement from './modules/HideFormElement';
 
 
+var hideFormElement = new HideFormElement();
 var mobileMenu = new MobileMenu();
 var jqueryCycle = new JqueryCycle($('#testimonial'));
 var courseBox = new CourseBox();
-var hideFormElement = new HideFormElement();
-
-
-
-
 var timer = new Countdown();
 
 new RevealOnScroll($('.colored-icon-list__item'), '65%');
 new RevealOnScroll($('.circle-percent'), '85%');
-
-
 new SmoothScroll();
 

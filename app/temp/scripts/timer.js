@@ -1,69 +1,85 @@
 
-
 (function($){
     var day_ms = 24 * 60 * 60,
         hour_ms = 60 * 60,
         minute_ms = 60,
 
         lang = {
-            rus: {
-                second: ['ÑÐµÐºÑƒÐ½Ð´Ð°', 'ÑÐµÐºÑƒÐ½Ð´Ñ‹', 'ÑÐµÐºÑƒÐ½Ð´'],
-                minute: ['Ð¼Ð¸Ð½ÑƒÑ‚Ð°', 'Ð¼Ð¸Ð½ÑƒÑ‚Ñ‹', 'Ð¼Ð¸Ð½ÑƒÑ‚'],
-                hour: ['Ñ‡Ð°Ñ', 'Ñ‡Ð°ÑÐ°', 'Ñ‡Ð°ÑÐ¾Ð²'],
-                day: ['Ð´ÐµÐ½ÑŒ', 'Ð´Ð½Ñ', 'Ð´Ð½ÐµÐ¹']
+            rus : {
+                second: ['секунда', 'секунды', 'секунд'],
+                minute: ['минута', 'минуты', 'минут'],
+                hour: ['час', 'часа', 'часов'],
+                day: ['день', 'дня', 'дней'],
             },
-            eng: {
+
+            ru: {
+                second: ['second', 'секунды'],
+                minute: ['minute', 'минуты'],
+                hour: ['hour', 'ЧАСЫ'],
+                day: ['day', 'ДНИ'],
+            },
+            en: {
                 second: ['second', 'seconds'],
                 minute: ['minute', 'minutes'],
                 hour: ['hour', 'hours'],
                 day: ['day', 'days'],
             },
+
+            kr: {
+                second: ['second', '둘째'],
+                minute: ['minute', '분'],
+                hour: ['hour', '시간'],
+                day: ['day', '일'],
+            },
+
+
             it: {
                 second: ['second', 'SECONDI'],
                 minute: ['minute', 'MINUTI'],
                 hour: ['hour', 'ORE'],
                 day: ['day', 'GIORNI'],
             },
-            tur: {
+            tr: {
                 second: ['second', 'saniye'],
                 minute: ['minute', 'dakika'],
                 hour: ['hour', 'saat'],
-                day: ['day', 'gÃ¼n'],
+                day: ['day', 'gün'],
             },
 
             ar: {
-                second: ['second', 'Ø§Ù„Ø«ÙˆØ§Ù†ÙŠ'],
-                minute: ['minute', 'Ø§Ù„Ø¯Ù‚Ø§Ø¦Ù‚'],
-                hour: ['hour', 'Ø§Ù„Ø³Ø§Ø¹Ø§Øª'],
-                day: ['day', 'Ø§Ù„Ø£ÙŠØ§Ù…'],
+                second: ['second', 'ثانيا'],
+                minute: ['minute', 'اللحظة'],
+                hour: ['hour', 'ساعة'],
+                day: ['day', 'يوم'],
             },
 
-            rola: {
+
+            es: {
                 second: ['second', 'SEGUNDOS'],
                 minute: ['minute', 'MINUTOS'],
                 hour: ['hour', 'HORAS'],
-                day: ['day', 'DÃ­AS'],
+                day: ['day', 'DÍA'],
             },
 
             cn: {
-                second: ['second', 'ç§’'],
-                minute: ['minute', 'åˆ†é’Ÿ'],
-                hour: ['hour', 'å°æ—¶'],
-                day: ['day', 'å¤©'],
+                second: ['second', '秒'],
+                minute: ['minute', '分钟'],
+                hour: ['hour', '小时'],
+                day: ['day', '天'],
             },
 
             tw: {
-                second: ['second', 'ç§’'],
-                minute: ['minute', 'åˆ†é˜'],
-                hour: ['hour', 'å°æ™‚'],
-                day: ['day', 'å¤©'],
+                second: ['second', '秒'],
+                minute: ['minute', '分鐘'],
+                hour: ['hour', '小時'],
+                day: ['day', '天'],
             },
 
-            jp: {
-                second: ['second', 'ç§’'],
-                minute: ['minute', 'åˆ†'],
-                hour: ['hour', 'æ™‚é–“'],
-                day: ['day', 'æ—¥'],
+            ja: {
+                second: ['second', '秒'],
+                minute: ['minute', '分'],
+                hour: ['hour', '時間'],
+                day: ['day', '日'],
             },
 
             de: {
@@ -104,7 +120,7 @@
             dayVisible: true, // Ð¿Ð¾ÐºÐ°Ð·Ñ‹Ð²Ð°Ñ‚ÑŒ Ð»Ð¸ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð´Ð½ÐµÐ¹, ÐµÑÐ»Ð¸ Ð½ÐµÑ‚, Ñ‚Ð¾ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ñ‡Ð°ÑÐ¾Ð² Ð¼Ð¾Ð¶ÐµÑ‚ Ð¿Ñ€ÐµÐ²Ñ‹ÑˆÐ°Ñ‚ÑŒ 23
             dubleNumbers: true, // Ð¿Ð¾ÐºÐ°Ð·Ñ‹Ð²Ð°Ñ‚ÑŒ Ñ‡Ð°ÑÑ‹, Ð¼Ð¸Ð½ÑƒÑ‚Ñ‹ Ð¸ ÑÐµÐºÑƒÐ½Ð´Ñ‹ Ñ Ð²ÐµÐ´ÑƒÑ‰Ð¸Ð¼Ð¸ Ð½Ð¾Ð»ÑÐ¼Ð¸ ( 2Ñ‡Ð°ÑÐ° 5Ð¼Ð¸Ð½ÑƒÑ‚ 4ÑÐµÐºÑƒÐ½Ð´Ñ‹ = 02:05:04)
             effectType: 'none', // ÑÑ„Ñ„ÐµÐºÑ‚ Ð¾Ñ‚ÑÑ‡ÐµÑ‚Ð° Ñ‚Ð°Ð¹Ð¼ÐµÑ€Ð°: 'none' - Ð½ÐµÑ‚ ÑÑ„Ñ„ÐµÐºÑ‚Ð°, 'opacity' - Ð²Ñ‹Ñ†Ð²ÐµÑ‚Ð°Ð½Ð¸Ðµ
-            lang: 'eng',
+            lang: 'en',
 
             headTitle: '', // Ñ‚ÐµÐºÑÑ‚ Ð½Ð°Ð´ Ñ‚Ð°Ð¹Ð¼ÐµÑ€Ð¾Ð¼ (Ð¼Ð¾Ð¶Ð½Ð¾ Ð² HTML Ñ„Ð¾Ñ€Ð¼Ð°Ñ‚Ðµ)
             footTitle: '', // Ñ‚ÐµÐºÑÑ‚ Ð¿Ð¾Ð´ Ñ‚Ð°Ð¹Ð¼ÐµÑ€Ð¾Ð¼ (Ð¼Ð¾Ð¶Ð½Ð¾ Ð² HTML Ñ„Ð¾Ñ€Ð¼Ð°Ñ‚Ðµ)
@@ -256,20 +272,29 @@
             case 'rus':
                 cases = [2, 0, 1, 1, 1, 2];
                 return titles[ (number%100>4 && number%100<20) ? 2 : cases[(number%10<5) ? number%10 : 5] ];
-            case 'eng':
+            case 'en':
                 return titles[ ( number == 1 ) ? 0 : 1 ];
-            case 'tur':
+
+            case 'ru':
                 return titles[ ( number == 1 ) ? 0 : 1 ];
+
+
+            case 'kr':
+                return titles[ ( number == 1 ) ? 0 : 1 ];
+
+            case 'tr':
+                return titles[ ( number == 1 ) ? 0 : 1 ];
+
 
             case 'ar':
                 return titles[ ( number == 1 ) ? 0 : 1 ];
-            case 'rola':
+            case 'es':
                 return titles[ ( number == 1 ) ? 0 : 1 ];
             case 'cn':
                 return titles[ ( number == 1 ) ? 0 : 1 ];
             case 'tw':
                 return titles[ ( number == 1 ) ? 0 : 1 ];
-            case 'jp':
+            case 'ja':
                 return titles[ ( number == 1 ) ? 0 : 1 ];
             case 'it':
                 return titles[ ( number == 1 ) ? 0 : 1 ];

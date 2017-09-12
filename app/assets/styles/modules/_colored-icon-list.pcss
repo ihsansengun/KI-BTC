@@ -8,13 +8,12 @@
 
   &__item-inner {
     display: inline-block;
-    min-width: 280px;
+    min-width: 300px;
+    max-width: 300px;
 
     @mixin atSmall {
       min-width: 100%;
-
     }
-
   }
 
 
@@ -131,12 +130,12 @@
     text-align: left;
     color: white;
     padding-top: 5px;
-    float: left;
+    float: none;
+    padding-right: 10px;
 
     @mixin atSmall {
       text-align: center;
-    float: none;
-
+      padding-right: 0
     }
 
   }

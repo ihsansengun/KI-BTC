@@ -7,37 +7,125 @@
   background-color: rgba(166, 168, 183, 0.9);
   height: 250px;
 
-  &::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    width: 100%;
-    height: 100%;
-    background: url("../../assets/images/hero-img-blur-small.jpg") 50% 0 repeat fixed;
-    background-size: cover;
-    content: "";
-    filter: url("../../assets/images/hero-img-blur-small.jpg");
-    -webkit-filter: blur(5px);
-    filter: blur(5px);
+  &--bg-1 {
 
-    @mixin atMedium {
+    &::before {
       position: absolute;
       top: 0;
       left: 0;
       z-index: 0;
       width: 100%;
       height: 100%;
-      background: url("../../assets/images/hero-img-blur.jpg") 50% 0 repeat fixed;
+      background: url("../../assets/images/hero-img-small-1-blur.jpg") repeat fixed/*rtl:url("../../assets/images/hero-img-small-1-blur-ar.jpg") repeat fixed*/;
       background-size: cover;
+      background-position: 50% 60px;
+
       content: "";
-      filter: url("../../assets/images/hero-img-blur.jpg");
+      filter: url("../../assets/images/hero-img-small-1-blur.jpg") repeat fixed/*rtl:url("../../assets/images/hero-img-small-1-blur-ar.jpg") repeat fixed*/;
       -webkit-filter: blur(5px);
       filter: blur(5px);
 
+      @mixin atMedium {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        background: url("../../assets/images/hero-img-1-blur.jpg") repeat fixed/*rtl:url("../../assets/images/hero-img-1-blur-ar.jpg") repeat fixed*/;
+        background-size: cover;
+        content: "";
+        filter: url("../../assets/images/hero-img-1-blur.jpg")/*rtl:url("../../assets/images/hero-img-1-blur-ar.jpg")*/;
+        -webkit-filter: blur(5px);
+        filter: blur(5px);
+        background-position: 50% 60px;
+
+
+      }
+
+  }
+
+
+  }
+
+  &--bg-2 {
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      background: url("../../assets/images/hero-img-small-2.jpg")  repeat fixed;
+      background-size: cover;
+      background-position: top center;
+
+      content: "";
+      filter: url("../../assets/images/hero-img-small-2-blur.jpg");
+      -webkit-filter: blur(5px);
+      filter: blur(5px);
+
+      @mixin atMedium {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        background: url("../../assets/images/hero-img-2-blur.jpg") repeat fixed;
+        background-size: cover;
+        content: "";
+        filter: url("../../assets/images/hero-img-2-blur.jpg");
+        -webkit-filter: blur(5px);
+        filter: blur(5px);
+        background-position: top center;
+
+
+
+      }
 
     }
 
+
+
+  }
+
+
+  &--bg-3 {
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      background: url("../../assets/images/hero-img-small-3.jpg")  repeat fixed;
+      background-size: cover;
+      background-position: 50% -100px;
+
+      content: "";
+      filter: url("../../assets/images/hero-img-small-3-blur.jpg");
+      -webkit-filter: blur(5px);
+      filter: blur(5px);
+
+      @mixin atMedium {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        background: url("../../assets/images/hero-img-3-blur.jpg") repeat fixed;
+        background-size: cover;
+        content: "";
+        filter: url("../../assets/images/hero-img-3-blur.jpg");
+        -webkit-filter: blur(5px);
+        filter: blur(5px);
+        background-position: 50% -100px;
+      }
+    }
   }
 
 

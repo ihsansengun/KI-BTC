@@ -1,0 +1,245 @@
+{
+  "html": {
+    "lang" : "ja",
+    "meta-description": "2018年度に留学を考えている方は必見！10月1日をもって、カプランの全てのコースに新料金が適用されます。9月30日までにお申し込みいただければ、新料金が適用される前の料金でお得に留学できます。",
+    "title": "2018年度価格改定のお知らせ｜語学学校のカプラン",
+    "tealium-tag" : "kie-japanese"
+  },
+
+  "facebook": {
+    "title": "2018年度価格改定のお知らせ｜語学学校のカプラン",
+    "description" : "2018年度に留学を考えている方は必見！10月1日をもって、カプランの全てのコースに新料金が適用されます。9月30日までにお申し込みいただければ、新料金が適用される前の料金でお得に留学できます。",
+    "url" : "https://study.kaplaninternational.com/jp/036_plan-for-2018-and-save/",
+    "image" : "http://study.kaplaninternational.com/_assets/036_plan-for-2018-and-save/images/facebook.jpg"
+  },
+
+  "menu": {
+    "tel" : "0120-99-8953",
+    "tel-link" : "0120998953",
+    "contact" : "お問い合わせ"
+  },
+
+  "hero" : {
+    "copy1" : "＜お知らせ＞10月1日から価格が改定されます ",
+    "copy2" : "価格改定前に",
+    "copy3" : "お得に留学しよう",
+    "copy4" : "更に今なら、授業料が最大15%になるキャンペーン実施中",
+    "copy5" : "価格改定まで残りあと",
+    "copy6" : "9月30日までにお申し込みの方対象",
+    "copy7" : "お問い合わせ",
+    "copy8" : "アドバイザーが1営業日以内に返信いたします"
+  },
+
+  "take-advantages" : {
+
+    "copy1" : "2018年度の料金が一部改定します",
+    "copy2" : "6か国から選べる留学先",
+    "copy3" : "世界150か国から留学生が集まる",
+    "copy4" : "短期から長期留学まで豊富なプラン",
+    "copy5" : "オンライン学習ツール付き",
+    "copy6" : "カプランでは10月1日をもって、全てのコースに新料金が適用されます。2018年の春休みや新年度のタイミングで留学をお考えの方は、9月30日（土）までにお申し込みいただくと、改定前の料金でお得に留学することができます。料金が変わる前の今、少しお得に留学しませんか？",
+    "copy7" : "<strong> 更に今なら、授業料が最大15%オフになるキャンペーン実施中！</strong> ",
+    "formID" : "296668",
+    "projectID" : "tfa_888",
+
+
+    "example-courses" : {
+      "copy1" : "今お申し込みいただくと、こんなにお得！",
+      "copy2" : "留学期間4週間の場合*",
+      "copy3" : "コースタイプ",
+      "copy4" : "割引額",
+      "copy5" : "料金",
+      "copy6" : "今なら",
+      "copy7" : "2018年度",
+      "copy8" : "* 入学金などの一部料金は含まれておりません。詳しくは留学アドバイザーにお問い合わせください。",
+
+
+      "city1": {
+        "copy1" : "ニューヨーク",
+        "copy2" : "半日英語コース + ホームステイ（ツイン、食事付き）",
+        "copy3" : "-$180",
+        "copy4" : "$2,920",
+        "copy5" : "$3,100"
+      },
+
+      "city2": {
+        "copy1" : "ロンドン",
+        "copy2" : "集中英語コース + 学生寮（シングル、食事なし）",
+        "copy3" : "-£200",
+        "copy4" : "£2,820",
+        "copy5" : "£3,020"
+      },
+
+      "city3": {
+        "copy1" : "バンクーバー",
+        "copy2" : "ビジネス英語コース+ ホームステイ（ツイン、食事付き）",
+        "copy3" : "-$160",
+        "copy4" : "$2,640",
+        "copy5" : "$2,800"
+      }
+
+    }
+  },
+
+  "why-choose-kaplan" : {
+    "copy1" : "カプランがおすすめな理由",
+    "copy2" : "<strong>97%</strong> の卒業生がカプランを「家族・友人に推奨したい」と言ってくれています。",
+    "copy3" : "毎年150か国から留学生を受け入れるグローバルな語学学校",
+    "copy4" : "英語でのコミュニケーションスキルを伸ばすカリキュラム",
+    "copy5" : "豊富なソーシャルアクティビティーで充実した留学生活"
+  },
+
+  "courses" : {
+    "copy1" : "自分にあったコースを選ぼう",
+    "copy2" : "目標や期間、費用に合わせて様々なコースから自分にぴったりのコースが選べます。",
+
+    "course1" : {
+      "copy1" : "短期留学向けコース",
+      "copy2" : "最短2週間からできる短期留学コース。おすすめは、1日のレッスン時間が選べるフレックス英語コース。半日レッスンを受けてそれ以外は自由時間の半日英語コースや1日しっかりと英語のレッスンを受ける集中英語コースがあります。"
+    },
+
+    "course2" : {
+      "copy1" : "長期留学向けコース",
+      "copy2" : "カプランには長期留学向けのコースもたくさんご用意しています。英語力のほかに、海外で生活を送ることで得られる、国際感覚は長期留学ならではの醍醐味。特に５、６、８ヶ月と決められた期間の留学なら、長期割引がきくパッケージコースも。"
+    },
+
+    "course3" : {
+      "copy1" : "キャリアアップコース",
+      "copy2" : "一般的な英語からビジネスで使われる英語を学ぶことができる、キャリアアップに役立つコースがいっぱい。中には、専門用語が必要な分野の英語が学べる、専門英語コースも。 将来英語を使う環境で働きたい人や、これから海外とのやり取りが増える人などにオススメのコースです。"
+    },
+
+    "course4" : {
+      "copy1" : "就労体験コース",
+      "copy2" : "海外で働いてみたい方にはオススメのコース。コース期間中には、英語のレッスンと一緒に現地で仕事に就くことが出来ます。 海外での仕事の探し方から面接などもサポートします。"
+    },
+
+    "course5" : {
+      "copy1" : "英語試験対策コース",
+      "copy2" : "英語圏の大学や大学院への進学を目指す方で、英語力証明で英語試験を受験する必要がある方向けのコースです。 TOEFLやIELTS、ケンブリッジ英検などの試験に必要なスキルが学べます。"
+    },
+
+    "course6" : {
+      "copy1" : "EXAM PREP",
+      "copy2" : "Focus on exam-taking skills and benefit from tips to maximize your test scores. We'll help prepare you for your IELTS, TOEFL®, Cambridge, GMAT®, and GRE® exams."
+    },
+
+    "course7" : {
+      "copy1" : "",
+      "copy2" : ""
+    },
+
+    "course8" : {
+      "copy1" : "",
+      "copy2" : ""
+    },
+
+    "copy4" : "まずはお問い合わせ"
+
+  },
+
+  "why-kaplan" : {
+    "copy1" : "カプランなら",
+    "copy2" : "レッスンと連携したオンライン教材で効率的に英語力アップ",
+    "copy3" : "世界中にネットワークをつくる",
+    "copy4" : "話す・聞く・書く・読むの4技能をバランスよく習得",
+    "copy5" : "将来に役立つ国際感覚を身につける",
+    "copy6" : "海外大学の進学など、キャリアパスが広がる"
+  },
+
+  "contact-advisor" : {
+    "copy1" : "専任のアドバイザーが留学プランについて一緒に考えます",
+    "copy2" : "まずはお問い合わせ"
+  },
+
+  "testimonials" : {
+    "copy1" : "卒業生の声",
+
+    "testimonial1" : {
+      "copy1" : "留学前は英語が本当に苦手だったけれど、ホストファミリーや学校の先生がいつも助けてくれました。 カプランのケンブリッジ語学学校は、いろいろな国籍の学生が集まっていて友達になれるので、日本人は少ないけれど、来て良かったと思っています。スタッフも親身になって相談に乗ってくれ、何かあったらすぐに助けてくれるので、カプランでの留学はおすすめです。",
+      "copy2" : "ノグチ シオリさん(イギリス・ケンブリッジ)"
+    },
+
+    "testimonial2" : {
+      "copy1" : "今回の留学で、英語という共通言語を通して交流する楽しさを肌で感じることが出来たし、色々な国籍の学生との交流の中で学んだ異文化への理解が深まりました。Kaplanでの留学を通して知り合った友達との出会いは、私にとってこの上なく貴重な体験です",
+      "copy2" : "ミウラ アキホさん(イギリス・ケンブリッジ)"
+    },
+
+
+    "testimonial3" : {
+      "copy1" : "自分がアメリカに来て良かったと思うのは、いろんな国の人と交流ができることです。そうした出会いを重ねると、国ごとの人々の性格の特徴などが分かって面白いし、各国の文化を知ることは重要だと思います。そういったことは実際に来てみないと分からないので、絶対に留学したほうが良いと思います。",
+      "copy2" : "ヤマムラ ユウタロウさん(アメリカ・ロサンゼルス)"
+    },
+
+    "testimonial4" : {
+      "copy1" : "Learning English is the most important part of my Kaplan Experience. The lessons are well designed and new media is used in the classroom. These conditions make learning a new language lots of fun.",
+      "copy2" : "Maris Oksche, Germany"
+    },
+
+    "testimonial5" : {
+      "copy1" : "My English has improved after living within the local culture and being immersed in an environment where English is needed all the time. It’s made me more confident.",
+      "copy2" : "Bruna Schelb Correa, Brazil"
+    }
+
+  },
+
+  "footer" : {
+    "copy1" : "カプランについて",
+    "copy2" : "カプランインターナショナルでは、英語圏全6カ国、40校の語学学校で幅広い年齢層の学生を対象とした学習プログラムを提供しております。英語の上達を促すプログラムだけではなく、海外で送る貴重な時間をより素敵なものにするお手伝いします。",
+    "copy3" : "昨年は、70,000人もの学生が留学し、カプランで学びました。その10人のうち9人がカプランを友人や家族に勧めてくれています。",
+    "copy4" : "詳細はこちら ",
+
+    "links" :  {
+      "copy0" : "Links",
+
+      "copy1": "Careers",
+      "copy2": "//careers.kaplaninternational.com/jobs/",
+
+      "copy3": "Contact Details",
+      "copy4": "//kaplaninternational.com/contact-us-corporate-enquiries-and-call-us",
+
+      "copy5": "カプランについて",
+      "copy6": "//www.kaplaninternational.com/jp/about-kaplan-hub",
+
+      "copy7": "約款・契約条件",
+      "copy8": "//kaplaninternational.com/jp/terms-and-conditions-japan",
+
+      "copy9": "プライバシーポリシー（個人情報保護方針）",
+      "copy10": "//kaplaninternational.com/jp/terms-and-conditions-japan#toc--8",
+
+      "copy11": "Sitemap",
+      "copy12" : "//kaplaninternational.com/"
+    },
+
+    "follow-us": {
+      "copy1" : "最新情報",
+
+      "copy2" : "Facebook",
+      "copy3" : "//facebook.com/kicjapan",
+
+      "copy4" : "Twitter",
+      "copy5" : "//twitter.com/kaplanjp",
+
+      "copy6" : "Instagram",
+      "copy7" : "//instagram.com/kaplaninternational",
+
+      "copy8" : "Kaplan Blog",
+      "copy9" : "//kaplaninternational.com/jp/blog"
+
+    },
+
+    "accreditation" : {
+      "copy1" : "認定機関",
+      "copy2" : "USA",
+      "copy3" : "UK",
+      "copy4" : "Australia",
+      "copy5" : "Canada",
+      "copy6" : "New Zealand",
+      "copy7" : "Ireland"
+
+    }
+
+  }
+
+}
+
+

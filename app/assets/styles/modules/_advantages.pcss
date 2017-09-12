@@ -5,4 +5,35 @@
   background-size: contain;
   background-color: #f0f0f0;
 
+  clear:both;
+
+
+  .form {
+    position: relative;
+    padding:50px 10px 20px 10px;
+    max-width: 500px;
+    margin:  0 auto;
+    background-color: #414980;
+    min-height: 820px;
+    //overflow: hidden;
+    //transition: all .8s ease;
+
+    @mixin atMedium {
+      padding:75px 10px 20px 10px;
+    }
+  }
+}
+
+:lang(ar) .advantages .form {
+  padding:80px 10px 20px 10px;
+  @mixin atMedium {
+    padding:100px 10px 20px 10px;
+  }
+}
+
+iframe {
+  //position: absolute;
+  width: 100%;
+  //height: 100%;
+  //overflow: hidden;
 }

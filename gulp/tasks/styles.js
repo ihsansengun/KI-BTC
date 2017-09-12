@@ -9,20 +9,41 @@ hexrgba = require('postcss-hexrgba');
 lostgrid = require('lost'),
 pixelstorem = require('postcss-pixels-to-rem'),
 fontawesome = require('postcss-font-awesome');
-rtl = require('rtlcss');
+ rtl= require('rtlcss');
 
 
 
 
-
-
-
-gulp.task('styles', function() {
+gulp.task('styles', ['form-css'], function() {
   return gulp.src('./app/assets/styles/styles.css')
-    .pipe(postcss([cssImport, mixins, cssvars, nested, fontawesome, hexrgba,lostgrid, autoprefixer ()]))
+    .pipe(postcss([cssImport, mixins, cssvars, nested, hexrgba,lostgrid, autoprefixer ()]))
       .on('error', function(errorInfo) {
           console.log(errorInfo.toString());
           this.emit('end');
       })
       .pipe(gulp.dest('./app/temp/styles'))
 });
+
+
+
+gulp.task('form-css', function() {
+    return gulp.src('./app/assets/styles/form.css')
+        .pipe(postcss([cssImport, mixins, cssvars, nested, hexrgba,lostgrid, autoprefixer ()]))
+        .on('error', function(errorInfo) {
+            console.log(errorInfo.toString());
+            this.emit('end');
+        })
+        .pipe(gulp.dest('./app/temp/fa-form'))
+});
+
+
+gulp.task('arabic-css', ['styles'], function() {
+    return gulp.src('./app/temp/styles/styles.css')
+        .pipe(postcss([rtl]))
+        .on('error', function(errorInfo) {
+            console.log(errorInfo.toString());
+            this.emit('end');
+        })
+        .pipe(gulp.dest('./app/temp/styles-ar'))
+});
+
