@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78244127-3162-4f99-8f8a-53b683b462de" name="Default" comment="latest updates3">
+    <list default="true" id="78244127-3162-4f99-8f8a-53b683b462de" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/istextorbinary/docs/assets/fonts/source-code-pro/LICENSE.txt" afterPath="$PROJECT_DIR$/node_modules/istextorbinary/docs/assets/fonts/source-code-pro/LICENSE.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/istextorbinary/docs/assets/fonts/source-sans-pro/LICENSE.txt" afterPath="$PROJECT_DIR$/node_modules/istextorbinary/docs/assets/fonts/source-sans-pro/LICENSE.txt" />
@@ -493,7 +493,7 @@
       <workItem from="1504174907414" duration="4107000" />
       <workItem from="1504623867830" duration="1299000" />
       <workItem from="1504862300441" duration="1179000" />
-      <workItem from="1505207142658" duration="666000" />
+      <workItem from="1505207142658" duration="713000" />
     </task>
     <task id="LOCAL-00001" summary="latest updates">
       <created>1502409684183</created>
@@ -516,11 +516,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505207378707</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="latest updates3">
+      <created>1505207826920</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1505207826920</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="380560000" />
+    <option name="totallyTimeSpent" value="380607000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -586,7 +593,8 @@
     <MESSAGE value="latest updates" />
     <MESSAGE value="latest updates2" />
     <MESSAGE value="latest updates3" />
-    <option name="LAST_COMMIT_MESSAGE" value="latest updates3" />
+    <MESSAGE value="latest updates 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="latest updates 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
