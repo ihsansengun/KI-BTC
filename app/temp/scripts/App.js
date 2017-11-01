@@ -12808,7 +12808,7 @@ var timer = function () {
         this.el = $('#timer');
         this.htmlLang = document.getElementsByTagName("html")[0].getAttribute("lang");
 
-        this._month = 9;
+        this._month = 12;
         this._day = 30;
 
         // if you need to extend the time add a new case
@@ -12863,7 +12863,21 @@ var timer = function () {
             // counter for latam- it's using es-AR to avoid (spanish) lang conflict
             case 'es-AR':
                 this._month = 9;
-                this._day = 15;
+                this._day = 30;
+
+                this.year = 2017;
+                this.month = this._month;
+                this.day = this._day;
+                this.hour = 23;
+                this.minute = 59;
+                this.lang = 'es';
+                this.addTimer();
+
+                break;
+
+            case 'de':
+                this._month = 10;
+                this._day = 31;
 
                 this.year = 2017;
                 this.month = this._month;

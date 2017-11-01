@@ -1220,7 +1220,6 @@ Instead edit gulp/templates/sprite */
       filter: url("../../assets/images/hero-img-small-3-blur.jpg");
       -webkit-filter: blur(5px);
       filter: blur(5px);
-
     }
 @media (min-width: 890px) {
 .glass-effect--bg-3::before {
@@ -1237,7 +1236,6 @@ Instead edit gulp/templates/sprite */
         -webkit-filter: blur(5px);
         filter: blur(5px);
         background-position: 50% -100px
-
     }
   }
 .glass-effectlegacy-ie-fix {
